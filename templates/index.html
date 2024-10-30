@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Article Fetcher</title>
+    <style>
+        #content {
+            width: 50%;
+            height: 100vh;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .input-container {
+            display: flex;
+            align-items: center;
+        }
+        .input-container input[type="text"] {
+            margin-right: 10px;
+        }
+        .button-container {
+            display: flex;
+            align-items: center;
+        }
+        #enTitleContainer {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 10px;
+        }
+        .content-container {
+            display: flex;
+        }
+        #comparisonResults {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Wikipedia Article Fetcher</h1>
+    <div class="input-container">
+        <input type="text" id="articleName" placeholder="Enter article name">
+        <div class="button-container">
+            <button onclick="fetchArticle()">Fetch Article</button>
+            <button id="useArticleButton" disabled>Use Article</button>
+        </div>
+    </div>
+    <div class="content-container">
+        <div id="content"></div>
+        <div id="enTitleContainer" style="display: none;">
+            <input type="checkbox" id="enTitleCheckbox" onchange="toggleCompareButton()">
+            <label id="enTitleLabel"></label>
+            <button id="compareButton" onclick="compareArticles()" disabled>Compare</button>
+            <div id="comparisonResults"></div>
+        </div>
+    </div>
+
+    <script>
+        async function fetchArticle() {
+            const articleName = document.getElementById('articleName').value;
+            const response = await fetch('/fetch_article', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: new URLSearchParams({
+                    'articleName': articleName
+                })
+            });
+
+            const data = await response.json();
+            if (response.ok) {
+                document.getElementById('content').innerHTML = `<h2>${data.title}</h2><p>${data.summary}</p>`;
+                document.getElementById('useArticleButton').disabled = false;
+            } else {
+                document.getElementById('content').innerHTML = `<p>Error fetching article: ${data.error}</p>`;
+                document.getElementById('useArticleButton').disabled = true;
+            }
+        }
+
+        async function fetchEnTitle() {
+            const articleName = document.getElementById('articleName').value;
+            const response = await fetch('/get_en_title', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: new URLSearchParams({
+                    'articleName': articleName
+                })
+            });
+
+            const data = await response.json();
+            if (response.ok) {
+                document.getElementById('enTitleLabel').textContent = data.en_title;
+                document.getElementById('enTitleContainer').style.display = 'inline-block';
+            } else {
+                console.error('Failed to fetch English title');
+            }
+        }
+
+        function toggleCompareButton() {
+            const compareButton = document.getElementById('compareButton');
+            const enTitleCheckbox = document.getElementById('enTitleCheckbox');
+            compareButton.disabled = !enTitleCheckbox.checked;
+        }
+
+        async function compareArticles() {
+            const articleName = document.getElementById('articleName').value;
+            const enTitle = document.getElementById('enTitleLabel').textContent;
+            const response = await fetch('/compare_articles', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: new URLSearchParams({
+                    'articleName': articleName,
+                    'enTitle': enTitle
+                })
+            });
+
+            const data = await response.json();
+            if (response.ok) {
+                const comparisonResults = document.getElementById('comparisonResults');
+                comparisonResults.innerHTML = '<ul>' + data.comparison_results.map(result => `<li>${result}</li>`).join('') + '</ul>';
+            } else {
+                console.error('Failed to compare articles');
+            }
+        }
+
+        document.getElementById('useArticleButton').addEventListener('click', fetchEnTitle);
+    </script>
+</body>
+</html>
