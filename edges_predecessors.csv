@@ -1,413 +1,723 @@
-Sandbienen,Andrenidae
-Sandbienen,Apoidea
-Sandbienen,Blutbienen
-Sandbienen,Stechimmen
-Wildbiene,Apoidea
-Wildbiene,Blutbienen
-Wildbiene,Fleckenbienen
-Wildbiene,Grabwespen
-Wildbiene,Große Wollbiene
-Wildbiene,Halictus
-Wildbiene,Holzbienen
-Wildbiene,Honigbienen
-Wildbiene,Hosenbiene
-Wildbiene,Hummeln
-Wildbiene,Imker
-Wildbiene,Kegelbienen
-Wildbiene,Lasioglossum
-Wildbiene,Maskenbienen
-Wildbiene,Rote Mauerbiene
-Wildbiene,Sandbienen
-Wildbiene,Stachellose Bienen
-Wildbiene,Westliche Honigbiene
-Buntbienen,Andrenidae
-Buntbienen,Apoidea
-Buntbienen,Stechimmen
-Buntbienen,Taillenwespen
-Buntbienen,Zottelbienen
-Kraftbienen,Apinae
-Kraftbienen,Apoidea
-Kraftbienen,Glanzbienen
-Kraftbienen,Schlürfbienen
-Kraftbienen,Spiralhornbienen
-Kraftbienen,Stechimmen
-Hosenbiene,Melittidae
-Graubienen,Apoidea
-Graubienen,Glanzbienen
-Graubienen,Halictidae
-Graubienen,Stechimmen
-Stechimmen,Apoidea
-Stechimmen,Giftstachel
-Stechimmen,Grabwespen
-Stechimmen,Hautflügler
-Stechimmen,Honigbienen
-Stechimmen,Hummeln
-Stechimmen,Insekten
-Stechimmen,Taillenwespen
-Nest,Brut
-Nest,Insekten
-Seidenbienen,Apoidea
-Seidenbienen,Blutbienen
-Seidenbienen,Colletidae
-Seidenbienen,Maskenbienen
-Seidenbienen,Stechimmen
-Seidenbienen,Taillenwespen
-Taillenwespen,Apoidea
-Taillenwespen,Giftstachel
-Taillenwespen,Hautflügler
-Taillenwespen,Hummeln
-Taillenwespen,Insekten
-Taillenwespen,Stechimmen
-Hoplitis,Apoidea
-Hoplitis,Charles Duncan Michener
-Hoplitis,Mauerbienen
-Hoplitis,Stechimmen
-Tropen,Insekten
-Tropen,Kaltgemäßigte Klimazone
-Tropen,Kühlgemäßigte Klimazone
-Tropen,Subtropen
-Hummeln,Apinae
-Hummeln,Apoidea
-Hummeln,Brut
-Hummeln,Giftstachel
-Hummeln,Große Wollbiene
-Hummeln,Hautflügler
-Hummeln,Holzbienen
-Hummeln,Honigbienen
-Hummeln,Insekten
-Hummeln,Kuckuckshummeln
-Hummeln,Körbchensammler
-Hummeln,Nest
-Hummeln,Sozialparasitismus
-Hummeln,Stechimmen
-Hummeln,Tropen
-Hummeln,Westliche Honigbiene
-Hummeln,Wildbiene
-Lasioglossum,Apoidea
-Lasioglossum,Blutbienen
-Lasioglossum,Halictidae
-Lasioglossum,Halictus
-Lasioglossum,Stechimmen
-Lasioglossum,Taillenwespen
-Weltbienentag,Honigbienen
-Weltbienentag,Imker
-Körbchensammler,Apinae
-Körbchensammler,Apoidea
-Körbchensammler,Honigbienen
-Körbchensammler,Hummeln
-Körbchensammler,Prachtbienen
-Körbchensammler,Stachellose Bienen
-Körbchensammler,Stechimmen
-Grabwespen,Apoidea
-Grabwespen,Crabronidae
-Grabwespen,Hautflügler
-Grabwespen,Insekten
-Grabwespen,Mauerbienen
-Grabwespen,Stechimmen
-Grabwespen,Taillenwespen
-Anthophora,Apoidea
-Anthophora,Fleckenbienen
-Anthophora,Kegelbienen
-Anthophora,Stechimmen
-Anthophora,Taillenwespen
-Anthophora,Trauerbienen
-Anthophora,Westliche Honigbiene
-Anthophoridae,Hautflügler
-Anthophoridae,Holzbienen
-Charles Duncan Michener,Halictidae
-Schenkelbienen,Apoidea
-Schenkelbienen,Halictus
-Schenkelbienen,Lasioglossum
-Schenkelbienen,Melittidae
-Schenkelbienen,Stechimmen
-Schenkelbienen,Taillenwespen
-Colletidae,Apoidea
-Colletidae,Grabwespen
-Colletidae,Hautflügler
-Colletidae,Maskenbienen
-Colletidae,Seidenbienen
-Colletidae,Stechimmen
-Colletidae,Taillenwespen
-Kegelbienen,Apoidea
-Kegelbienen,Osmia
-Kegelbienen,Stechimmen
-Kegelbienen,Taillenwespen
-Kegelbienen,Wildbiene
-Tetralonia,Apoidea
-Tetralonia,Eucera
-Tetralonia,Stechimmen
-Bienen (Begriffsklärung),Biene (Begriffsklärung)
-Bienen (Begriffsklärung),Honigbienen
-Honigbienen,Apinae
-Honigbienen,Apoidea
-Honigbienen,Hummeln
-Honigbienen,Jürgen Tautz
-Honigbienen,Körbchensammler
-Honigbienen,Prachtbienen
-Honigbienen,Stachellose Bienen
-Honigbienen,Stechimmen
-Honigbienen,Westliche Honigbiene
-Apoidea,Andrenidae
-Apoidea,Colletidae
-Apoidea,Crabronidae
-Apoidea,Grabwespen
-Apoidea,Halictidae
-Apoidea,Hautflügler
-Apoidea,Imker
-Apoidea,Insekten
-Apoidea,Melittidae
-Apoidea,Stechimmen
-Apoidea,Stenotritidae
-Apoidea,Taillenwespen
-Giftstachel,Hautflügler
-Giftstachel,Stechimmen
-Westliche Honigbiene,Apinae
-Westliche Honigbiene,Apoidea
-Westliche Honigbiene,Bienenkönigin
-Westliche Honigbiene,Giftstachel
-Westliche Honigbiene,Honigbienen
-Westliche Honigbiene,Hummeln
-Westliche Honigbiene,Imker
-Westliche Honigbiene,Insekten
-Westliche Honigbiene,Jürgen Tautz
-Westliche Honigbiene,Randolf Menzel
-Westliche Honigbiene,Wildbiene
-Osmia,Apoidea
-Osmia,Hoplitis
-Osmia,Mauerbienen
-Osmia,Rote Mauerbiene
-Osmia,Stechimmen
-Gemeine Pelzbiene,Anthophora
-Gemeine Pelzbiene,Apoidea
-Gemeine Pelzbiene,Stechimmen
-Schlürfbienen,Apoidea
-Schlürfbienen,Glanzbienen
-Schlürfbienen,Halictidae
-Schlürfbienen,Kraftbienen
-Schlürfbienen,Stechimmen
-Sägehornbienen,Apoidea
-Sägehornbienen,Melittidae
-Sägehornbienen,Sandbienen
-Sägehornbienen,Stechimmen
-Sägehornbienen,Taillenwespen
-Blutbienen,Apoidea
-Blutbienen,Halictidae
-Blutbienen,Halictus
-Blutbienen,Lasioglossum
-Blutbienen,Stechimmen
-Blutbienen,Taillenwespen
-Kühlgemäßigte Klimazone,Kaltgemäßigte Klimazone
-Kühlgemäßigte Klimazone,Subtropen
-Kühlgemäßigte Klimazone,Tropen
-Melipona,Apoidea
-Melipona,Stachellose Bienen
-Melipona,Stechimmen
-Melipona,Trigona (Gattung)
-Apinae,Apoidea
-Apinae,Honigbienen
-Apinae,Hummeln
-Apinae,Körbchensammler
-Apinae,Prachtbienen
-Apinae,Stechimmen
-Apinae,Taillenwespen
-Spiralhornbienen,Apoidea
-Spiralhornbienen,Halictidae
-Spiralhornbienen,Kraftbienen
-Spiralhornbienen,Stechimmen
-Spiralhornbienen,Taillenwespen
-Lars Chittka,Hummeln
-Lars Chittka,Jürgen Tautz
-Lars Chittka,Randolf Menzel
-Rote Mauerbiene,Apoidea
-Rote Mauerbiene,Gemeine Pelzbiene
-Rote Mauerbiene,Hummeln
-Rote Mauerbiene,Insekten
-Rote Mauerbiene,Mauerbienen
-Rote Mauerbiene,Osmia
-Rote Mauerbiene,Stechimmen
-Andrenidae,Apoidea
-Andrenidae,Colletidae
-Andrenidae,Grabwespen
-Andrenidae,Halictidae
-Andrenidae,Hautflügler
-Andrenidae,Melittidae
-Andrenidae,Stechimmen
-Andrenidae,Stenotritidae
-Andrenidae,Taillenwespen
-Triepeolus,Apoidea
-Triepeolus,Stechimmen
-Hautflügler,Apoidea
-Hautflügler,Hummeln
-Hautflügler,Insekten
-Hautflügler,Prachtbienen
-Hautflügler,Stechimmen
-Hautflügler,Taillenwespen
-Hautflügler,Westliche Honigbiene
-Sozialparasitismus,Hautflügler
-Sozialparasitismus,Hummeln
-Sozialparasitismus,Tropen
-Fleckenbienen,Anthophora
-Fleckenbienen,Apoidea
-Fleckenbienen,Stechimmen
-Fleckenbienen,Taillenwespen
-Fleckenbienen,Trauerbienen
-Trauerbienen,Anthophora
-Trauerbienen,Apoidea
-Trauerbienen,Fleckenbienen
-Trauerbienen,Stechimmen
-Trauerbienen,Taillenwespen
-Subtropen,Kaltgemäßigte Klimazone
-Subtropen,Kühlgemäßigte Klimazone
-Subtropen,Tropen
-Schmuckbienen,Apinae
-Schmuckbienen,Apoidea
-Schmuckbienen,Schenkelbienen
-Schmuckbienen,Stechimmen
-Schmuckbienen,Taillenwespen
-Kuckuckshummeln,Apinae
-Kuckuckshummeln,Apoidea
-Kuckuckshummeln,Hummeln
-Kuckuckshummeln,Sozialparasitismus
-Jürgen Tautz,Randolf Menzel
-Große Wollbiene,Apoidea
-Große Wollbiene,Honigbienen
-Große Wollbiene,Hummeln
-Große Wollbiene,Stechimmen
-Glanzbienen,Apoidea
-Glanzbienen,Halictidae
-Glanzbienen,Kraftbienen
-Glanzbienen,Lasioglossum
-Glanzbienen,Stechimmen
-Imker,Bienenkönigin
-Imker,Honigbienen
-Imker,Stachellose Bienen
-Imker,Westliche Honigbiene
-Zottelbienen,Andrenidae
-Zottelbienen,Apoidea
-Zottelbienen,Buntbienen
-Zottelbienen,Stechimmen
-Zottelbienen,Taillenwespen
-Halictidae,Andrenidae
-Halictidae,Apoidea
-Halictidae,Blutbienen
-Halictidae,Colletidae
-Halictidae,Glanzbienen
-Halictidae,Graubienen
-Halictidae,Halictus
-Halictidae,Hautflügler
-Halictidae,Honigbienen
-Halictidae,Lasioglossum
-Halictidae,Schlürfbienen
-Halictidae,Spiralhornbienen
-Halictidae,Stechimmen
-Halictidae,Taillenwespen
-Eucera,Apoidea
-Eucera,Hautflügler
-Eucera,Kegelbienen
-Eucera,Tetralonia
-Trigona (Gattung),Apoidea
-Trigona (Gattung),Charles Duncan Michener
-Trigona (Gattung),Körbchensammler
-Trigona (Gattung),Stachellose Bienen
-Trigona (Gattung),Stechimmen
-Holzbienen,Apoidea
-Holzbienen,Halictus
-Holzbienen,Lasioglossum
-Holzbienen,Stechimmen
-Holzbienen,Subtropen
-Holzbienen,Taillenwespen
-Holzbienen,Tropen
-Halictus,Apoidea
-Halictus,Halictidae
-Halictus,Lasioglossum
-Halictus,Stechimmen
-Halictus,Taillenwespen
-Mauerbienen,Hoplitis
-Mauerbienen,Osmia
-Mauerbienen,Rote Mauerbiene
-Mauerbienen,Sandbienen
-Mauerbienen,Wildbiene
-Anthidium,Apoidea
-Anthidium,Große Wollbiene
-Anthidium,Stechimmen
-Crabronidae,Apoidea
-Crabronidae,Grabwespen
-Crabronidae,Hautflügler
-Crabronidae,Stechimmen
-Crabronidae,Taillenwespen
-Bienenkönigin,Giftstachel
-Bienenkönigin,Honigbienen
-Bienenkönigin,Imker
-Bienenkönigin,Westliche Honigbiene
-Stachellose Bienen,Apoidea
-Stachellose Bienen,Brut
-Stachellose Bienen,Honigbienen
-Stachellose Bienen,Hummeln
-Stachellose Bienen,Imker
-Stachellose Bienen,Körbchensammler
-Stachellose Bienen,Melipona
-Stachellose Bienen,Prachtbienen
-Stachellose Bienen,Stechimmen
-Stachellose Bienen,Subtropen
-Stachellose Bienen,Taillenwespen
-Stachellose Bienen,Trigona (Gattung)
-Stachellose Bienen,Tropen
-Maskenbienen,Apoidea
-Maskenbienen,Colletidae
-Maskenbienen,Crabronidae
-Maskenbienen,Grabwespen
-Maskenbienen,Seidenbienen
-Maskenbienen,Stechimmen
-Maskenbienen,Taillenwespen
-Ackerwinde,Insekten
-Ackerwinde,Spiralhornbienen
-Brut,Insekten
-Brut,Nest
-Kurzhornbienen,Apoidea
-Kurzhornbienen,Halictidae
-Kurzhornbienen,Stechimmen
-Kurzhornbienen,Taillenwespen
-Kaltgemäßigte Klimazone,Kühlgemäßigte Klimazone
-Kaltgemäßigte Klimazone,Subtropen
-Kaltgemäßigte Klimazone,Tropen
-Biene (Begriffsklärung),Bienen (Begriffsklärung)
-Biene (Begriffsklärung),Honigbienen
-Randolf Menzel,Honigbienen
-Stenotritidae,Apoidea
-Stenotritidae,Colletidae
-Stenotritidae,Halictidae
-Stenotritidae,Hautflügler
-Stenotritidae,Stechimmen
-Stenotritidae,Taillenwespen
-Insekten,Hautflügler
-Insekten,Honigbienen
-Insekten,Tropen
-Insekten,Westliche Honigbiene
-Megachile pluto,Apoidea
-Megachile pluto,Charles Duncan Michener
-Megachile pluto,Hautflügler
-Megachile pluto,Stechimmen
-Melittidae,Andrenidae
-Melittidae,Apoidea
-Melittidae,Charles Duncan Michener
-Melittidae,Colletidae
-Melittidae,Halictidae
-Melittidae,Hautflügler
-Melittidae,Stechimmen
-Melittidae,Stenotritidae
-Melittidae,Sägehornbienen
-Melittidae,Taillenwespen
-Dioxys,Apoidea
-Dioxys,Charles Duncan Michener
-Dioxys,Hoplitis
-Dioxys,Kegelbienen
-Dioxys,Osmia
-Dioxys,Stechimmen
-Prachtbienen,Apinae
-Prachtbienen,Apoidea
-Prachtbienen,Holzbienen
-Prachtbienen,Honigbienen
-Prachtbienen,Hummeln
-Prachtbienen,Körbchensammler
-Prachtbienen,Stachellose Bienen
-Prachtbienen,Stechimmen
+IDLE,Guido van Rossum
+IDLE,Interpreter
+IDLE,MacOS
+IDLE,Plattformunabhängigkeit
+IDLE,Python Software Foundation
+IDLE,Tkinter
+Flask,Django (Framework)
+Flask,Plattformunabhängigkeit
+Flask,SQLAlchemy
+Flask,Web2py
+Flask,Web Server Gateway Interface
+Reflexion (Programmierung),IronPython
+Reflexion (Programmierung),Java (Programmiersprache)
+Reflexion (Programmierung),Lisp
+Reflexion (Programmierung),Objektorientierte Programmierung
+Reflexion (Programmierung),Ruby (Programmiersprache)
+Reflexion (Programmierung),Smalltalk (Programmiersprache)
+Reflexion (Programmierung),Tcl
+IronPython,Interpreter
+IronPython,Just-in-time-Kompilierung
+IronPython,Jython
+IronPython,Plattformunabhängigkeit
+IronPython,PyPy
+CLU (Programmiersprache),Ausnahmebehandlung
+CLU (Programmiersprache),C++
+CLU (Programmiersprache),Java (Programmiersprache)
+CLU (Programmiersprache),Lisp
+CLU (Programmiersprache),Objektorientierte Programmierung
+CLU (Programmiersprache),Ruby (Programmiersprache)
+CLU (Programmiersprache),Vererbung (Programmierung)
+Jython,C (Programmiersprache)
+Jython,Java (Programmiersprache)
+Jython,Plattformunabhängigkeit
+Jython,Python Software Foundation
+Haskell (Programmiersprache),C++
+Haskell (Programmiersprache),C (Programmiersprache)
+Haskell (Programmiersprache),Currying
+Haskell (Programmiersprache),Einrückungsstil
+Haskell (Programmiersprache),Funktionale Programmierung
+Haskell (Programmiersprache),Java (Programmiersprache)
+Haskell (Programmiersprache),Perl (Programmiersprache)
+Haskell (Programmiersprache),Plattformunabhängigkeit
+Haskell (Programmiersprache),Typisierung (Informatik)
+Cobra (Programmiersprache),Dynamische Typisierung
+Cobra (Programmiersprache),Objektorientierte Programmierung
+Cobra (Programmiersprache),Typisierung (Informatik)
+Symbian-Plattform,C++
+Symbian-Plattform,Java (Programmiersprache)
+Symbian-Plattform,Relationale Datenbank
+GIMP,C (Programmiersprache)
+GIMP,Common Gateway Interface
+GIMP,Interpreter
+GIMP,MacOS
+GIMP,Perl (Programmiersprache)
+GIMP,Ruby (Programmiersprache)
+GIMP,Tcl
+Just-in-time-Kompilierung,C++
+Just-in-time-Kompilierung,C (Programmiersprache)
+Just-in-time-Kompilierung,Dynamische Programmiersprache
+Just-in-time-Kompilierung,Interpreter
+Just-in-time-Kompilierung,Plattformunabhängigkeit
+Just-in-time-Kompilierung,PyPy
+Anaconda (Python-Distribution),Conda (Paketverwaltung)
+Anaconda (Python-Distribution),IPython
+Anaconda (Python-Distribution),MacOS
+Anaconda (Python-Distribution),Project Jupyter
+Anaconda (Python-Distribution),Spyder (Software)
+Strukturierte Programmierung,C++
+Strukturierte Programmierung,C (Programmiersprache)
+Strukturierte Programmierung,Java (Programmiersprache)
+Strukturierte Programmierung,Objektorientierte Programmierung
+Ausnahmebehandlung,C++
+Ausnahmebehandlung,Java (Programmiersprache)
+Ausnahmebehandlung,Perl (Programmiersprache)
+Tcl,Ausnahmebehandlung
+Tcl,C++
+Tcl,C (Programmiersprache)
+Tcl,Common Gateway Interface
+Tcl,Dynamische Typisierung
+Tcl,Funktionale Programmierung
+Tcl,Interpreter
+Tcl,Java (Programmiersprache)
+Tcl,Kommandozeile
+Tcl,Kommandozeileninterpreter
+Tcl,Lisp
+Tcl,MacOS
+Tcl,Mehrfachvererbung
+Tcl,Objektorientierte Programmierung
+Tcl,Perl (Programmiersprache)
+Tcl,Regulärer Ausdruck
+Tcl,Ruby (Programmiersprache)
+Tcl,Skriptsprache
+Tcl,Tk (Toolkit)
+Tcl,Typisierung (Informatik)
+Tcl,Vererbung (Programmierung)
+Tcl,Zeichenkette
+ABC (Programmiersprache),C (Programmiersprache)
+ABC (Programmiersprache),Centrum Wiskunde & Informatica
+ABC (Programmiersprache),Guido van Rossum
+ABC (Programmiersprache),Höhere Programmiersprache
+ABC (Programmiersprache),Interpreter
+ABC (Programmiersprache),Strukturierte Programmierung
+ABC (Programmiersprache),Typisierung (Informatik)
+Visual Studio,C++
+Visual Studio,C (Programmiersprache)
+Visual Studio,Höhere Programmiersprache
+Visual Studio,Java (Programmiersprache)
+Visual Studio,MacOS
+Spyder (Software),Anaconda (Python-Distribution)
+Spyder (Software),Cython
+Spyder (Software),IPython
+Spyder (Software),MacOS
+Spyder (Software),Matplotlib
+Spyder (Software),NumPy
+Spyder (Software),Project Jupyter
+Spyder (Software),SciPy
+Vim,C (Programmiersprache)
+Vim,MacOS
+Vim,Perl (Programmiersprache)
+Vim,Regulärer Ausdruck
+Vim,Ruby (Programmiersprache)
+Vim,Skriptsprache
+Vim,Tcl
+Dynamische Programmiersprache,Closure (Funktion)
+Dynamische Programmiersprache,Dynamische Typisierung
+Dynamische Programmiersprache,Funktionale Programmierung
+Dynamische Programmiersprache,Groovy
+Dynamische Programmiersprache,Höhere Programmiersprache
+Dynamische Programmiersprache,Just-in-time-Kompilierung
+Dynamische Programmiersprache,Lisp
+Dynamische Programmiersprache,Perl (Programmiersprache)
+Dynamische Programmiersprache,Reflexion (Programmierung)
+Dynamische Programmiersprache,Ruby (Programmiersprache)
+Dynamische Programmiersprache,Smalltalk (Programmiersprache)
+Dynamische Programmiersprache,Tcl
+Apache OpenOffice,C++
+Apache OpenOffice,C (Programmiersprache)
+Apache OpenOffice,Java (Programmiersprache)
+Apache OpenOffice,MacOS
+Apache OpenOffice,Relationale Datenbank
+Apache OpenOffice,Skriptsprache
+Apache OpenOffice,Wikipedia:Lesenswerte Artikel
+Einrückungsstil,C++
+Einrückungsstil,C (Programmiersprache)
+Einrückungsstil,Java (Programmiersprache)
+Einrückungsstil,Perl (Programmiersprache)
+Einrückungsstil,Vim
+Einrückungsstil,Visual Studio
+Groovy,Dynamische Typisierung
+Groovy,Eclipse (IDE)
+Groovy,IntelliJ IDEA
+Groovy,Java (Programmiersprache)
+Groovy,MacOS
+Groovy,Plattformunabhängigkeit
+Groovy,Regulärer Ausdruck
+Groovy,Ruby (Programmiersprache)
+Groovy,Skriptsprache
+Groovy,Typisierung (Informatik)
+Groovy,Vim
+Garbage Collection,C (Programmiersprache)
+Garbage Collection,Groovy
+Garbage Collection,Haskell (Programmiersprache)
+Garbage Collection,Java (Programmiersprache)
+Garbage Collection,Objektorientierte Programmierung
+Garbage Collection,Perl (Programmiersprache)
+Garbage Collection,Referenzzählung
+Garbage Collection,Ruby (Programmiersprache)
+Garbage Collection,Smalltalk (Programmiersprache)
+Garbage Collection,Stapelspeicher
+Ruby (Programmiersprache),Ausnahmebehandlung
+Ruby (Programmiersprache),CLU (Programmiersprache)
+Ruby (Programmiersprache),C (Programmiersprache)
+Ruby (Programmiersprache),Closure (Funktion)
+Ruby (Programmiersprache),Duck-Typing
+Ruby (Programmiersprache),Dylan (Programmiersprache)
+Ruby (Programmiersprache),Dynamische Typisierung
+Ruby (Programmiersprache),Funktionale Programmierung
+Ruby (Programmiersprache),Garbage Collection
+Ruby (Programmiersprache),Groovy
+Ruby (Programmiersprache),Höhere Programmiersprache
+Ruby (Programmiersprache),Interpreter
+Ruby (Programmiersprache),Java (Programmiersprache)
+Ruby (Programmiersprache),Just-in-time-Kompilierung
+Ruby (Programmiersprache),Kommandozeileninterpreter
+Ruby (Programmiersprache),Lisp
+Ruby (Programmiersprache),MacOS
+Ruby (Programmiersprache),Objektorientierte Programmierung
+Ruby (Programmiersprache),Parrot
+Ruby (Programmiersprache),Perl (Programmiersprache)
+Ruby (Programmiersprache),Plattformunabhängigkeit
+Ruby (Programmiersprache),Reflexion (Programmierung)
+Ruby (Programmiersprache),Regulärer Ausdruck
+Ruby (Programmiersprache),Smalltalk (Programmiersprache)
+Ruby (Programmiersprache),Standardbibliothek
+Ruby (Programmiersprache),Typisierung (Informatik)
+WxPython,C++
+WxPython,Plattformunabhängigkeit
+WxPython,Tk (Toolkit)
+WxPython,Tkinter
+QGIS,C++
+QGIS,MacOS
+Java (Programmiersprache),Ausnahmebehandlung
+Java (Programmiersprache),C++
+Java (Programmiersprache),C (Programmiersprache)
+Java (Programmiersprache),Dynamische Typisierung
+Java (Programmiersprache),Eclipse (IDE)
+Java (Programmiersprache),Funktionale Programmierung
+Java (Programmiersprache),Groovy
+Java (Programmiersprache),IntelliJ IDEA
+Java (Programmiersprache),Interpreter
+Java (Programmiersprache),Just-in-time-Kompilierung
+Java (Programmiersprache),MacOS
+Java (Programmiersprache),Mehrfachvererbung
+Java (Programmiersprache),NetBeans IDE
+Java (Programmiersprache),Objektorientierte Programmierung
+Java (Programmiersprache),Pattern Matching
+Java (Programmiersprache),Perl (Programmiersprache)
+Java (Programmiersprache),Plattformunabhängigkeit
+Java (Programmiersprache),Reflexion (Programmierung)
+Java (Programmiersprache),Skriptsprache
+Java (Programmiersprache),Smalltalk (Programmiersprache)
+Java (Programmiersprache),Typisierung (Informatik)
+Java (Programmiersprache),Vim
+Perl (Programmiersprache),Allzweck-Programmiersprache
+Perl (Programmiersprache),Ausnahmebehandlung
+Perl (Programmiersprache),C++
+Perl (Programmiersprache),C (Programmiersprache)
+Perl (Programmiersprache),Closure (Funktion)
+Perl (Programmiersprache),Common Gateway Interface
+Perl (Programmiersprache),Dynamische Typisierung
+Perl (Programmiersprache),Interpreter
+Perl (Programmiersprache),Java (Programmiersprache)
+Perl (Programmiersprache),Leerraum
+Perl (Programmiersprache),Lisp
+Perl (Programmiersprache),Objektorientierte Programmierung
+Perl (Programmiersprache),Plattformunabhängigkeit
+Perl (Programmiersprache),Regulärer Ausdruck
+Perl (Programmiersprache),Ruby (Programmiersprache)
+Perl (Programmiersprache),Skriptsprache
+Perl (Programmiersprache),Smalltalk (Programmiersprache)
+Perl (Programmiersprache),Typisierung (Informatik)
+Perl (Programmiersprache),Vererbung (Programmierung)
+Perl (Programmiersprache),Zeichenkette
+Perl (Programmiersprache),Wikipedia:Lesenswerte Artikel
+Dynamische Typisierung,C++
+Dynamische Typisierung,Duck-Typing
+Dynamische Typisierung,Ruby (Programmiersprache)
+Dynamische Typisierung,Skriptsprache
+Dynamische Typisierung,Typisierung (Informatik)
+PyGTK,MacOS
+PyGTK,Reflexion (Programmierung)
+PyGTK,WxPython
+Dylan (Programmiersprache),Lisp
+Dylan (Programmiersprache),Objektorientierte Programmierung
+Dylan (Programmiersprache),Ruby (Programmiersprache)
+Dylan (Programmiersprache),Smalltalk (Programmiersprache)
+Dylan (Programmiersprache),Typisierung (Informatik)
+Turtle-Grafik,C (Programmiersprache)
+Turtle-Grafik,Stapelspeicher
+Cython,C++
+Cython,C (Programmiersprache)
+Cython,Duck-Typing
+Cython,Dynamische Typisierung
+Cython,Funktionale Programmierung
+Cython,Höhere Programmiersprache
+Cython,Interpreter
+Cython,Just-in-time-Kompilierung
+Cython,MacOS
+Cython,NumPy
+Cython,Objektorientierte Programmierung
+Cython,PyPy
+Cython,Typisierung (Informatik)
+Plattformunabhängigkeit,C (Programmiersprache)
+Plattformunabhängigkeit,Höhere Programmiersprache
+Plattformunabhängigkeit,Interpreter
+Plattformunabhängigkeit,Java (Programmiersprache)
+Plattformunabhängigkeit,MacOS
+Plattformunabhängigkeit,Perl (Programmiersprache)
+Tk (Toolkit),C (Programmiersprache)
+Tk (Toolkit),Haskell (Programmiersprache)
+Tk (Toolkit),MacOS
+Tk (Toolkit),Perl (Programmiersprache)
+Tk (Toolkit),Plattformunabhängigkeit
+Tk (Toolkit),Ruby (Programmiersprache)
+Tk (Toolkit),Tcl
+Tk (Toolkit),Tkinter
+PyPy,C (Programmiersprache)
+PyPy,Garbage Collection
+PyPy,Interpreter
+PyPy,IronPython
+PyPy,Java (Programmiersprache)
+PyPy,Just-in-time-Kompilierung
+PyPy,Jython
+PyPy,MacOS
+PyPy,NumPy
+PyPy,Standardbibliothek
+Matplotlib,Plattformunabhängigkeit
+Matplotlib,Tk (Toolkit)
+Funktionale Programmierung,C (Programmiersprache)
+Funktionale Programmierung,Dynamische Typisierung
+Funktionale Programmierung,Haskell (Programmiersprache)
+Funktionale Programmierung,Java (Programmiersprache)
+Funktionale Programmierung,Lisp
+SQLAlchemy,Django (Framework)
+SQLAlchemy,Plattformunabhängigkeit
+SQLAlchemy,Relationale Datenbank
+Objektorientierte Programmierung,C++
+Objektorientierte Programmierung,C (Programmiersprache)
+Objektorientierte Programmierung,Java (Programmiersprache)
+Objektorientierte Programmierung,Reflexion (Programmierung)
+Objektorientierte Programmierung,Relationale Datenbank
+Objektorientierte Programmierung,Smalltalk (Programmiersprache)
+Objektorientierte Programmierung,Vererbung (Programmierung)
+Kommandozeile,Interpreter
+Kommandozeile,Kommandozeileninterpreter
+Kommandozeile,Perl (Programmiersprache)
+Kommandozeile,Skriptsprache
+Kommandozeile,Zeichenkette
+Eclipse (IDE),C++
+Eclipse (IDE),C (Programmiersprache)
+Eclipse (IDE),IntelliJ IDEA
+Eclipse (IDE),Java (Programmiersprache)
+Eclipse (IDE),MacOS
+Eclipse (IDE),Perl (Programmiersprache)
+Eclipse (IDE),Plattformunabhängigkeit
+Eclipse (IDE),Ruby (Programmiersprache)
+Regulärer Ausdruck,C++
+Regulärer Ausdruck,C (Programmiersprache)
+Regulärer Ausdruck,Java (Programmiersprache)
+Regulärer Ausdruck,Leerraum
+Regulärer Ausdruck,Pattern Matching
+Regulärer Ausdruck,Perl (Programmiersprache)
+Regulärer Ausdruck,Ruby (Programmiersprache)
+Regulärer Ausdruck,Tcl
+Regulärer Ausdruck,Vim
+Regulärer Ausdruck,Zeichenkette
+Vererbung (Programmierung),Ausnahmebehandlung
+Vererbung (Programmierung),C++
+Vererbung (Programmierung),Dynamische Typisierung
+Vererbung (Programmierung),Java (Programmiersprache)
+Vererbung (Programmierung),Lisp
+Vererbung (Programmierung),Mehrfachvererbung
+Vererbung (Programmierung),Objektorientierte Programmierung
+Vererbung (Programmierung),Relationale Datenbank
+Vererbung (Programmierung),Ruby (Programmiersprache)
+Vererbung (Programmierung),Smalltalk (Programmiersprache)
+Vererbung (Programmierung),Wikipedia:Lesenswerte Artikel
+Duck-Typing,C++
+Duck-Typing,Dynamische Typisierung
+Duck-Typing,Groovy
+Duck-Typing,Java (Programmiersprache)
+Duck-Typing,Objektorientierte Programmierung
+Duck-Typing,Ruby (Programmiersprache)
+Duck-Typing,Skriptsprache
+Web2py,Common Gateway Interface
+Web2py,Plattformunabhängigkeit
+Web2py,Web Server Gateway Interface
+Zope (Webanwendungsserver),C (Programmiersprache)
+Zope (Webanwendungsserver),Interpreter
+Zope (Webanwendungsserver),Relationale Datenbank
+Zope (Webanwendungsserver),Vererbung (Programmierung)
+Zope (Webanwendungsserver),Web Server Gateway Interface
+Django (Framework),Flask
+Django (Framework),Plattformunabhängigkeit
+Django (Framework),Regulärer Ausdruck
+Django (Framework),SQLAlchemy
+Django (Framework),Vererbung (Programmierung)
+Django (Framework),Web2py
+Django (Framework),Web Server Gateway Interface
+Closure (Funktion),C++
+Closure (Funktion),C (Programmiersprache)
+Closure (Funktion),Currying
+Closure (Funktion),Funktionale Programmierung
+Closure (Funktion),Groovy
+Closure (Funktion),Haskell (Programmiersprache)
+Closure (Funktion),Java (Programmiersprache)
+Closure (Funktion),Lisp
+Closure (Funktion),Perl (Programmiersprache)
+Closure (Funktion),Reflexion (Programmierung)
+Closure (Funktion),Ruby (Programmiersprache)
+Closure (Funktion),Smalltalk (Programmiersprache)
+Closure (Funktion),Zeichenkette
+Pip (Python),Plattformunabhängigkeit
+Pip (Python),Standardbibliothek
+Relationale Datenbank,C++
+Relationale Datenbank,Java (Programmiersprache)
+Relationale Datenbank,Objektorientierte Programmierung
+Relationale Datenbank,Tcl
+Relationale Datenbank,Tupel (Informatik)
+Relationale Datenbank,Vererbung (Programmierung)
+Kivy,MacOS
+Python Software Foundation,Guido van Rossum
+Scikit-learn,C++
+Scikit-learn,C (Programmiersprache)
+Scikit-learn,Cython
+Scikit-learn,Matplotlib
+Scikit-learn,NumPy
+Scikit-learn,Plattformunabhängigkeit
+Scikit-learn,SciPy
+Allzweck-Programmiersprache,C++
+Allzweck-Programmiersprache,C (Programmiersprache)
+Allzweck-Programmiersprache,Java (Programmiersprache)
+Smalltalk (Programmiersprache),C++
+Smalltalk (Programmiersprache),Dylan (Programmiersprache)
+Smalltalk (Programmiersprache),Dynamische Programmiersprache
+Smalltalk (Programmiersprache),Dynamische Typisierung
+Smalltalk (Programmiersprache),Eclipse (IDE)
+Smalltalk (Programmiersprache),Garbage Collection
+Smalltalk (Programmiersprache),Groovy
+Smalltalk (Programmiersprache),Java (Programmiersprache)
+Smalltalk (Programmiersprache),Lisp
+Smalltalk (Programmiersprache),MacOS
+Smalltalk (Programmiersprache),Objektorientierte Programmierung
+Smalltalk (Programmiersprache),Perl (Programmiersprache)
+Smalltalk (Programmiersprache),Ruby (Programmiersprache)
+Smalltalk (Programmiersprache),Typisierung (Informatik)
+Smalltalk (Programmiersprache),Zeichenkette
+Raspberry Pi,C (Programmiersprache)
+Raspberry Pi,Interpreter
+Raspberry Pi,Java (Programmiersprache)
+Raspberry Pi,MicroPython
+Raspberry Pi,YouTube
+KiCad,Blender (Software)
+KiCad,C++
+KiCad,MacOS
+Centrum Wiskunde & Informatica,Guido van Rossum
+Tkinter,C++
+Tkinter,C (Programmiersprache)
+Tkinter,Java (Programmiersprache)
+Tkinter,Kivy
+Tkinter,MacOS
+Tkinter,Plattformunabhängigkeit
+Tkinter,PyGTK
+Tkinter,Tk (Toolkit)
+Tkinter,WxPython
+Kommandozeileninterpreter,IPython
+Kommandozeileninterpreter,Interpreter
+Kommandozeileninterpreter,Kommandozeile
+Kommandozeileninterpreter,Lisp
+Kommandozeileninterpreter,Objektorientierte Programmierung
+Kommandozeileninterpreter,Perl (Programmiersprache)
+Kommandozeileninterpreter,Ruby (Programmiersprache)
+Kommandozeileninterpreter,Skriptsprache
+Project Jupyter,Haskell (Programmiersprache)
+Project Jupyter,IPython
+Project Jupyter,Kommandozeileninterpreter
+Project Jupyter,Ruby (Programmiersprache)
+Monty Python,Guido van Rossum
+Zeichenkette,C++
+Zeichenkette,C (Programmiersprache)
+Zeichenkette,Garbage Collection
+Zeichenkette,Java (Programmiersprache)
+Zeichenkette,Leerraum
+Zeichenkette,Perl (Programmiersprache)
+Zeichenkette,Regulärer Ausdruck
+Wikipedia:Lesenswerte Artikel,Apache OpenOffice
+Wikipedia:Lesenswerte Artikel,Perl (Programmiersprache)
+Wikipedia:Lesenswerte Artikel,Vererbung (Programmierung)
+PyCharm,Django (Framework)
+PyCharm,Java (Programmiersprache)
+PyCharm,MacOS
+IPython,C (Programmiersprache)
+IPython,Kommandozeileninterpreter
+IPython,Matplotlib
+IPython,Plattformunabhängigkeit
+IPython,Project Jupyter
+IPython,Reflexion (Programmierung)
+Deep Learning,C++
+Deep Learning,C (Programmiersprache)
+Deep Learning,Java (Programmiersprache)
+Deep Learning,Keras
+Deep Learning,PyTorch
+Deep Learning,TensorFlow
+Deep Learning,YouTube
+IntelliJ IDEA,C++
+IntelliJ IDEA,Groovy
+IntelliJ IDEA,Java (Programmiersprache)
+IntelliJ IDEA,MacOS
+IntelliJ IDEA,PyCharm
+IntelliJ IDEA,Ruby (Programmiersprache)
+Maya (Software),C++
+Maya (Software),C (Programmiersprache)
+Maya (Software),MacOS
+Maya (Software),Skriptsprache
+Mehrfachvererbung,C++
+Mehrfachvererbung,Java (Programmiersprache)
+Mehrfachvererbung,Objektorientierte Programmierung
+Mehrfachvererbung,Perl (Programmiersprache)
+Mehrfachvererbung,Smalltalk (Programmiersprache)
+Mehrfachvererbung,Vererbung (Programmierung)
+Höhere Programmiersprache,C++
+Höhere Programmiersprache,C (Programmiersprache)
+Höhere Programmiersprache,Interpreter
+Höhere Programmiersprache,Java (Programmiersprache)
+Höhere Programmiersprache,Just-in-time-Kompilierung
+Höhere Programmiersprache,Lisp
+Höhere Programmiersprache,Ruby (Programmiersprache)
+Standardbibliothek,C++
+Standardbibliothek,C (Programmiersprache)
+Standardbibliothek,Java (Programmiersprache)
+Leerraum,Regulärer Ausdruck
+NetBeans IDE,Apache OpenOffice
+NetBeans IDE,C++
+NetBeans IDE,C (Programmiersprache)
+NetBeans IDE,Eclipse (IDE)
+NetBeans IDE,Groovy
+NetBeans IDE,Java (Programmiersprache)
+NetBeans IDE,Perl (Programmiersprache)
+NetBeans IDE,Plattformunabhängigkeit
+NetBeans IDE,Ruby (Programmiersprache)
+NetBeans IDE,Tcl
+Conda (Paketverwaltung),Anaconda (Python-Distribution)
+Conda (Paketverwaltung),Java (Programmiersprache)
+Conda (Paketverwaltung),Kommandozeile
+Conda (Paketverwaltung),Pip (Python)
+Conda (Paketverwaltung),Plattformunabhängigkeit
+Skriptsprache,Blender (Software)
+Skriptsprache,C (Programmiersprache)
+Skriptsprache,Currying
+Skriptsprache,Dynamische Typisierung
+Skriptsprache,Funktionale Programmierung
+Skriptsprache,GIMP
+Skriptsprache,Groovy
+Skriptsprache,Guido van Rossum
+Skriptsprache,Interpreter
+Skriptsprache,IronPython
+Skriptsprache,Java (Programmiersprache)
+Skriptsprache,Jython
+Skriptsprache,Kommandozeileninterpreter
+Skriptsprache,Lisp
+Skriptsprache,MacOS
+Skriptsprache,Objektorientierte Programmierung
+Skriptsprache,Pattern Matching
+Skriptsprache,Perl (Programmiersprache)
+Skriptsprache,PyPy
+Skriptsprache,Python Software Foundation
+Skriptsprache,Ruby (Programmiersprache)
+Skriptsprache,Tcl
+Skriptsprache,Tk (Toolkit)
+Skriptsprache,Typisierung (Informatik)
+Skriptsprache,Vererbung (Programmierung)
+Skriptsprache,Vim
+Currying,C++
+Currying,C (Programmiersprache)
+Currying,Closure (Funktion)
+Currying,Haskell (Programmiersprache)
+Currying,Java (Programmiersprache)
+Currying,Ruby (Programmiersprache)
+Currying,Tcl
+Blender (Software),C++
+Blender (Software),C (Programmiersprache)
+Blender (Software),MacOS
+Blender (Software),Skriptsprache
+Blender (Software),YouTube
+Lisp,Dylan (Programmiersprache)
+Lisp,Dynamische Typisierung
+Lisp,Funktionale Programmierung
+Lisp,Garbage Collection
+Lisp,Haskell (Programmiersprache)
+Lisp,Interpreter
+Lisp,Java (Programmiersprache)
+Lisp,Objektorientierte Programmierung
+Lisp,Perl (Programmiersprache)
+Lisp,Reflexion (Programmierung)
+Lisp,Ruby (Programmiersprache)
+Lisp,Skriptsprache
+Lisp,Smalltalk (Programmiersprache)
+Lisp,Typisierung (Informatik)
+C++,Ausnahmebehandlung
+C++,Boost (C++-Bibliothek)
+C++,CLU (Programmiersprache)
+C++,C (Programmiersprache)
+C++,Eclipse (IDE)
+C++,Funktionale Programmierung
+C++,Garbage Collection
+C++,Höhere Programmiersprache
+C++,IntelliJ IDEA
+C++,Java (Programmiersprache)
+C++,Kommandozeile
+C++,MacOS
+C++,Mehrfachvererbung
+C++,NetBeans IDE
+C++,Objektorientierte Programmierung
+C++,Perl (Programmiersprache)
+C++,Plattformunabhängigkeit
+C++,Regulärer Ausdruck
+C++,Smalltalk (Programmiersprache)
+C++,Standardbibliothek
+C++,Strukturierte Programmierung
+C++,Tupel (Informatik)
+C++,Typisierung (Informatik)
+C++,Visual Studio
+C++,Zeichenkette
+Cinema 4D,C++
+Cinema 4D,MacOS
+Cinema 4D,Maya (Software)
+Common Gateway Interface,Interpreter
+Common Gateway Interface,Perl (Programmiersprache)
+Common Gateway Interface,Skriptsprache
+Common Gateway Interface,Web Server Gateway Interface
+TensorFlow,C++
+TensorFlow,C (Programmiersprache)
+TensorFlow,Deep Learning
+TensorFlow,Haskell (Programmiersprache)
+TensorFlow,Java (Programmiersprache)
+TensorFlow,Keras
+TensorFlow,MacOS
+TensorFlow,YouTube
+Parrot,C (Programmiersprache)
+Parrot,Guido van Rossum
+Parrot,Interpreter
+Parrot,Perl (Programmiersprache)
+Parrot,Ruby (Programmiersprache)
+Parrot,Stapelspeicher
+Parrot,Tcl
+Parrot,Zeichenkette
+Peter J. Landin,Funktionale Programmierung
+Peter J. Landin,Haskell (Programmiersprache)
+Peter J. Landin,Leerraum
+Tupel (Informatik),Haskell (Programmiersprache)
+Tupel (Informatik),Relationale Datenbank
+NumPy,C++
+NumPy,C (Programmiersprache)
+NumPy,Cython
+NumPy,Deep Learning
+NumPy,Guido van Rossum
+NumPy,Jython
+NumPy,Matplotlib
+NumPy,Plattformunabhängigkeit
+NumPy,PyPy
+NumPy,SciPy
+NumPy,TensorFlow
+NumPy,Typisierung (Informatik)
+PyTorch,C++
+PyTorch,C (Programmiersprache)
+PyTorch,Cython
+PyTorch,Deep Learning
+PyTorch,Java (Programmiersprache)
+PyTorch,MacOS
+PyTorch,NumPy
+PyTorch,SciPy
+PyTorch,Scikit-learn
+Web Server Gateway Interface,Common Gateway Interface
+Web Server Gateway Interface,Django (Framework)
+Web Server Gateway Interface,Flask
+Web Server Gateway Interface,Plattformunabhängigkeit
+Web Server Gateway Interface,Web2py
+Web Server Gateway Interface,Zope (Webanwendungsserver)
+SciPy,C (Programmiersprache)
+SciPy,IPython
+SciPy,Matplotlib
+SciPy,NumPy
+SciPy,Plattformunabhängigkeit
+Keras,Deep Learning
+Keras,Plattformunabhängigkeit
+Keras,TensorFlow
+Keras,YouTube
+Boost (C++-Bibliothek),C++
+Boost (C++-Bibliothek),Funktionale Programmierung
+Boost (C++-Bibliothek),MacOS
+Boost (C++-Bibliothek),Plattformunabhängigkeit
+Boost (C++-Bibliothek),Zeichenkette
+Guido van Rossum,ABC (Programmiersprache)
+Guido van Rossum,C (Programmiersprache)
+Guido van Rossum,Centrum Wiskunde & Informatica
+Guido van Rossum,Skriptsprache
+Stapelspeicher,C++
+Stapelspeicher,C (Programmiersprache)
+Stapelspeicher,Interpreter
+Stapelspeicher,Java (Programmiersprache)
+Pattern Matching,Funktionale Programmierung
+Pattern Matching,Haskell (Programmiersprache)
+Pattern Matching,Perl (Programmiersprache)
+Pattern Matching,Regulärer Ausdruck
+Pattern Matching,Zeichenkette
+C (Programmiersprache),C++
+C (Programmiersprache),Höhere Programmiersprache
+C (Programmiersprache),Java (Programmiersprache)
+C (Programmiersprache),Perl (Programmiersprache)
+C (Programmiersprache),Plattformunabhängigkeit
+C (Programmiersprache),PyPy
+C (Programmiersprache),Strukturierte Programmierung
+C (Programmiersprache),Typisierung (Informatik)
+C (Programmiersprache),Zeichenkette
+Interpreter,C (Programmiersprache)
+Interpreter,Java (Programmiersprache)
+Interpreter,Just-in-time-Kompilierung
+Interpreter,Kommandozeileninterpreter
+Interpreter,Perl (Programmiersprache)
+Interpreter,Ruby (Programmiersprache)
+Interpreter,Skriptsprache
+Interpreter,Smalltalk (Programmiersprache)
+Interpreter,Tcl
+MacOS,C++
+MacOS,C (Programmiersprache)
+MacOS,Höhere Programmiersprache
+MacOS,Java (Programmiersprache)
+MacOS,Perl (Programmiersprache)
+MacOS,Ruby (Programmiersprache)
+MacOS,Tcl
+Referenzzählung,C++
+Referenzzählung,C (Programmiersprache)
+Referenzzählung,Garbage Collection
+Referenzzählung,Objektorientierte Programmierung
+Referenzzählung,Perl (Programmiersprache)
+Referenzzählung,Zeichenkette
+MicroPython,C (Programmiersprache)
+Menge (Datenstruktur),C++
+Menge (Datenstruktur),Guido van Rossum
+Menge (Datenstruktur),Java (Programmiersprache)
+Menge (Datenstruktur),Stapelspeicher
+Typisierung (Informatik),C++
+Typisierung (Informatik),C (Programmiersprache)
+Typisierung (Informatik),Dynamische Typisierung
+Typisierung (Informatik),Java (Programmiersprache)
+Typisierung (Informatik),Objektorientierte Programmierung
+Typisierung (Informatik),Perl (Programmiersprache)
+Typisierung (Informatik),Reflexion (Programmierung)
+PyMOL,GIMP
+PyMOL,Interpreter
+PyMOL,MacOS
+PyMOL,Tcl
+PyMOL,Tk (Toolkit)
