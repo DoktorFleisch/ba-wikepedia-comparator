@@ -9,13 +9,14 @@
 !pip install -U sacremoses ### is necessary for FaceBookTranslator
 
 
-Flask~=3.0.3
+Flask
 torch~=2.5.0
-nltk~=3.9.1
-scikit-learn~=1.5.2
-transformers~=4.46.0
-numpy~=1.26.4
-seaborn~=0.13.2
-matplotlib~=3.9.2
-gensim~=4.3.3
+nltk
+scikit-learn
+transformers
+numpy
+seaborn
+matplotlib
+gensim
 sentencepiece~=0.1.96
+networkx
