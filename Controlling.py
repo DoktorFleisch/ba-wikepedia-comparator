@@ -10,11 +10,18 @@ user_agent = 'ba-thesis-comperator (daniel.warkus@hhu.de)'
 wiki_api_de = wikipediaapi.Wikipedia(user_agent=user_agent, language='de')
 wiki_api_en = wikipediaapi.Wikipedia(user_agent=user_agent, language='en')
 
-
 translator_de_en = FaceBookTranslatorProvider("de", "en")
 translator_en_de = FaceBookTranslatorProvider("en", "de")
 sentence_transformer_service = SentenceTransformerEmbeddingService('sentence-transformers/all-mpnet-base-v2')
 
+
+def get_wiki(language):
+    if language == 'de':
+        return wiki_api_de
+    elif language == 'en':
+        return wiki_api_en
+    else:
+        return None
 
 def get_section_content(article_name, section_names):
     page = wiki_api_en.page(article_name)
@@ -26,7 +33,6 @@ def get_section_content(article_name, section_names):
         else:
             content.append(None)
     return content
-
 
 
 def compare_articles(article1, article2):
@@ -56,6 +62,14 @@ def get_article_de(article_name):
     page = wiki_api_de.page(article_name)
     if page.exists():
         return {'title': page.title, 'summary': page.text}
+    else:
+        return None
+
+
+def get_article_object_en(article_name):
+    page = wiki_api_en.page(article_name)
+    if page.exists():
+        return page
     else:
         return None
 

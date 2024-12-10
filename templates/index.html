@@ -6,7 +6,7 @@
     <title>Wikipedia Article Fetcher</title>
     <style>
         #content {
-            width: 50%;
+            width: 30%;
             height: 100vh;
             overflow-y: scroll;
             border: 1px solid #ccc;
@@ -23,7 +23,7 @@
             display: flex;
             align-items: center;
         }
-        #enTitleContainer {
+        #checkboxContainer {
             display: inline-block;
             vertical-align: top;
             margin-left: 10px;
@@ -47,13 +47,10 @@
     </div>
     <div class="content-container">
         <div id="content"></div>
-        <div id="enTitleContainer" style="display: none;">
-            <input type="checkbox" id="enTitleCheckbox" onchange="toggleCompareButton()">
-            <label id="enTitleLabel"></label>
-            <button id="compareButton" onclick="compareArticles()" disabled>Compare</button>
-            <div id="comparisonResults"></div>
-        </div>
+        <div id="checkboxContainer" style="display: none;"></div>
     </div>
+    <button id="compareButton" onclick="compareArticles()" disabled>Compare</button>
+    <div id="comparisonResults"></div>
 
     <script>
         async function fetchArticle() {
@@ -78,9 +75,9 @@
             }
         }
 
-        async function fetchEnTitle() {
+        async function fetchRecommendations() {
             const articleName = document.getElementById('articleName').value;
-            const response = await fetch('/get_en_title', {
+            const response = await fetch('/get_recommendations', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',
@@ -92,43 +89,96 @@
 
             const data = await response.json();
             if (response.ok) {
-                document.getElementById('enTitleLabel').textContent = data.en_title;
-                document.getElementById('enTitleContainer').style.display = 'inline-block';
+                const enTitleContainer = document.getElementById('checkboxContainer');
+                enTitleContainer.innerHTML = ''; // Clear previous content
+                data.recommendations.forEach((recommendation, index) => {
+                    const checkbox = document.createElement('input');
+                    checkbox.type = 'checkbox';
+                    checkbox.id = `recommendationCheckbox${index}`;
+                    checkbox.value = recommendation;
+                    checkbox.onchange = toggleCompareButton;
+
+                    const label = document.createElement('label');
+                    label.htmlFor = checkbox.id;
+                    label.textContent = recommendation;
+
+                    enTitleContainer.appendChild(checkbox);
+                    enTitleContainer.appendChild(label);
+                    enTitleContainer.appendChild(document.createElement('br'));
+                });
+                enTitleContainer.style.display = 'inline-block';
             } else {
-                console.error('Failed to fetch English title');
+                console.error('Failed to fetch recommendations');
             }
         }
+
+        document.getElementById('useArticleButton').addEventListener('click', fetchRecommendations);
 
         function toggleCompareButton() {
             const compareButton = document.getElementById('compareButton');
-            const enTitleCheckbox = document.getElementById('enTitleCheckbox');
-            compareButton.disabled = !enTitleCheckbox.checked;
+            const checkboxes = document.querySelectorAll('#checkboxContainer input[type="checkbox"]');
+            compareButton.disabled = !Array.from(checkboxes).some(checkbox => checkbox.checked);
         }
 
-        async function compareArticles() {
-            const articleName = document.getElementById('articleName').value;
-            const enTitle = document.getElementById('enTitleLabel').textContent;
-            const response = await fetch('/compare_articles', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/x-www-form-urlencoded',
-                },
-                body: new URLSearchParams({
-                    'articleName': articleName,
-                    'enTitle': enTitle
-                })
+    async function compareArticles() {
+    const articleName = document.getElementById('articleName').value;
+    const selectedRecommendations = Array.from(document.querySelectorAll('#checkboxContainer input[type="checkbox"]:checked'))
+        .map(checkbox => checkbox.value);
+    const response = await fetch('/compare_articles', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: new URLSearchParams({
+            'articleName': articleName,
+            'recommendations': JSON.stringify(selectedRecommendations)
+        })
+    });
+
+    const data = await response.json();
+    if (response.ok) {
+        const comparisonResults = document.getElementById('comparisonResults');
+        comparisonResults.innerHTML = '';
+
+        for (const [recommendation, results] of Object.entries(data.comparison_results)) {
+            const recommendationElement = document.createElement('div');
+            recommendationElement.innerHTML = `<strong>${recommendation}:</strong>`;
+            results.forEach(result => {
+                const resultElement = document.createElement('div');
+                resultElement.textContent = result;
+                recommendationElement.appendChild(resultElement);
             });
-
-            const data = await response.json();
-            if (response.ok) {
-                const comparisonResults = document.getElementById('comparisonResults');
-                comparisonResults.innerHTML = '<ul>' + data.comparison_results.map(result => `<li>${result}</li>`).join('') + '</ul>';
-            } else {
-                console.error('Failed to compare articles');
-            }
+            comparisonResults.appendChild(recommendationElement);
         }
+    } else {
+        console.error('Failed to compare articles');
+    }
+}
+        // old single handed compare function, remove later
 
-        document.getElementById('useArticleButton').addEventListener('click', fetchEnTitle);
+        {#async function compareArticles() {#}
+        {#    const articleName = document.getElementById('articleName').value;#}
+        {#    const selectedRecommendations = Array.from(document.querySelectorAll('#checkboxContainer input[type="checkbox"]:checked'))#}
+        {#        .map(checkbox => checkbox.value);#}
+        {#    const response = await fetch('/compare_articles', {#}
+        {#        method: 'POST',#}
+        {#        headers: {#}
+        {#            'Content-Type': 'application/x-www-form-urlencoded',#}
+        {#        },#}
+        {#        body: new URLSearchParams({#}
+        {#            'articleName': articleName,#}
+        {#            'recommendations': JSON.stringify(selectedRecommendations)#}
+        {#        })#}
+        {#    });#}
+        {##}
+        {#    const data = await response.json();#}
+        {#    if (response.ok) {#}
+        {#        const comparisonResults = document.getElementById('comparisonResults');#}
+        {#        comparisonResults.innerHTML = '<ul>' + data.comparison_results.map(result => `<li>${result}</li>`).join('') + '</ul>';#}
+        {#    } else {#}
+        {#        console.error('Failed to compare articles');#}
+        {#    }#}
+        {#}#}
     </script>
 </body>
 </html>
