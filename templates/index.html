@@ -4,54 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wikipedia Article Fetcher</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         #content {
-            width: 30%;
             height: 100vh;
             overflow-y: scroll;
             border: 1px solid #ccc;
             padding: 10px;
         }
-        .input-container {
-            display: flex;
-            align-items: center;
+        .tab {
+            display: none;
         }
-        .input-container input[type="text"] {
-            margin-right: 10px;
-        }
-        .button-container {
-            display: flex;
-            align-items: center;
-        }
-        #checkboxContainer {
-            display: inline-block;
-            vertical-align: top;
-            margin-left: 10px;
-        }
-        .content-container {
-            display: flex;
-        }
-        #comparisonResults {
-            margin-left: 10px;
+        .tab.active {
+            display: block;
         }
     </style>
 </head>
 <body>
-    <h1>Wikipedia Article Fetcher</h1>
-    <div class="input-container">
-        <input type="text" id="articleName" placeholder="Enter article name">
-        <div class="button-container">
-            <button onclick="fetchArticle()">Fetch Article</button>
-            <button id="useArticleButton" disabled>Use Article</button>
+    <div class="container">
+        <h1 class="my-4">Wikipedia Article Fetcher</h1>
+        <div class="row mb-3">
+            <div class="col-md-8">
+                <input type="text" class="form-control" id="articleName" placeholder="Enter article name">
+            </div>
+            <div class="col-md-4">
+                <div class="input-group-append">
+                    <button class="btn btn-primary btn-sm" onclick="fetchArticle()">Fetch Article</button>
+                    <button class="btn btn-secondary btn-sm" id="useArticleButton" disabled>Use Article</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div id="content"></div>
+            </div>
+            <div class="col-md-4">
+                <div id="checkboxContainer" style="display: none;"></div>
+                <button class="btn btn-success mt-3 btn-sm" id="compareButton" onclick="compareArticles()" disabled>Compare</button>
+            </div>
+            <div class="col-md-4">
+                <div id="comparisonResults"></div>
+            </div>
         </div>
     </div>
-    <div class="content-container">
-        <div id="content"></div>
-        <div id="checkboxContainer" style="display: none;"></div>
-    </div>
-    <button id="compareButton" onclick="compareArticles()" disabled>Compare</button>
-    <div id="comparisonResults"></div>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
         async function fetchArticle() {
             const articleName = document.getElementById('articleName').value;
@@ -106,7 +105,7 @@
                     enTitleContainer.appendChild(label);
                     enTitleContainer.appendChild(document.createElement('br'));
                 });
-                enTitleContainer.style.display = 'inline-block';
+                enTitleContainer.style.display = 'block';
             } else {
                 console.error('Failed to fetch recommendations');
             }
@@ -120,65 +119,52 @@
             compareButton.disabled = !Array.from(checkboxes).some(checkbox => checkbox.checked);
         }
 
-    async function compareArticles() {
-    const articleName = document.getElementById('articleName').value;
-    const selectedRecommendations = Array.from(document.querySelectorAll('#checkboxContainer input[type="checkbox"]:checked'))
-        .map(checkbox => checkbox.value);
-    const response = await fetch('/compare_articles', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body: new URLSearchParams({
-            'articleName': articleName,
-            'recommendations': JSON.stringify(selectedRecommendations)
-        })
-    });
-
-    const data = await response.json();
-    if (response.ok) {
-        const comparisonResults = document.getElementById('comparisonResults');
-        comparisonResults.innerHTML = '';
-
-        for (const [recommendation, results] of Object.entries(data.comparison_results)) {
-            const recommendationElement = document.createElement('div');
-            recommendationElement.innerHTML = `<strong>${recommendation}:</strong>`;
-            results.forEach(result => {
-                const resultElement = document.createElement('div');
-                resultElement.textContent = result;
-                recommendationElement.appendChild(resultElement);
+        async function compareArticles() {
+            const articleName = document.getElementById('articleName').value;
+            const selectedRecommendations = Array.from(document.querySelectorAll('#checkboxContainer input[type="checkbox"]:checked'))
+                .map(checkbox => checkbox.value);
+            const response = await fetch('/compare_articles', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: new URLSearchParams({
+                    'articleName': articleName,
+                    'recommendations': JSON.stringify(selectedRecommendations)
+                })
             });
-            comparisonResults.appendChild(recommendationElement);
-        }
-    } else {
-        console.error('Failed to compare articles');
-    }
-}
-        // old single handed compare function, remove later
 
-        {#async function compareArticles() {#}
-        {#    const articleName = document.getElementById('articleName').value;#}
-        {#    const selectedRecommendations = Array.from(document.querySelectorAll('#checkboxContainer input[type="checkbox"]:checked'))#}
-        {#        .map(checkbox => checkbox.value);#}
-        {#    const response = await fetch('/compare_articles', {#}
-        {#        method: 'POST',#}
-        {#        headers: {#}
-        {#            'Content-Type': 'application/x-www-form-urlencoded',#}
-        {#        },#}
-        {#        body: new URLSearchParams({#}
-        {#            'articleName': articleName,#}
-        {#            'recommendations': JSON.stringify(selectedRecommendations)#}
-        {#        })#}
-        {#    });#}
-        {##}
-        {#    const data = await response.json();#}
-        {#    if (response.ok) {#}
-        {#        const comparisonResults = document.getElementById('comparisonResults');#}
-        {#        comparisonResults.innerHTML = '<ul>' + data.comparison_results.map(result => `<li>${result}</li>`).join('') + '</ul>';#}
-        {#    } else {#}
-        {#        console.error('Failed to compare articles');#}
-        {#    }#}
-        {#}#}
+            const data = await response.json();
+            if (response.ok) {
+                const comparisonResults = document.getElementById('comparisonResults');
+                comparisonResults.innerHTML = '';
+
+                for (const [recommendation, results] of Object.entries(data.comparison_results)) {
+                    const tabButton = document.createElement('button');
+                    tabButton.className = 'btn btn-link';
+                    tabButton.textContent = recommendation;
+                    tabButton.onclick = () => showTab(recommendation);
+                    comparisonResults.appendChild(tabButton);
+
+                    const tabContent = document.createElement('div');
+                    tabContent.id = `tab-${recommendation}`;
+                    tabContent.className = 'tab';
+                    results.forEach(result => {
+                        const resultElement = document.createElement('div');
+                        resultElement.textContent = result;
+                        tabContent.appendChild(resultElement);
+                    });
+                    comparisonResults.appendChild(tabContent);
+                }
+            } else {
+                console.error('Failed to compare articles');
+            }
+        }
+
+        function showTab(recommendation) {
+        const tab = document.getElementById(`tab-${recommendation}`);
+        tab.classList.toggle('active');
+}
     </script>
 </body>
 </html>
