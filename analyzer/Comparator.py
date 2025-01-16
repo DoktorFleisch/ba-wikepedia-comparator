@@ -2,14 +2,15 @@ import os.path
 from abc import ABC, abstractmethod
 
 from sklearn.preprocessing import StandardScaler
-#from transformers import BertTokenizer, BertModel
+# from transformers import BertTokenizer, BertModel
 from sentence_transformers import SentenceTransformer
 import torch
 import copy
 from torch.nn.functional import normalize
 import nltk
-from  .PyPlotHelper import plot_similarity_heatmap, plot_histogram
-from .EmbeddingService import EmbeddingService, FastTextEmbeddingService, GloveEmbeddingService, SentenceTransformerEmbeddingService
+from .PyPlotHelper import plot_similarity_heatmap, plot_histogram
+from .EmbeddingService import EmbeddingService, FastTextEmbeddingService, GloveEmbeddingService, \
+    SentenceTransformerEmbeddingService
 from sklearn.cross_decomposition import CCA
 from sklearn.decomposition import PCA
 import os
@@ -17,6 +18,33 @@ import pickle
 import re
 
 nltk.download('punkt')
+
+
+def find_all_similarity_pairs(similarity_matrix, section_names1, section_names2):
+    # Konvertiere die Abschnittsnamen in Listen
+    sections_doc1 = list(section_names1)
+    sections_doc2 = list(section_names2)
+
+    # Sicherstellen, dass wir die korrekten Dimensionen verwenden
+    num_rows = similarity_matrix.size(0)
+    num_cols = similarity_matrix.size(1)
+
+    # Begrenzen der Dimensionen auf die kürzeste verfügbare Länge
+    effective_rows = min(num_rows, len(sections_doc1))
+    effective_cols = min(num_cols, len(sections_doc2))
+
+    # Liste für alle Ähnlichkeiten
+    all_pairs = []
+
+    # Iteriere nur über den gemeinsamen gültigen Bereich
+    for i in range(effective_rows):  # Für jede Zeile (Abschnitt aus doc1)
+        for j in range(effective_cols):  # Für jede Spalte (Abschnitt aus doc2)
+            similarity_value = similarity_matrix[i, j].item()
+            section_pair = (sections_doc1[i], sections_doc2[j], similarity_value)
+            all_pairs.append(section_pair)
+
+    return all_pairs
+
 
 
 def find_lowest_max_similarity(similarity_matrix, section_names1, section_names2, n=3):
@@ -62,8 +90,8 @@ class Comparator(ABC):
     def __init__(self,
                  metric: str,
                  approach: str,
-                 #tokenizer: BertTokenizer.from_pretrained('bert-base-uncased'),
-                 model: EmbeddingService): #BertModel.from_pretrained("bert-base-uncased")):
+                 # tokenizer: BertTokenizer.from_pretrained('bert-base-uncased'),
+                 model: EmbeddingService):  # BertModel.from_pretrained("bert-base-uncased")):
         '''
         :param metric: defines the metric two compare two word embeddings
         :param tokenizer:      embedding tokenizer: BERT, GPT, etc.
@@ -71,9 +99,9 @@ class Comparator(ABC):
         '''
         self.metric = metric
         self.approach = approach
-        #self.tokenizer = tokenizer
+        # self.tokenizer = tokenizer
         self.model = model
-        #self.model.eval()
+        # self.model.eval()
 
     def get_bert_embeddings(self, sentence):
         '''tokens = self.tokenizer.tokenize(sentence)
@@ -121,10 +149,11 @@ class Comparator(ABC):
         content_words_dict = {key: re.findall(r'\b[a-zA-Z]+\b', value) for key, value in content.items()}
         result_cache = {
             key1: torch.stack(
-                [torch.squeeze(embedding, dim=0) for s1 in subset1 if len(s1) > 2 and (embedding := self.model.get_embeddings(s1.lower())) is not None], dim=1)
+                [torch.squeeze(embedding, dim=0) for s1 in subset1 if
+                 len(s1) > 2 and (embedding := self.model.get_embeddings(s1.lower())) is not None], dim=1)
             for key1, subset1 in content_words_dict.items() if len(subset1) > 2 and subset1}
         list_keys = list(content.keys())
-       # name = 'cached_embeddings/' + self.model.__class__.__name__ + '/' + list_keys[0] + '-' + list_keys[1] + 'word-wise'
+        # name = 'cached_embeddings/' + self.model.__class__.__name__ + '/' + list_keys[0] + '-' + list_keys[1] + 'word-wise'
         name = os.path.join('cached_embeddings', self.model.__class__.__name__,
                             f"{list_keys[0]}-{list_keys[1]}word-wise")
         os.makedirs(name, exist_ok=True)
@@ -133,13 +162,14 @@ class Comparator(ABC):
         return result_cache
 
     def compute_the_word_vectors_for_sentences(self, content):
-        #splitted_preprocessed_content = preprocess(content)
+        # splitted_preprocessed_content = preprocess(content)
         result_cache = {
-            key1: torch.stack([torch.squeeze(embedding, dim=0) for s1 in subset1 if (embedding := self.model.get_embeddings(s1)) is not None], dim=1)
+            key1: torch.stack([torch.squeeze(embedding, dim=0) for s1 in subset1 if
+                               (embedding := self.model.get_embeddings(s1)) is not None], dim=1)
             for key1, subset1 in content.items()}
         list_keys = list(result_cache.keys())
         # had to refactor it for platform independence
-        #name = 'cached_embeddings/' + self.model.__class__.__name__ + '/' + list_keys[0] + '-' + list_keys[1] + 'sentence-wise'
+        # name = 'cached_embeddings/' + self.model.__class__.__name__ + '/' + list_keys[0] + '-' + list_keys[1] + 'sentence-wise'
         name = os.path.join('cached_embeddings', self.model.__class__.__name__,
                             f"{list_keys[0]}-{list_keys[1]}sentence-wise")
         os.makedirs(name, exist_ok=True)
@@ -157,29 +187,31 @@ class Comparator(ABC):
     def load_cached_embeddings_sentence_wise(self, content):
         splitted_preprocessed_content = preprocess(content)
         list_preprocessed_keys = list(splitted_preprocessed_content.keys())
-        #name = 'cached_embeddings/' + self.model.__class__.__name__ + '/' + list_preprocessed_keys[0] + '-' + \
-           #    list_preprocessed_keys[1] + 'sentence-wise'
+        # name = 'cached_embeddings/' + self.model.__class__.__name__ + '/' + list_preprocessed_keys[0] + '-' + \
+        #    list_preprocessed_keys[1] + 'sentence-wise'
         name = os.path.join('cached_embeddings', self.model.__class__.__name__,
                             f"{list_preprocessed_keys[0]}-{list_preprocessed_keys[1]}sentence-wise")
         os.makedirs(name, exist_ok=True)
         get_emb = lambda x: self.compute_the_word_vectors_for_sentences(splitted_preprocessed_content)
         if os.path.exists(name + '.pkl'):
             with open(name + '.pkl', 'rb') as f:
-                print('caching the file' + list_preprocessed_keys[0] + '-' + list_preprocessed_keys[1] + 'subset_to_subset' + '.pkl')
+                print('caching the file' + list_preprocessed_keys[0] + '-' + list_preprocessed_keys[
+                    1] + 'subset_to_subset' + '.pkl')
                 cached_dictionary = pickle.load(f)
             return cached_dictionary
         else:
             result_stored_content = get_emb(content)
             list_preprocessed_content = list(result_stored_content.keys())
             with open(name + '.pkl', 'rb') as f:
-                print('caching the file' + list_preprocessed_content[0] + '-' + list_preprocessed_content[1] + 'subset_to_subset' + '.pkl')
+                print('caching the file' + list_preprocessed_content[0] + '-' + list_preprocessed_content[
+                    1] + 'subset_to_subset' + '.pkl')
                 cached_dictionary = pickle.load(f)
             return cached_dictionary
 
     def load_cached_embeddings_word_wise(self, content):
         list_keys = list(content.keys())
-      #  name = 'cached_embeddings/' + self.model.__class__.__name__ + '/' + list_keys[0] + '-' + list_keys[
-         #   1] + 'word-wise'
+        #  name = 'cached_embeddings/' + self.model.__class__.__name__ + '/' + list_keys[0] + '-' + list_keys[
+        #   1] + 'word-wise'
         name = os.path.join('cached_embeddings', self.model.__class__.__name__,
                             f"{list_keys[0]}-{list_keys[1]}word-wise")
         os.makedirs(name, exist_ok=True)
@@ -193,7 +225,8 @@ class Comparator(ABC):
             result_stored_content = get_emb(content)
             list_preprocessed_content = list(result_stored_content.keys())
             with open(name + '.pkl', 'rb') as f:
-                print('caching the file' + list_preprocessed_content[0] + '-' + list_preprocessed_content[1] + 'subset_to_subset' + '.pkl')
+                print('caching the file' + list_preprocessed_content[0] + '-' + list_preprocessed_content[
+                    1] + 'subset_to_subset' + '.pkl')
                 cached_dictionary = pickle.load(f)
             return cached_dictionary
 
@@ -235,7 +268,7 @@ class CCAComparator(Comparator):
     def __init__(self, metric, approach, model, topic_num, splitting, doPlots) -> None:
         super().__init__(metric=metric,
                          approach=approach,
-                         #tokenizer=tokenizer,
+                         # tokenizer=tokenizer,
                          model=model)
         self.topic_num = topic_num
         self.splitting = splitting
@@ -252,8 +285,8 @@ class CCAComparator(Comparator):
             return torch.zeros(len(first_translated), len(second_translated)),
 
     def get_canonical_vectors(self, A, B, k):
-        #covA = torch.cov(A)
-        #covB = torch.cov(B)
+        # covA = torch.cov(A)
+        # covB = torch.cov(B)
         mean_a = torch.mean(A * 1.0, dim=0)
         mean_b = torch.mean(B * 1.0, dim=0)
         A_centered = A - mean_a
@@ -305,14 +338,15 @@ class CCAComparator(Comparator):
 
         embeddings_second_2d = self.load_cached_embedding(second_translated)
         similarity_scores = {}
-        #for subtitle1, tensor1 in embeddings_first_2d.items():
+        # for subtitle1, tensor1 in embeddings_first_2d.items():
         #    for subtitle2, tensor2 in embeddings_second_2d.items():
         #        similarity_scores[(subtitle1, subtitle2)] = (
         #            self.CCA_similarity_score(tensor1, tensor2, component_num(tensor1, tensor2)))
 
-        similarity_matrix = torch.tensor([[self.CCA_similarity_score(tensor1, tensor2, component_num(tensor1, tensor2)) for
-                                           subtitle2, tensor2 in embeddings_second_2d.items()] for subtitle1, tensor1 in
-                                          embeddings_first_2d.items()])
+        similarity_matrix = torch.tensor(
+            [[self.CCA_similarity_score(tensor1, tensor2, component_num(tensor1, tensor2)) for
+              subtitle2, tensor2 in embeddings_second_2d.items()] for subtitle1, tensor1 in
+             embeddings_first_2d.items()])
         if self.doPlots:
             plot_similarity_heatmap(similarity_matrix, embeddings_second_2d.keys(), embeddings_first_2d.keys(), 'CCA')
         return find_lowest_max_similarity(similarity_matrix, embeddings_first_2d.keys(), embeddings_second_2d.keys())
@@ -343,22 +377,23 @@ class CCAComparator(Comparator):
         embeddings_second_2d = self.load_cached_embedding(second_translated)
 
         similarity_vector = torch.tensor(
-            [self.CCA_similarity_score(embeddings_first_2d_stacked, tensor2, component_num(embeddings_first_2d_stacked)) for tensor2 in embeddings_second_2d.values()]
+            [self.CCA_similarity_score(embeddings_first_2d_stacked, tensor2, component_num(embeddings_first_2d_stacked))
+             for tensor2 in embeddings_second_2d.values()]
         )
-        #min_val, min_ind = torch.min(similarity_vector, dim=0)
-        #list_of_sections = list(embeddings_second_2d.keys())
+        # min_val, min_ind = torch.min(similarity_vector, dim=0)
+        # list_of_sections = list(embeddings_second_2d.keys())
         lowest_sections = get_three_lowest_similarities(similarity_vector, embeddings_second_2d)
         if self.doPlots:
             plot_histogram(similarity_vector, 'CCA')
         return lowest_sections
 
     def CCA_similarity_score(self, tensor1, tensor2, component_num):
-        #print("tensor1.shape: " + str(tensor1.shape[0]) + ", " + str(tensor1.shape[1]) + " tensor2.shape: " + str(
+        # print("tensor1.shape: " + str(tensor1.shape[0]) + ", " + str(tensor1.shape[1]) + " tensor2.shape: " + str(
         #    tensor2.shape[0]) + ", " + str(tensor2.shape[1]))
-        #getmaxdim = lambda tensor: 768 if tensor1.shape[1] > 768 else tensor.shape[1]
+        # getmaxdim = lambda tensor: 768 if tensor1.shape[1] > 768 else tensor.shape[1]
 
-        tensor1_np = self.reduce_dimensionality(tensor1) #tensor1.numpy()
-        tensor2_np = self.reduce_dimensionality(tensor2) #tensor2.numpy()
+        tensor1_np = self.reduce_dimensionality(tensor1)  # tensor1.numpy()
+        tensor2_np = self.reduce_dimensionality(tensor2)  # tensor2.numpy()
         if component_num > min(tensor1_np.shape[1], tensor2_np.shape[1]):
             component_num = min(tensor1_np.shape[1], tensor2_np.shape[1])
 
@@ -369,8 +404,9 @@ class CCAComparator(Comparator):
         tensor1_c_numpy, tensor2_c_numpy = cca.transform(contentA, contentB)
         tensor1_c = torch.from_numpy(tensor1_c_numpy).float()
         tensor2_c = torch.from_numpy(tensor2_c_numpy).float()
-        cca_similarity_score = self.computeCCASimilarity(tensor1, tensor2, tensor1_c, tensor2_c, component_num).clone().detach()
-        #print("cca_similarity_score: " + str(cca_similarity_score))
+        cca_similarity_score = self.computeCCASimilarity(tensor1, tensor2, tensor1_c, tensor2_c,
+                                                         component_num).clone().detach()
+        # print("cca_similarity_score: " + str(cca_similarity_score))
         return cca_similarity_score
 
     def computeCCASimilarity(self, A, B, tensor1_c, tensor2_c, comonentNumber=15):
@@ -379,7 +415,8 @@ class CCAComparator(Comparator):
         return (2 * A_to_A_c * B_to_B_c) / (A_to_A_c + B_to_B_c)
 
     def totalSim(self, A, A_c, B_c, comonentNumber=15):
-        return (torch.max(torch.tensor([self.sim(A[:, i], A_c, B_c, comonentNumber) for i in range(A.shape[1])])))# / A.shape[0]
+        return (torch.max(
+            torch.tensor([self.sim(A[:, i], A_c, B_c, comonentNumber) for i in range(A.shape[1])])))  # / A.shape[0]
 
     def cosSim(self, A_i, P_k):
         nom = (torch.dot(A_i, P_k))
@@ -388,7 +425,9 @@ class CCAComparator(Comparator):
         return res
 
     def sim(self, a_i, P, Q, comonentNumber=15):
-        weights = torch.tensor([torch.dot(P[:, k], Q[:, k]) / (torch.linalg.norm(P[:, k] * torch.linalg.norm(Q[:, k]))) for k in range(comonentNumber)])
+        weights = torch.tensor(
+            [torch.dot(P[:, k], Q[:, k]) / (torch.linalg.norm(P[:, k] * torch.linalg.norm(Q[:, k]))) for k in
+             range(comonentNumber)])
         sims = (torch.tensor([self.cosSim(a_i, P[:, k]) for k in range(comonentNumber)]))
         return torch.dot(sims, weights)
 
@@ -406,7 +445,7 @@ class PCAComparator(Comparator):
         '''Pass'''
         super().__init__(metric=metric,
                          approach=approach,
-                         #tokenizer=tokenizer,
+                         # tokenizer=tokenizer,
                          model=model)
         self.topic_num = topic_num
         self.splitting = splitting
@@ -440,11 +479,12 @@ class PCAComparator(Comparator):
         embeddings_second_2d = self.load_cached_embedding(second_translated)
 
         similiarity_vector = torch.tensor(
-            [self.compute_similarity_score(embeddings_first_2d_stacked, tensor1, component_num(embeddings_first_2d_stacked)) for tensor1 in
+            [self.compute_similarity_score(embeddings_first_2d_stacked, tensor1,
+                                           component_num(embeddings_first_2d_stacked)) for tensor1 in
              embeddings_second_2d.values()])
 
-        #min_val, min_ind = torch.min(similiarity_vector, dim=0)
-        #list_of_sections = list(embeddings_second_2d.keys())
+        # min_val, min_ind = torch.min(similiarity_vector, dim=0)
+        # list_of_sections = list(embeddings_second_2d.keys())
         lowest_sections = get_three_lowest_similarities(similiarity_vector, embeddings_second_2d)
         if self.doPlots:
             plot_histogram(similiarity_vector, 'PCA')
@@ -462,12 +502,14 @@ class PCAComparator(Comparator):
             component_num = lambda x: round(x.shape[1] * self.topic_num)  # topic_num should be between 0 and 1
         similarity_scores = {}
 
-        similarity_matrix = torch.tensor([[self.compute_similarity_score(tensor1, tensor2, component_num(tensor1)) for subtitle2, tensor2 in embeddings_second_2d.items()] for subtitle1, tensor1 in embeddings_first_2d.items()])
+        similarity_matrix = torch.tensor([[self.compute_similarity_score(tensor1, tensor2, component_num(tensor1)) for
+                                           subtitle2, tensor2 in embeddings_second_2d.items()] for subtitle1, tensor1 in
+                                          embeddings_first_2d.items()])
         if self.doPlots:
             plot_similarity_heatmap(similarity_matrix, embeddings_second_2d.keys(), embeddings_first_2d.keys(), 'PCA')
         return find_lowest_max_similarity(similarity_matrix, embeddings_first_2d.keys(), embeddings_second_2d.keys())
         # Iterate over both dictionaries and compute similarity scores
-        #'''for subtitle1, tensor1 in embeddings_first_2d.items():
+        # '''for subtitle1, tensor1 in embeddings_first_2d.items():
         #    for subtitle2, tensor2 in embeddings_second_2d.items():
         #        similarity_score = torch.tensor(self.compute_similarity_score(tensor1, tensor2, component_num(tensor1)))
         #        similarity_scores[(subtitle1, subtitle2)] = similarity_score.item()
@@ -475,7 +517,7 @@ class PCAComparator(Comparator):
         ##                      for tensor1 in embeddings_first_2d.values()
         ##                      for tensor2 in embeddings_second_2d.values()])
         ##(result.reshape(len(splitted_preprocessed_first.keys()), len(splitted_preprocessed_second.keys()))
-        #return similarity_scores, self.get_similarity_matrix(embeddings_first_2d.keys(), embeddings_second_2d.keys())'''
+        # return similarity_scores, self.get_similarity_matrix(embeddings_first_2d.keys(), embeddings_second_2d.keys())'''
 
     def get_similarity_scores_per_component(self, first_translated, second_translated):
         embeddings_first = [torch.squeeze(self.model.get_embeddings(subset1), dim=0) for subset1 in
@@ -502,9 +544,9 @@ class PCAComparator(Comparator):
         components_relevance = torch.pow((torch.matmul(components_normalized.T, embeddings_second_2d_normalized)), 2)
         components_relevance_sums = torch.max(components_relevance, dim=1)
 
-        #components_relevance_sums_averaged = components_relevance_sums / embeddings_second_2d.shape[0]
+        # components_relevance_sums_averaged = components_relevance_sums / embeddings_second_2d.shape[0]
         return torch.dot(components_relevance_sums[0], weights)
-        #return torch.dot(components_relevance_sums_averaged, weights)
+        # return torch.dot(components_relevance_sums_averaged, weights)
 
     def find_components(self, translated_article_vectors, component_nums):
         component_num = min(component_nums, translated_article_vectors.shape[1])
@@ -536,53 +578,68 @@ class PCAComparator(Comparator):
             return 0
         return torch.dot(component, embedding_second) / (torch.norm(component) * torch.norm(embedding_second))
 
-
 class SimpleDistanceComparator(Comparator):
 
     def __init__(self, metric, approach, model,
-                 splitting, doPlots) -> None:  #self, metric, approach, tokenizer, model, topic_num, splitting
+                 splitting, doPlots) -> None:  # self, metric, approach, tokenizer, model, topic_num, splitting
         '''Pass'''
         super().__init__(metric=metric,
                          approach=approach,
-                         #tokenizer=tokenizer,
+                         # tokenizer=tokenizer,
                          model=model)
         self.splitting = splitting
         self.doPlots = doPlots
 
     def get_similarity(self, first_translated_dict, second_translated_dict):
         if self.approach == 'article_to_article':
-            similarity_matrix = self.get_similarity_matrix(first_translated_dict.values(), second_translated_dict.values())
-            return find_lowest_max_similarity(similarity_matrix, first_translated_dict.keys(), second_translated_dict.keys())
+            similarity_matrix = self.get_similarity_matrix(first_translated_dict.values(),
+                                                           second_translated_dict.values())
+            return find_lowest_max_similarity(similarity_matrix, first_translated_dict.keys(),
+                                              second_translated_dict.keys())
         elif self.approach == 'subsets_to_subsets':
-            embeddings_first_2d, embeddings_second_2d, similarity_matrix = self.get_simple_distance_paarwise(first_translated_dict, second_translated_dict)
+            embeddings_first_2d, embeddings_second_2d, similarity_matrix = self.get_simple_distance_paarwise(
+                first_translated_dict, second_translated_dict)
             print("dimension of the sim matrix: ", similarity_matrix.shape)
             if self.doPlots:
-                plot_similarity_heatmap(similarity_matrix, embeddings_first_2d.keys(), embeddings_second_2d.keys(), 'simple-cosine-distance')
+                plot_similarity_heatmap(similarity_matrix, embeddings_first_2d.keys(), embeddings_second_2d.keys(),
+                                        'simple-cosine-distance')
             return find_lowest_max_similarity(similarity_matrix,
-                                                   embeddings_second_2d.keys(), embeddings_first_2d.keys())
+                                              embeddings_second_2d.keys(), embeddings_first_2d.keys())
         elif self.approach == 'article_to_subset':
             similarity_matrix = self.get_simple_distance_article_to_subset(first_translated_dict,
                                                                            second_translated_dict)
-            #min_val, min_ind = torch.min(similarity_matrix, dim=0)
-            #list_of_sections = list(second_translated_dict.keys())
+            # min_val, min_ind = torch.min(similarity_matrix, dim=0)
+            # list_of_sections = list(second_translated_dict.keys())
             lowest_sections = get_three_lowest_similarities(similarity_matrix, second_translated_dict)
             return lowest_sections
+
+        elif self.approach == 'test':
+            # Alle Ähnlichkeiten zwischen Abschnitten zurückgeben
+            embeddings_first_2d, embeddings_second_2d, similarity_matrix = self.get_simple_distance_paarwise(
+                first_translated_dict, second_translated_dict)
+
+            # Rückgabe der gesamten Ähnlichkeitsmatrix und der zugehörigen Abschnittsnamen
+            return find_all_similarity_pairs(similarity_matrix, embeddings_first_2d.keys(), embeddings_second_2d.keys())
+
 
 
     def get_simple_distance_article_to_subset(self, first_translated_dict, second_translated_dict):
         embeddings_first_2d = self.load_cached_embedding(first_translated_dict)
         embeddings_first_2d_stacked = torch.cat(list(embeddings_first_2d.values()), dim=1)
         embeddings_second_2d = self.load_cached_embedding(second_translated_dict)
-        similiarity_vector = torch.tensor([self.get_similarity_matrix_with_metric(tensor1, embeddings_first_2d_stacked) for tensor1 in embeddings_second_2d.values()])
+        similiarity_vector = torch.tensor(
+            [self.get_similarity_matrix_with_metric(tensor1, embeddings_first_2d_stacked) for tensor1 in
+             embeddings_second_2d.values()])
         if self.doPlots:
             plot_histogram(similiarity_vector, 'cosine-similarity')
         return similiarity_vector
 
-
     def get_simple_distance_paarwise(self, first_translated_dict, second_translated_dict):
         embeddings_first_2d = self.load_cached_embedding(first_translated_dict)
         embeddings_second_2d = self.load_cached_embedding(second_translated_dict)
-        similarity_matrix = torch.tensor([[self.get_similarity_matrix_with_metric(tensor1, tensor2) for tensor1 in embeddings_first_2d.values()] for tensor2 in embeddings_second_2d.values()])
+        similarity_matrix = torch.tensor(
+            [[self.get_similarity_matrix_with_metric(tensor1, tensor2) for tensor1 in embeddings_first_2d.values()] for
+             tensor2 in embeddings_second_2d.values()])
         return embeddings_first_2d, embeddings_second_2d, similarity_matrix
 
     def get_similarity_matrix_with_metric(self, tensor1, tensor2):
