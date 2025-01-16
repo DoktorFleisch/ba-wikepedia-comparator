@@ -21,6 +21,24 @@ def get_en_title():
     return Wp.fetch_en_title()
 
 
+# @app.route('/compare_articles', methods=['POST'])
+# def compare_articles_route():
+#     article_name = request.form['articleName']
+#     recommendations = request.form['recommendations']
+#     selected_recommendations = json.loads(recommendations)
+#
+#     comparison_results = {}
+#     for recommendation in selected_recommendations:
+#         # this is a list of english section names
+#         result = Wp.compare_articles(article_name, recommendation)
+#         # this is a tuple with (reccomendaded section, score)
+#         section_results = Wp.compare_sections(article_name, recommendation)
+#         recommended_section, score = section_results[0][0], section_results[0][2]
+#
+#         comparison_results[recommendation] = result
+#
+#     return jsonify({'comparison_results': comparison_results})
+
 @app.route('/compare_articles', methods=['POST'])
 def compare_articles_route():
     article_name = request.form['articleName']
@@ -29,10 +47,25 @@ def compare_articles_route():
 
     comparison_results = {}
     for recommendation in selected_recommendations:
-        result = Wp.compare_articles(article_name, recommendation)
-        comparison_results[recommendation] = result
+        # this is a list of english section names
+        results = Wp.compare_articles(article_name, recommendation)
+        # this is a tuple with (recommended section, score)
+        section_results = Wp.compare_sections(article_name, recommendation, results)  # Pass results as section_names
+
+        # Prepare the formatted results
+        formatted_results = []
+        for i, result in enumerate(results):
+            if i < len(section_results):  # Ensure no index out of range
+                recommended_section, _, score = section_results[i]
+                formatted_results.append(f"{result} {recommended_section} {score}")
+            else:
+                formatted_results.append(f"{result} No matching section found")
+
+        comparison_results[recommendation] = formatted_results
 
     return jsonify({'comparison_results': comparison_results})
+
+
 
 # Old, single handed comparison
 

@@ -1,7 +1,7 @@
 import wikipediaapi
 from flask import request, jsonify
 from analyzer.Translator import FaceBookTranslatorProvider
-from analyzer.Comparator import PCAComparator
+from analyzer.Comparator import PCAComparator, SimpleDistanceComparator
 from analyzer.WikiAnalyzer import WikiAnalyzer
 from analyzer.EmbeddingService import SentenceTransformerEmbeddingService
 from analyzer.ArticleProcessor import ArticleProcessor
@@ -43,6 +43,30 @@ def get_sections_content(article_name, section_names):
         else:
             content.append(None)
     return content
+
+
+def compare_sections(article1, article2, section_names):
+    article_processor = ArticleProcessor(article1, article2, 'de', 'en',
+                                         'en', translator_de_en)
+    comparator = SimpleDistanceComparator(metric="average",
+                                          approach="all_subsets",
+                                          model=sentence_transformer_service,
+                                          splitting="sentence-wise",
+                                          doPlots=False)
+
+    wikianalyzer = WikiAnalyzer(article_processor=article_processor, comparator=comparator)
+
+    results = wikianalyzer.analyze()
+
+    result_list = []
+
+    for chapter in section_names:
+        chapter_tuples = [tup for tup in results if chapter in tup[1]]
+        if chapter_tuples:
+            max_similarity_tuple = max(chapter_tuples, key=lambda x: x[2])
+            result_list.append(max_similarity_tuple)
+
+    return result_list
 
 
 def compare_articles(article1, article2):

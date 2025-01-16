@@ -613,7 +613,7 @@ class SimpleDistanceComparator(Comparator):
             lowest_sections = get_three_lowest_similarities(similarity_matrix, second_translated_dict)
             return lowest_sections
 
-        elif self.approach == 'test':
+        elif self.approach == 'all_subsets':
             # Alle Ähnlichkeiten zwischen Abschnitten zurückgeben
             embeddings_first_2d, embeddings_second_2d, similarity_matrix = self.get_simple_distance_paarwise(
                 first_translated_dict, second_translated_dict)
