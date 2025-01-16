@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-import Controlling as Ctrl
+import Wikipedia as Wp
 import GraphComponent
 import json
 
@@ -13,12 +13,12 @@ def index():
 
 @app.route('/fetch_article', methods=['POST'])
 def fetch_article():
-    return Ctrl.fetch_article()
+    return Wp.fetch_article()
 
 # could be removed later, if not needed again
 @app.route('/get_en_title', methods=['POST'])
 def get_en_title():
-    return Ctrl.fetch_en_title()
+    return Wp.fetch_en_title()
 
 
 @app.route('/compare_articles', methods=['POST'])
@@ -29,7 +29,7 @@ def compare_articles_route():
 
     comparison_results = {}
     for recommendation in selected_recommendations:
-        result = Ctrl.compare_articles(article_name, recommendation)
+        result = Wp.compare_articles(article_name, recommendation)
         comparison_results[recommendation] = result
 
     return jsonify({'comparison_results': comparison_results})
@@ -49,7 +49,7 @@ def compare_articles_route():
 def get_section_content():
     article_name = request.form['articleName']
     section_names = request.form['sectionNames'].split(',')
-    content = Ctrl.get_section_content(article_name, section_names)
+    content = Wp.get_sections_content(article_name, section_names)
 
     return jsonify({'content': content})
 
@@ -57,9 +57,9 @@ def get_section_content():
 @app.route('/get_recommendations', methods=['POST'])
 def get_recommendations():
     article_name = request.form['articleName']
-    article_en_name = Ctrl.get_title_en(article_name)
-    wiki = Ctrl.get_wiki('en')
-    article = Ctrl.get_article_object_en(article_en_name)
+    article_en_name = Wp.get_title_en(article_name)
+    wiki = Wp.get_wiki('en')
+    article = Wp.get_article_object_en(article_en_name)
     graph = GraphComponent.make_graph_optimized(article, wiki)
     recommendations = GraphComponent.pagerank(graph)
 

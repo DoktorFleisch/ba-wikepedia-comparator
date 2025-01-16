@@ -1,3 +1,105 @@
+Amsterdam,Gemeinsame Normdatei
+Amsterdam,Internet Archive
+Amsterdam,Library of Congress Control Number
+Amsterdam,Web-Archivierung
+Pythons,Gemeinsame Normdatei
+Pythons,Internet Archive
+Pythons,Web-Archivierung
+Kommandozeileninterpreter,.Net-Framework
+Kommandozeileninterpreter,AmigaOS
+Kommandozeileninterpreter,Betriebssystem
+Kommandozeileninterpreter,Emacs
+Kommandozeileninterpreter,Englische Sprache
+Kommandozeileninterpreter,Grafische Benutzeroberfläche
+Kommandozeileninterpreter,IPython
+Kommandozeileninterpreter,Interpreter
+Kommandozeileninterpreter,Kommandozeile
+Kommandozeileninterpreter,Lisp
+Kommandozeileninterpreter,Microsoft Windows
+Kommandozeileninterpreter,Objektorientierte Programmierung
+Kommandozeileninterpreter,Perl (Programmiersprache)
+Kommandozeileninterpreter,Ruby (Programmiersprache)
+Kommandozeileninterpreter,Shell (Betriebssystem)
+Kommandozeileninterpreter,Skriptsprache
+Emacs,AmigaOS
+Emacs,Betriebssystem
+Emacs,C (Programmiersprache)
+Emacs,Gemeinsame Normdatei
+Emacs,Integrierte Entwicklungsumgebung
+Emacs,Interpreter
+Emacs,Java (Programmiersprache)
+Emacs,Kommandozeileninterpreter
+Emacs,Library of Congress Control Number
+Emacs,Lisp
+Emacs,Liste der IPA-Zeichen
+Emacs,MacOS
+Emacs,Microsoft Windows
+Emacs,Objektorientierte Programmierung
+Emacs,Paketverwaltung
+Emacs,Parser
+Emacs,Perl (Programmiersprache)
+Emacs,Plattformunabhängigkeit
+Emacs,Syntaxfehler
+Emacs,Unix
+Emacs,Version (Software)
+Identität (Logik),Englische Sprache
+Identität (Logik),Mengenlehre
+Iteration,Blockstruktur
+Dynamische Programmiersprache,Closure (Funktion)
+Dynamische Programmiersprache,Dynamische Typisierung
+Dynamische Programmiersprache,Funktionale Programmierung
+Dynamische Programmiersprache,Groovy
+Dynamische Programmiersprache,Höhere Programmiersprache
+Dynamische Programmiersprache,Internet Archive
+Dynamische Programmiersprache,Just-in-time-Kompilierung
+Dynamische Programmiersprache,Lisp
+Dynamische Programmiersprache,PHP
+Dynamische Programmiersprache,Perl (Programmiersprache)
+Dynamische Programmiersprache,Reflexion (Programmierung)
+Dynamische Programmiersprache,Ruby (Programmiersprache)
+Dynamische Programmiersprache,Smalltalk (Programmiersprache)
+Dynamische Programmiersprache,Tcl
+Dynamische Programmiersprache,Web-Archivierung
+MacOS,Betriebssystem
+MacOS,C++
+MacOS,C (Programmiersprache)
+MacOS,Compiler
+MacOS,Englische Sprache
+MacOS,Gemeinsame Normdatei
+MacOS,Grafische Benutzeroberfläche
+MacOS,Höhere Programmiersprache
+MacOS,Internet Archive
+MacOS,Java-Laufzeitumgebung
+MacOS,Java (Programmiersprache)
+MacOS,Library of Congress Control Number
+MacOS,Lizenz
+MacOS,Microsoft Windows
+MacOS,PHP
+MacOS,Perl (Programmiersprache)
+MacOS,Ruby (Programmiersprache)
+MacOS,Tcl
+MacOS,Unix
+MacOS,Version (Software)
+MacOS,Web-Archivierung
+Algol 68,Blockstruktur
+Algol 68,C++
+Algol 68,Compiler
+Algol 68,Gemeinsame Normdatei
+Algol 68,Internet Archive
+Algol 68,Web-Archivierung
+Parser,Compiler
+Parser,Englische Sprache
+Parser,Interpreter
+Parser,Kommandozeileninterpreter
+Parser,Liste der IPA-Zeichen
+Parser,Zeichenkette
+Mobiltelefon,Englische Sprache
+Mobiltelefon,Gemeinsame Normdatei
+Mobiltelefon,Internet Archive
+Mobiltelefon,Library of Congress Control Number
+Mobiltelefon,Mikrocontroller
+Mobiltelefon,Symbian-Plattform
+Mobiltelefon,Web-Archivierung
 YouTube,Betriebssystem
 YouTube,Gemeinsame Normdatei
 YouTube,Hypertext Transfer Protocol
@@ -6,225 +108,405 @@ YouTube,Library of Congress Control Number
 YouTube,Liste der IPA-Zeichen
 YouTube,Mobiltelefon
 YouTube,Web-Archivierung
-IDLE,Betriebssystem
-IDLE,Guido van Rossum
-IDLE,Integrierte Entwicklungsumgebung
-IDLE,Interpreter
-IDLE,MacOS
-IDLE,Microsoft Windows
-IDLE,Plattformunabhängigkeit
-IDLE,Python Software Foundation
-IDLE,Tkinter
-IDLE,Unix
-IDLE,Version (Software)
-IDLE,Wrapper (Software)
-Flask,Betriebssystem
-Flask,Django (Framework)
-Flask,Plattformunabhängigkeit
-Flask,SQLAlchemy
-Flask,Version (Software)
-Flask,Web2py
-Flask,Web Server Gateway Interface
-Imperative Programmierung,C++
-Imperative Programmierung,C (Programmiersprache)
-Imperative Programmierung,Haskell (Programmiersprache)
-Imperative Programmierung,Java (Programmiersprache)
-Imperative Programmierung,Objektorientierte Programmierung
-Imperative Programmierung,Programmierparadigma
-Imperative Programmierung,Prozedurale Programmierung
-Imperative Programmierung,Quellcode
-Thread (Informatik),.Net-Framework
-Thread (Informatik),AmigaOS
-Thread (Informatik),Betriebssystem
-Thread (Informatik),Englische Sprache
-Thread (Informatik),Grafische Benutzeroberfläche
-Thread (Informatik),Java (Programmiersprache)
-Thread (Informatik),Liste der IPA-Zeichen
-Thread (Informatik),Stapelspeicher
-Thread (Informatik),Unix
-Reflexion (Programmierung),.Net-Framework
-Reflexion (Programmierung),Datentyp
-Reflexion (Programmierung),Englische Sprache
-Reflexion (Programmierung),Internet Archive
-Reflexion (Programmierung),IronPython
-Reflexion (Programmierung),Java (Programmiersprache)
-Reflexion (Programmierung),Klasse (Objektorientierung)
-Reflexion (Programmierung),Lisp
-Reflexion (Programmierung),Objektorientierte Programmierung
-Reflexion (Programmierung),PHP
-Reflexion (Programmierung),Ruby (Programmiersprache)
-Reflexion (Programmierung),Smalltalk (Programmiersprache)
-Reflexion (Programmierung),Tcl
-Reflexion (Programmierung),Typsicherheit
-Reflexion (Programmierung),Web-Archivierung
-Betriebssystem,Amoeba (Betriebssystem)
-Betriebssystem,C (Programmiersprache)
-Betriebssystem,Compiler
-Betriebssystem,Englische Sprache
-Betriebssystem,Gemeinsame Normdatei
-Betriebssystem,Grafische Benutzeroberfläche
-Betriebssystem,Internet Archive
-Betriebssystem,Interpreter
-Betriebssystem,Interrupt
-Betriebssystem,MacOS
-Betriebssystem,Microsoft Windows
-Betriebssystem,Mobiltelefon
-Betriebssystem,Plattformunabhängigkeit
-Betriebssystem,Smalltalk (Programmiersprache)
-Betriebssystem,Unix
-Betriebssystem,Web-Archivierung
-IronPython,.Net-Framework
-IronPython,Betriebssystem
-IronPython,Interpreter
-IronPython,Just-in-time-Kompilierung
-IronPython,Jython
-IronPython,Lizenz
-IronPython,Mono (Software)
-IronPython,Plattformunabhängigkeit
-IronPython,Plug-in
-IronPython,PyPy
-IronPython,Version (Software)
-Laufzeitfehler,Ausnahmebehandlung
-Laufzeitfehler,Betriebssystem
-Laufzeitfehler,C (Programmiersprache)
-Laufzeitfehler,Compiler
-Laufzeitfehler,Englische Sprache
-Laufzeitfehler,Garbage Collection
-Laufzeitfehler,Syntaxfehler
-Laufzeitfehler,Typisierung (Informatik)
-LibreOffice,Apache OpenOffice
-LibreOffice,Betriebssystem
-LibreOffice,C++
-LibreOffice,Gemeinsame Normdatei
-LibreOffice,Internet Archive
-LibreOffice,Java-Laufzeitumgebung
-LibreOffice,Java (Programmiersprache)
-LibreOffice,Library of Congress Control Number
-LibreOffice,Liste der IPA-Zeichen
-LibreOffice,Lizenz
-LibreOffice,MacOS
-LibreOffice,Microsoft Windows
-LibreOffice,Paketverwaltung
-LibreOffice,Plattformunabhängigkeit
-LibreOffice,Plug-in
-LibreOffice,Quellcode
-LibreOffice,Unix
-LibreOffice,Version (Software)
-LibreOffice,Web-Archivierung
-LibreOffice,Wikipedia:Lesenswerte Artikel
+Skriptsprache,Betriebssystem
+Skriptsprache,Blender (Software)
+Skriptsprache,C (Programmiersprache)
+Skriptsprache,Compiler
+Skriptsprache,Currying
+Skriptsprache,Dynamische Typisierung
+Skriptsprache,Emacs
+Skriptsprache,Funktionale Programmierung
+Skriptsprache,GIMP
+Skriptsprache,Groovy
+Skriptsprache,Guido van Rossum
+Skriptsprache,Imperative Programmierung
+Skriptsprache,Implementierung
+Skriptsprache,Interpreter
+Skriptsprache,IronPython
+Skriptsprache,Java (Programmiersprache)
+Skriptsprache,Jython
+Skriptsprache,Klasse (Objektorientierung)
+Skriptsprache,Kommandozeileninterpreter
+Skriptsprache,LibreOffice
+Skriptsprache,Lisp
+Skriptsprache,MacOS
+Skriptsprache,Objektorientierte Programmierung
+Skriptsprache,PHP
+Skriptsprache,Pattern Matching
+Skriptsprache,Perl (Programmiersprache)
+Skriptsprache,Plug-in
+Skriptsprache,Programmierparadigma
+Skriptsprache,PyPy
+Skriptsprache,Python Software Foundation
+Skriptsprache,Ruby (Programmiersprache)
+Skriptsprache,Starke Typisierung
+Skriptsprache,Tcl
+Skriptsprache,Tk (Toolkit)
+Skriptsprache,Typisierung (Informatik)
+Skriptsprache,Unix
+Skriptsprache,Vererbung (Programmierung)
+Skriptsprache,Vim
+Skriptsprache,Wiki
+Peter J. Landin,Funktionale Programmierung
+Peter J. Landin,Haskell (Programmiersprache)
+Peter J. Landin,Internet Archive
+Peter J. Landin,Leerraum
+Peter J. Landin,Miranda (Programmiersprache)
+Peter J. Landin,Quicksort
+Peter J. Landin,Tony Hoare
+Peter J. Landin,Web-Archivierung
+Matplotlib,Betriebssystem
+Matplotlib,Grafische Benutzeroberfläche
+Matplotlib,Plattformunabhängigkeit
+Matplotlib,Tk (Toolkit)
+Matplotlib,Version (Software)
+Guido van Rossum,ABC (Programmiersprache)
+Guido van Rossum,C (Programmiersprache)
+Guido van Rossum,Centrum Wiskunde & Informatica
+Guido van Rossum,Englische Sprache
+Guido van Rossum,Gemeinsame Normdatei
+Guido van Rossum,Library of Congress Control Number
+Guido van Rossum,Monty Python’s Flying Circus
+Guido van Rossum,Skriptsprache
+Guido van Rossum,Unix
+Continuation-Passing Style,Fakultät (Mathematik)
+Continuation-Passing Style,Stapelspeicher
+C (Programmiersprache),Algol 68
+C (Programmiersprache),Betriebssystem
+C (Programmiersprache),C++
+C (Programmiersprache),Compiler
+C (Programmiersprache),Datentyp
+C (Programmiersprache),Englische Sprache
+C (Programmiersprache),Gemeinsame Normdatei
+C (Programmiersprache),Höhere Programmiersprache
+C (Programmiersprache),Imperative Programmierung
+C (Programmiersprache),Implementierung
+C (Programmiersprache),Internet Archive
+C (Programmiersprache),Java (Programmiersprache)
+C (Programmiersprache),Komplexe Zahl
+C (Programmiersprache),Library of Congress Control Number
+C (Programmiersprache),Microsoft Windows
+C (Programmiersprache),Mikrocontroller
+C (Programmiersprache),PHP
+C (Programmiersprache),Perl (Programmiersprache)
+C (Programmiersprache),Plattformunabhängigkeit
+C (Programmiersprache),Programmierparadigma
+C (Programmiersprache),Prozedurale Programmierung
+C (Programmiersprache),PyPy
+C (Programmiersprache),Schlüsselwort (Programmierung)
+C (Programmiersprache),Strukturierte Programmierung
+C (Programmiersprache),Typisierung (Informatik)
+C (Programmiersprache),Typsicherheit
+C (Programmiersprache),Unix
+C (Programmiersprache),Web-Archivierung
+C (Programmiersprache),Zeichenkette
+Internet Archive,Amsterdam
+Internet Archive,Englische Sprache
+Internet Archive,Gemeinsame Normdatei
+Internet Archive,Library of Congress Control Number
+Internet Archive,Web-Archivierung
+Internet Archive,YouTube
+Blender (Software),AmigaOS
+Blender (Software),Betriebssystem
+Blender (Software),C++
+Blender (Software),C (Programmiersprache)
+Blender (Software),Gemeinsame Normdatei
+Blender (Software),Grafische Benutzeroberfläche
+Blender (Software),Internet Archive
+Blender (Software),Library of Congress Control Number
+Blender (Software),MacOS
+Blender (Software),Skriptsprache
+Blender (Software),Version (Software)
+Blender (Software),Web-Archivierung
+Blender (Software),YouTube
+Englische Sprache,Gemeinsame Normdatei
+Englische Sprache,Liste der IPA-Zeichen
+Microsoft Windows,.Net-Framework
+Microsoft Windows,Betriebssystem
+Microsoft Windows,C++
+Microsoft Windows,C (Programmiersprache)
+Microsoft Windows,Englische Sprache
+Microsoft Windows,Gemeinsame Normdatei
+Microsoft Windows,Grafische Benutzeroberfläche
+Microsoft Windows,Internet Archive
+Microsoft Windows,Liste der IPA-Zeichen
+Microsoft Windows,Lizenz
+Microsoft Windows,MacOS
+Microsoft Windows,Version (Software)
+Microsoft Windows,Web-Archivierung
+Quicksort,Englische Sprache
+Quicksort,Feld (Datentyp)
+Quicksort,Stapelspeicher
+Höhere Programmiersprache,Betriebssystem
+Höhere Programmiersprache,C++
+Höhere Programmiersprache,C (Programmiersprache)
+Höhere Programmiersprache,Compiler
+Höhere Programmiersprache,Datentyp
+Höhere Programmiersprache,Gemeinsame Normdatei
+Höhere Programmiersprache,Interpreter
+Höhere Programmiersprache,Java (Programmiersprache)
+Höhere Programmiersprache,Just-in-time-Kompilierung
+Höhere Programmiersprache,Lisp
+Höhere Programmiersprache,PHP
+Höhere Programmiersprache,Ruby (Programmiersprache)
+Modula-3,Ausnahmebehandlung
+Modula-3,C++
+Modula-3,Datentyp
+Modula-3,Garbage Collection
+Modula-3,Gemeinsame Normdatei
+Modula-3,Imperative Programmierung
+Modula-3,Internet Archive
+Modula-3,Objektorientierte Programmierung
+Modula-3,Thread (Informatik)
+Modula-3,Web-Archivierung
+Modula-3,Zeichenkette
+QGIS,Betriebssystem
+QGIS,C++
+QGIS,Grafische Benutzeroberfläche
+QGIS,Internet Archive
+QGIS,MacOS
+QGIS,Microsoft Windows
+QGIS,PyQt
+QGIS,Unix
+QGIS,Version (Software)
+QGIS,Web-Archivierung
+.Net-Framework,APL (Programmiersprache)
+.Net-Framework,Betriebssystem
+.Net-Framework,C++
+.Net-Framework,C (Programmiersprache)
+.Net-Framework,Datentyp
+.Net-Framework,Framework
+.Net-Framework,Garbage Collection
+.Net-Framework,Implementierung
+.Net-Framework,Integrierte Entwicklungsumgebung
+.Net-Framework,Java-Laufzeitumgebung
+.Net-Framework,Java (Programmiersprache)
+.Net-Framework,Just-in-time-Kompilierung
+.Net-Framework,Klasse (Objektorientierung)
+.Net-Framework,Kommandozeile
+.Net-Framework,MacOS
+.Net-Framework,Microsoft Windows
+.Net-Framework,Mono (Software)
+.Net-Framework,Plattformunabhängigkeit
+.Net-Framework,Plug-in
+.Net-Framework,Reflexion (Programmierung)
+.Net-Framework,Skriptsprache
+.Net-Framework,Typsystem
+.Net-Framework,Unicode
+.Net-Framework,Version (Software)
+.Net-Framework,Wrapper (Software)
+.Net-Framework,Zeichenkette
+Kommandozeile,Betriebssystem
+Kommandozeile,Englische Sprache
+Kommandozeile,Grafische Benutzeroberfläche
+Kommandozeile,Interpreter
+Kommandozeile,Kommandozeileninterpreter
+Kommandozeile,PHP
+Kommandozeile,Perl (Programmiersprache)
+Kommandozeile,Shell (Betriebssystem)
+Kommandozeile,Skriptsprache
+Kommandozeile,Unix
+Kommandozeile,Zeichenkette
+Turtle-Grafik,C (Programmiersprache)
+Turtle-Grafik,Gemeinsame Normdatei
+Turtle-Grafik,Grafische Benutzeroberfläche
+Turtle-Grafik,Stapelspeicher
+Groovy,Assoziatives Datenfeld
+Groovy,Betriebssystem
+Groovy,Dynamische Typisierung
+Groovy,Eclipse (IDE)
+Groovy,Emacs
+Groovy,Imperative Programmierung
+Groovy,IntelliJ IDEA
+Groovy,Internet Archive
+Groovy,Java (Programmiersprache)
+Groovy,Lizenz
+Groovy,MacOS
+Groovy,Microsoft Windows
+Groovy,Plattformunabhängigkeit
+Groovy,Programmierparadigma
+Groovy,Regulärer Ausdruck
+Groovy,Ruby (Programmiersprache)
+Groovy,Skriptsprache
+Groovy,Starke Typisierung
+Groovy,Typisierung (Informatik)
+Groovy,Version (Software)
+Groovy,Vim
+Groovy,Web-Archivierung
+Unix,Betriebssystem
+Unix,C (Programmiersprache)
+Unix,Compiler
+Unix,Englische Sprache
+Unix,Gemeinsame Normdatei
+Unix,Grafische Benutzeroberfläche
+Unix,Kommandozeile
+Unix,Liste der IPA-Zeichen
+Unix,Lizenz
+Unix,MacOS
+Unix,Microsoft Windows
+Unix,Skriptsprache
+Datentyp,Algol 68
+Datentyp,Arithmetik
+Datentyp,C++
+Datentyp,Compiler
+Datentyp,Dynamische Programmiersprache
+Datentyp,Gemeinsame Normdatei
+Datentyp,Menge (Datenstruktur)
+Datentyp,Menge (Mathematik)
+Datentyp,Objektorientierte Programmierung
+Datentyp,Skriptsprache
+Datentyp,Tupel (Informatik)
+Datentyp,Typisierung (Informatik)
+Datentyp,Typsicherheit
+Datentyp,Unicode
+Datentyp,Zeichenkette
+Compiler,Betriebssystem
+Compiler,C++
+Compiler,C (Programmiersprache)
+Compiler,Datentyp
+Compiler,Englische Sprache
+Compiler,Feld (Datentyp)
+Compiler,Gemeinsame Normdatei
+Compiler,Höhere Programmiersprache
+Compiler,Internet Archive
+Compiler,Interpreter
+Compiler,Java (Programmiersprache)
+Compiler,Just-in-time-Kompilierung
+Compiler,Leerraum
+Compiler,Parser
+Compiler,Programmierparadigma
+Compiler,Schlüsselwort (Programmierung)
+Compiler,Syntaxfehler
+Compiler,Thread (Informatik)
+Compiler,Web-Archivierung
+Compiler,Zeichenkette
+Multipurpose Internet Mail Extensions,Hypertext Transfer Protocol
+Project Jupyter,Haskell (Programmiersprache)
+Project Jupyter,IPython
+Project Jupyter,Kommandozeileninterpreter
+Project Jupyter,Liste der IPA-Zeichen
+Project Jupyter,Ruby (Programmiersprache)
+Project Jupyter,Shell (Betriebssystem)
+Perl (Programmiersprache),Allzweck-Programmiersprache
+Perl (Programmiersprache),Assoziatives Datenfeld
+Perl (Programmiersprache),Ausnahmebehandlung
+Perl (Programmiersprache),Betriebssystem
+Perl (Programmiersprache),Blockstruktur
+Perl (Programmiersprache),C++
+Perl (Programmiersprache),C (Programmiersprache)
+Perl (Programmiersprache),Closure (Funktion)
+Perl (Programmiersprache),Common Gateway Interface
+Perl (Programmiersprache),Compiler
+Perl (Programmiersprache),Dynamische Typisierung
+Perl (Programmiersprache),Feld (Datentyp)
+Perl (Programmiersprache),Framework
+Perl (Programmiersprache),Gemeinsame Normdatei
+Perl (Programmiersprache),Interpreter
+Perl (Programmiersprache),Iteration
+Perl (Programmiersprache),Java (Programmiersprache)
+Perl (Programmiersprache),Leerraum
+Perl (Programmiersprache),Lisp
+Perl (Programmiersprache),Liste der IPA-Zeichen
+Perl (Programmiersprache),Lizenz
+Perl (Programmiersprache),Objektorientierte Programmierung
+Perl (Programmiersprache),PHP
+Perl (Programmiersprache),Parser
+Perl (Programmiersprache),Plattformunabhängigkeit
+Perl (Programmiersprache),Programmierparadigma
+Perl (Programmiersprache),Prozedurale Programmierung
+Perl (Programmiersprache),Regulärer Ausdruck
+Perl (Programmiersprache),Ruby (Programmiersprache)
+Perl (Programmiersprache),Skriptsprache
+Perl (Programmiersprache),Smalltalk (Programmiersprache)
+Perl (Programmiersprache),Syntaxfehler
+Perl (Programmiersprache),Thread (Informatik)
+Perl (Programmiersprache),Typisierung (Informatik)
+Perl (Programmiersprache),Typsystem
+Perl (Programmiersprache),Unicode
+Perl (Programmiersprache),Unix
+Perl (Programmiersprache),Vererbung (Programmierung)
+Perl (Programmiersprache),Version (Software)
+Perl (Programmiersprache),Zeichenkette
+SciPy,Betriebssystem
+SciPy,C (Programmiersprache)
+SciPy,Datentyp
+SciPy,Feld (Datentyp)
+SciPy,IPython
+SciPy,Matplotlib
+SciPy,NumPy
+SciPy,Plattformunabhängigkeit
+SciPy,Version (Software)
+Wrapper (Software),Java (Programmiersprache)
+Wrapper (Software),Objektorientierte Programmierung
+Library of Congress Control Number,Gemeinsame Normdatei
+Duck-Typing,C++
+Duck-Typing,Dynamische Typisierung
+Duck-Typing,Groovy
+Duck-Typing,Java (Programmiersprache)
+Duck-Typing,Klasse (Objektorientierung)
+Duck-Typing,Objektorientierte Programmierung
+Duck-Typing,PHP
+Duck-Typing,Ruby (Programmiersprache)
+Duck-Typing,Skriptsprache
+EVE Online,Internet Archive
+EVE Online,Microsoft Windows
+EVE Online,Web-Archivierung
+University of Waterloo,Gemeinsame Normdatei
+University of Waterloo,Library of Congress Control Number
+University of Waterloo,PHP
 Menge (Mathematik),Gemeinsame Normdatei
 Menge (Mathematik),Internet Archive
 Menge (Mathematik),Komplexe Zahl
 Menge (Mathematik),Mengenlehre
 Menge (Mathematik),Web-Archivierung
-CLU (Programmiersprache),Ausnahmebehandlung
-CLU (Programmiersprache),Betriebssystem
-CLU (Programmiersprache),C++
-CLU (Programmiersprache),Feld (Datentyp)
-CLU (Programmiersprache),Java (Programmiersprache)
-CLU (Programmiersprache),Komplexe Zahl
-CLU (Programmiersprache),Lisp
-CLU (Programmiersprache),Objektorientierte Programmierung
-CLU (Programmiersprache),Ruby (Programmiersprache)
-CLU (Programmiersprache),Vererbung (Programmierung)
-Jython,Betriebssystem
-Jython,C (Programmiersprache)
-Jython,Java (Programmiersprache)
-Jython,Lizenz
-Jython,Plattformunabhängigkeit
-Jython,Python Software Foundation
-Jython,Softwareseitiges Multithreading
-Jython,Version (Software)
-Haskell (Programmiersprache),APL (Programmiersprache)
-Haskell (Programmiersprache),Betriebssystem
-Haskell (Programmiersprache),C++
-Haskell (Programmiersprache),C (Programmiersprache)
-Haskell (Programmiersprache),Compiler
-Haskell (Programmiersprache),Currying
-Haskell (Programmiersprache),Datentyp
-Haskell (Programmiersprache),Einrückungsstil
-Haskell (Programmiersprache),Englische Sprache
-Haskell (Programmiersprache),Fakultät (Mathematik)
-Haskell (Programmiersprache),Funktionale Programmierung
-Haskell (Programmiersprache),Gemeinsame Normdatei
-Haskell (Programmiersprache),Haskell Brooks Curry
-Haskell (Programmiersprache),Implementierung
-Haskell (Programmiersprache),Internet Archive
-Haskell (Programmiersprache),Java (Programmiersprache)
-Haskell (Programmiersprache),Menge (Mathematik)
-Haskell (Programmiersprache),Microsoft Windows
-Haskell (Programmiersprache),Miranda (Programmiersprache)
-Haskell (Programmiersprache),PHP
-Haskell (Programmiersprache),Perl (Programmiersprache)
-Haskell (Programmiersprache),Plattformunabhängigkeit
-Haskell (Programmiersprache),Programmierparadigma
-Haskell (Programmiersprache),Quicksort
-Haskell (Programmiersprache),Starke Typisierung
-Haskell (Programmiersprache),Typisierung (Informatik)
-Haskell (Programmiersprache),Version (Software)
-Haskell (Programmiersprache),Web-Archivierung
-Cobra (Programmiersprache),.Net-Framework
-Cobra (Programmiersprache),Betriebssystem
-Cobra (Programmiersprache),Dynamische Typisierung
-Cobra (Programmiersprache),Imperative Programmierung
-Cobra (Programmiersprache),Lizenz
-Cobra (Programmiersprache),Mono (Software)
-Cobra (Programmiersprache),Objektorientierte Programmierung
-Cobra (Programmiersprache),Programmierparadigma
-Cobra (Programmiersprache),Starke Typisierung
-Cobra (Programmiersprache),Typisierung (Informatik)
-Cobra (Programmiersprache),Version (Software)
-Symbian-Plattform,Betriebssystem
-Symbian-Plattform,C++
-Symbian-Plattform,Internet Archive
-Symbian-Plattform,Java (Programmiersprache)
-Symbian-Plattform,Liste der IPA-Zeichen
-Symbian-Plattform,Lizenz
-Symbian-Plattform,Mobiltelefon
-Symbian-Plattform,Relationale Datenbank
-Symbian-Plattform,Version (Software)
-Symbian-Plattform,Web-Archivierung
-Blockstruktur,Einrückungsstil
-GIMP,AmigaOS
-GIMP,Betriebssystem
-GIMP,C (Programmiersprache)
-GIMP,Common Gateway Interface
-GIMP,Compiler
-GIMP,Englische Sprache
-GIMP,Gemeinsame Normdatei
-GIMP,Internet Archive
-GIMP,Interpreter
-GIMP,Library of Congress Control Number
-GIMP,MacOS
-GIMP,Maschinelles Lernen
-GIMP,Microsoft Windows
-GIMP,Perl (Programmiersprache)
-GIMP,Plug-in
-GIMP,Ruby (Programmiersprache)
-GIMP,Tcl
-GIMP,Version (Software)
-GIMP,Web-Archivierung
-Dart (Programmiersprache),Ausnahmebehandlung
-Dart (Programmiersprache),Betriebssystem
-Dart (Programmiersprache),Dynamische Typisierung
-Dart (Programmiersprache),Integrierte Entwicklungsumgebung
-Dart (Programmiersprache),Internet Archive
-Dart (Programmiersprache),Just-in-time-Kompilierung
-Dart (Programmiersprache),Lizenz
-Dart (Programmiersprache),Objektorientierte Programmierung
-Dart (Programmiersprache),Paketverwaltung
-Dart (Programmiersprache),Plattformunabhängigkeit
-Dart (Programmiersprache),Programmierparadigma
-Dart (Programmiersprache),Quellcode
-Dart (Programmiersprache),Smalltalk (Programmiersprache)
-Dart (Programmiersprache),Typisierung (Informatik)
-Dart (Programmiersprache),Version (Software)
-Dart (Programmiersprache),Web-Archivierung
-SPSS,Betriebssystem
-SPSS,MacOS
-SPSS,Microsoft Windows
-SPSS,Version (Software)
-PyObjC,Grafische Benutzeroberfläche
+Haskell Brooks Curry,Currying
+Haskell Brooks Curry,Funktionale Programmierung
+Haskell Brooks Curry,Gemeinsame Normdatei
+Haskell Brooks Curry,Haskell (Programmiersprache)
+Haskell Brooks Curry,Library of Congress Control Number
+Allzweck-Programmiersprache,C++
+Allzweck-Programmiersprache,C (Programmiersprache)
+Allzweck-Programmiersprache,Englische Sprache
+Allzweck-Programmiersprache,Java (Programmiersprache)
+Allzweck-Programmiersprache,Klasse (Objektorientierung)
+Closure (Funktion),C++
+Closure (Funktion),C (Programmiersprache)
+Closure (Funktion),Compiler
+Closure (Funktion),Currying
+Closure (Funktion),Funktionale Programmierung
+Closure (Funktion),Groovy
+Closure (Funktion),Haskell (Programmiersprache)
+Closure (Funktion),Java (Programmiersprache)
+Closure (Funktion),Lisp
+Closure (Funktion),PHP
+Closure (Funktion),Perl (Programmiersprache)
+Closure (Funktion),Reflexion (Programmierung)
+Closure (Funktion),Ruby (Programmiersprache)
+Closure (Funktion),Smalltalk (Programmiersprache)
+Closure (Funktion),Zeichenkette
+Django (Framework),Betriebssystem
+Django (Framework),Don’t repeat yourself
+Django (Framework),Flask
+Django (Framework),Internet Archive
+Django (Framework),Plattformunabhängigkeit
+Django (Framework),Regulärer Ausdruck
+Django (Framework),SQLAlchemy
+Django (Framework),Vererbung (Programmierung)
+Django (Framework),Version (Software)
+Django (Framework),Web-Archivierung
+Django (Framework),Web2py
+Django (Framework),Web Server Gateway Interface
+Civilization IV,MacOS
+Civilization IV,Microsoft Windows
+Civilization IV,Version (Software)
+Relationale Datenbank,C++
+Relationale Datenbank,Englische Sprache
+Relationale Datenbank,Java (Programmiersprache)
+Relationale Datenbank,Objektorientierte Programmierung
+Relationale Datenbank,PHP
+Relationale Datenbank,Tcl
+Relationale Datenbank,Tupel (Informatik)
+Relationale Datenbank,Vererbung (Programmierung)
 Just-in-time-Kompilierung,C++
 Just-in-time-Kompilierung,C (Programmiersprache)
 Just-in-time-Kompilierung,Compiler
@@ -235,26 +517,194 @@ Just-in-time-Kompilierung,Interpreter
 Just-in-time-Kompilierung,Plattformunabhängigkeit
 Just-in-time-Kompilierung,PyPy
 Just-in-time-Kompilierung,Web-Archivierung
-AmigaOS,Betriebssystem
-AmigaOS,Internet Archive
-AmigaOS,Interrupt
-AmigaOS,Kommandozeileninterpreter
-AmigaOS,Lizenz
-AmigaOS,Unix
-AmigaOS,Unixoid
-AmigaOS,Version (Software)
-AmigaOS,Vim
-AmigaOS,Web-Archivierung
-Anaconda (Python-Distribution),Betriebssystem
-Anaconda (Python-Distribution),Conda (Paketverwaltung)
-Anaconda (Python-Distribution),IPython
-Anaconda (Python-Distribution),Integrierte Entwicklungsumgebung
-Anaconda (Python-Distribution),MacOS
-Anaconda (Python-Distribution),Microsoft Windows
-Anaconda (Python-Distribution),Paketverwaltung
-Anaconda (Python-Distribution),Project Jupyter
-Anaconda (Python-Distribution),Spyder (Software)
-Anaconda (Python-Distribution),Version (Software)
+Kivy,Betriebssystem
+Kivy,GUI-Toolkit
+Kivy,Grafische Benutzeroberfläche
+Kivy,MacOS
+Kivy,Microsoft Windows
+Kivy,Unix
+Kivy,Version (Software)
+Pattern Matching,Funktionale Programmierung
+Pattern Matching,Haskell (Programmiersprache)
+Pattern Matching,Objective CAML
+Pattern Matching,Perl (Programmiersprache)
+Pattern Matching,Regulärer Ausdruck
+Pattern Matching,Zeichenkette
+Tkinter,Betriebssystem
+Tkinter,C++
+Tkinter,C (Programmiersprache)
+Tkinter,GUI-Toolkit
+Tkinter,Grafische Benutzeroberfläche
+Tkinter,Java (Programmiersprache)
+Tkinter,Kivy
+Tkinter,MacOS
+Tkinter,Microsoft Windows
+Tkinter,Plattformunabhängigkeit
+Tkinter,PyFLTK
+Tkinter,PyGTK
+Tkinter,PyQt
+Tkinter,Tk (Toolkit)
+Tkinter,Version (Software)
+Tkinter,WxPython
+Vim,AmigaOS
+Vim,Betriebssystem
+Vim,C (Programmiersprache)
+Vim,Compiler
+Vim,Datentyp
+Vim,Emacs
+Vim,Englische Sprache
+Vim,Gemeinsame Normdatei
+Vim,Grafische Benutzeroberfläche
+Vim,Integrierte Entwicklungsumgebung
+Vim,MacOS
+Vim,Microsoft Windows
+Vim,Parser
+Vim,Perl (Programmiersprache)
+Vim,Plug-in
+Vim,Regulärer Ausdruck
+Vim,Ruby (Programmiersprache)
+Vim,Skriptsprache
+Vim,Tcl
+Vim,Unix
+Vim,Version (Software)
+Dylan (Programmiersprache),Betriebssystem
+Dylan (Programmiersprache),Implementierung
+Dylan (Programmiersprache),Komplexe Zahl
+Dylan (Programmiersprache),Lisp
+Dylan (Programmiersprache),Objektorientierte Programmierung
+Dylan (Programmiersprache),Programmierparadigma
+Dylan (Programmiersprache),Ruby (Programmiersprache)
+Dylan (Programmiersprache),Smalltalk (Programmiersprache)
+Dylan (Programmiersprache),Typisierung (Informatik)
+Dylan (Programmiersprache),Version (Software)
+Framework,.Net-Framework
+Framework,Django (Framework)
+Framework,Englische Sprache
+Framework,Gemeinsame Normdatei
+Framework,Implementierung
+Framework,Klasse (Objektorientierung)
+Framework,NetBeans IDE
+Framework,Objektorientierte Programmierung
+Framework,Vererbung (Programmierung)
+Stapelspeicher,Betriebssystem
+Stapelspeicher,C++
+Stapelspeicher,C (Programmiersprache)
+Stapelspeicher,Compiler
+Stapelspeicher,Feld (Datentyp)
+Stapelspeicher,Gemeinsame Normdatei
+Stapelspeicher,Implementierung
+Stapelspeicher,Interpreter
+Stapelspeicher,Java (Programmiersprache)
+Stapelspeicher,Klasse (Objektorientierung)
+Stapelspeicher,Parser
+Stapelspeicher,Thread (Informatik)
+Tk (Toolkit),Betriebssystem
+Tk (Toolkit),C (Programmiersprache)
+Tk (Toolkit),GUI-Toolkit
+Tk (Toolkit),Grafische Benutzeroberfläche
+Tk (Toolkit),Haskell (Programmiersprache)
+Tk (Toolkit),MacOS
+Tk (Toolkit),Microsoft Windows
+Tk (Toolkit),Perl (Programmiersprache)
+Tk (Toolkit),Plattformunabhängigkeit
+Tk (Toolkit),Ruby (Programmiersprache)
+Tk (Toolkit),Tcl
+Tk (Toolkit),Tkinter
+Tk (Toolkit),Unicode
+Tk (Toolkit),Unix
+Tk (Toolkit),Version (Software)
+Komplexe Zahl,Gemeinsame Normdatei
+Komplexe Zahl,Internet Archive
+Komplexe Zahl,Library of Congress Control Number
+Komplexe Zahl,Menge (Mathematik)
+Komplexe Zahl,Unicode
+Komplexe Zahl,Web-Archivierung
+Zope (Webanwendungsserver),C (Programmiersprache)
+Zope (Webanwendungsserver),Compiler
+Zope (Webanwendungsserver),Don’t repeat yourself
+Zope (Webanwendungsserver),Framework
+Zope (Webanwendungsserver),Gemeinsame Normdatei
+Zope (Webanwendungsserver),Internet Archive
+Zope (Webanwendungsserver),Interpreter
+Zope (Webanwendungsserver),Relationale Datenbank
+Zope (Webanwendungsserver),Softwareseitiges Multithreading
+Zope (Webanwendungsserver),Vererbung (Programmierung)
+Zope (Webanwendungsserver),Web-Archivierung
+Zope (Webanwendungsserver),Web Server Gateway Interface
+PyTorch,Betriebssystem
+PyTorch,C++
+PyTorch,C (Programmiersprache)
+PyTorch,Compiler
+PyTorch,Cython
+PyTorch,Deep Learning
+PyTorch,Java (Programmiersprache)
+PyTorch,Künstliche Intelligenz
+PyTorch,MacOS
+PyTorch,Maschinelles Lernen
+PyTorch,NumPy
+PyTorch,SciPy
+PyTorch,Scikit-learn
+PyTorch,Version (Software)
+Centrum Wiskunde & Informatica,Amsterdam
+Centrum Wiskunde & Informatica,Gemeinsame Normdatei
+Centrum Wiskunde & Informatica,Guido van Rossum
+Centrum Wiskunde & Informatica,Library of Congress Control Number
+Unicode,.Net-Framework
+Unicode,Englische Sprache
+Unicode,Gemeinsame Normdatei
+Unicode,Internet Archive
+Unicode,Java (Programmiersprache)
+Unicode,LibreOffice
+Unicode,Liste der IPA-Zeichen
+Unicode,MacOS
+Unicode,Microsoft Windows
+Unicode,Tabulatorzeichen
+Unicode,Unix
+Unicode,Vim
+Unicode,Web-Archivierung
+Eclipse (IDE),Betriebssystem
+Eclipse (IDE),C++
+Eclipse (IDE),C (Programmiersprache)
+Eclipse (IDE),Englische Sprache
+Eclipse (IDE),GUI-Builder
+Eclipse (IDE),Gemeinsame Normdatei
+Eclipse (IDE),Grafische Benutzeroberfläche
+Eclipse (IDE),Integrierte Entwicklungsumgebung
+Eclipse (IDE),IntelliJ IDEA
+Eclipse (IDE),Java (Programmiersprache)
+Eclipse (IDE),MacOS
+Eclipse (IDE),Microsoft Windows
+Eclipse (IDE),PHP
+Eclipse (IDE),Perl (Programmiersprache)
+Eclipse (IDE),Plattformunabhängigkeit
+Eclipse (IDE),Plug-in
+Eclipse (IDE),Ruby (Programmiersprache)
+Eclipse (IDE),Version (Software)
+Reflexion (Programmierung),.Net-Framework
+Reflexion (Programmierung),Datentyp
+Reflexion (Programmierung),Englische Sprache
+Reflexion (Programmierung),Internet Archive
+Reflexion (Programmierung),IronPython
+Reflexion (Programmierung),Java (Programmiersprache)
+Reflexion (Programmierung),Klasse (Objektorientierung)
+Reflexion (Programmierung),Lisp
+Reflexion (Programmierung),Objektorientierte Programmierung
+Reflexion (Programmierung),PHP
+Reflexion (Programmierung),Smalltalk (Programmiersprache)
+Reflexion (Programmierung),Tcl
+Reflexion (Programmierung),Typsicherheit
+Reflexion (Programmierung),Web-Archivierung
+MicroPython,Betriebssystem
+MicroPython,C (Programmiersprache)
+MicroPython,Compiler
+MicroPython,Gemeinsame Normdatei
+MicroPython,Implementierung
+MicroPython,Lizenz
+MicroPython,Microsoft Windows
+MicroPython,Mikrocontroller
+MicroPython,Programmierparadigma
+MicroPython,Unix
+MicroPython,Version (Software)
 Strukturierte Programmierung,Aspektorientierte Programmierung
 Strukturierte Programmierung,C++
 Strukturierte Programmierung,C (Programmiersprache)
@@ -263,14 +713,6 @@ Strukturierte Programmierung,Objektorientierte Programmierung
 Strukturierte Programmierung,Programmierparadigma
 Strukturierte Programmierung,Prozedurale Programmierung
 Strukturierte Programmierung,Tony Hoare
-Ausnahmebehandlung,C++
-Ausnahmebehandlung,Englische Sprache
-Ausnahmebehandlung,Java (Programmiersprache)
-Ausnahmebehandlung,PHP
-Ausnahmebehandlung,Perl (Programmiersprache)
-Fakultät (Mathematik),Gemeinsame Normdatei
-Fakultät (Mathematik),Iteration
-Fakultät (Mathematik),Komplexe Zahl
 Tcl,APL (Programmiersprache)
 Tcl,Assoziatives Datenfeld
 Tcl,Ausnahmebehandlung
@@ -312,203 +754,109 @@ Tcl,Typisierung (Informatik)
 Tcl,Vererbung (Programmierung)
 Tcl,Version (Software)
 Tcl,Zeichenkette
-Spyder (Software),Anaconda (Python-Distribution)
-Spyder (Software),Betriebssystem
-Spyder (Software),Cython
-Spyder (Software),IPython
-Spyder (Software),Integrierte Entwicklungsumgebung
-Spyder (Software),MacOS
-Spyder (Software),Matplotlib
-Spyder (Software),Microsoft Windows
-Spyder (Software),NumPy
-Spyder (Software),Project Jupyter
-Spyder (Software),SciPy
-Spyder (Software),Version (Software)
-ABC (Programmiersprache),Algol 68
-ABC (Programmiersprache),Amsterdam
-ABC (Programmiersprache),C (Programmiersprache)
-ABC (Programmiersprache),Centrum Wiskunde & Informatica
-ABC (Programmiersprache),Guido van Rossum
-ABC (Programmiersprache),Höhere Programmiersprache
-ABC (Programmiersprache),Imperative Programmierung
-ABC (Programmiersprache),Implementierung
-ABC (Programmiersprache),Integrierte Entwicklungsumgebung
-ABC (Programmiersprache),Interpreter
-ABC (Programmiersprache),Programmierparadigma
-ABC (Programmiersprache),Prozedurale Programmierung
-ABC (Programmiersprache),Starke Typisierung
-ABC (Programmiersprache),Strukturierte Programmierung
-ABC (Programmiersprache),Typisierung (Informatik)
-ABC (Programmiersprache),Unix
-ABC (Programmiersprache),Version (Software)
-Visual Studio,.Net-Framework
-Visual Studio,Betriebssystem
-Visual Studio,C++
-Visual Studio,C (Programmiersprache)
-Visual Studio,Höhere Programmiersprache
-Visual Studio,Integrierte Entwicklungsumgebung
-Visual Studio,Java (Programmiersprache)
-Visual Studio,MacOS
-Visual Studio,Microsoft Windows
-Visual Studio,Version (Software)
-Softwareseitiges Multithreading,Betriebssystem
-Softwareseitiges Multithreading,Framework
-Softwareseitiges Multithreading,Thread (Informatik)
-Civilization IV,MacOS
-Civilization IV,Microsoft Windows
-Civilization IV,Version (Software)
-Paketverwaltung,Compiler
-Paketverwaltung,Englische Sprache
-Paketverwaltung,Internet Archive
-Paketverwaltung,MacOS
-Paketverwaltung,Skriptsprache
-Paketverwaltung,Unix
-Paketverwaltung,Visual Studio
-Paketverwaltung,Web-Archivierung
-Vim,AmigaOS
-Vim,Betriebssystem
-Vim,C (Programmiersprache)
-Vim,Compiler
-Vim,Datentyp
-Vim,Emacs
-Vim,Englische Sprache
-Vim,Gemeinsame Normdatei
-Vim,Grafische Benutzeroberfläche
-Vim,Integrierte Entwicklungsumgebung
-Vim,MacOS
-Vim,Microsoft Windows
-Vim,Parser
-Vim,Perl (Programmiersprache)
-Vim,Plug-in
-Vim,Regulärer Ausdruck
-Vim,Ruby (Programmiersprache)
-Vim,Skriptsprache
-Vim,Tcl
-Vim,Unix
-Vim,Version (Software)
-Künstliche Intelligenz,Deep Learning
-Künstliche Intelligenz,Englische Sprache
-Künstliche Intelligenz,Gemeinsame Normdatei
-Künstliche Intelligenz,Internet Archive
-Künstliche Intelligenz,Library of Congress Control Number
-Künstliche Intelligenz,Maschinelles Lernen
-Künstliche Intelligenz,Web-Archivierung
-Mengenlehre,Gemeinsame Normdatei
-Mengenlehre,Menge (Mathematik)
-Miranda (Programmiersprache),Betriebssystem
-Miranda (Programmiersprache),C (Programmiersprache)
-Miranda (Programmiersprache),Funktionale Programmierung
-Miranda (Programmiersprache),Haskell (Programmiersprache)
-Miranda (Programmiersprache),Interpreter
-Miranda (Programmiersprache),Lizenz
-Miranda (Programmiersprache),Programmierparadigma
-Miranda (Programmiersprache),Starke Typisierung
-Miranda (Programmiersprache),Typisierung (Informatik)
-Miranda (Programmiersprache),Unix
-Miranda (Programmiersprache),Version (Software)
-Hypertext Transfer Protocol,Common Gateway Interface
-Hypertext Transfer Protocol,Englische Sprache
-Hypertext Transfer Protocol,Gemeinsame Normdatei
-Hypertext Transfer Protocol,Internet Archive
-Hypertext Transfer Protocol,Library of Congress Control Number
-Hypertext Transfer Protocol,PHP
-Hypertext Transfer Protocol,Unix
-Hypertext Transfer Protocol,Web-Archivierung
-Dynamische Programmiersprache,Closure (Funktion)
-Dynamische Programmiersprache,Dynamische Typisierung
-Dynamische Programmiersprache,Funktionale Programmierung
-Dynamische Programmiersprache,Groovy
-Dynamische Programmiersprache,Höhere Programmiersprache
-Dynamische Programmiersprache,Internet Archive
-Dynamische Programmiersprache,Just-in-time-Kompilierung
-Dynamische Programmiersprache,Lisp
-Dynamische Programmiersprache,PHP
-Dynamische Programmiersprache,Perl (Programmiersprache)
-Dynamische Programmiersprache,Reflexion (Programmierung)
-Dynamische Programmiersprache,Ruby (Programmiersprache)
-Dynamische Programmiersprache,Smalltalk (Programmiersprache)
-Dynamische Programmiersprache,Tcl
-Dynamische Programmiersprache,Web-Archivierung
-Apache OpenOffice,Betriebssystem
-Apache OpenOffice,C++
-Apache OpenOffice,C (Programmiersprache)
-Apache OpenOffice,Grafische Benutzeroberfläche
-Apache OpenOffice,Integrierte Entwicklungsumgebung
-Apache OpenOffice,Internet Archive
-Apache OpenOffice,Java (Programmiersprache)
-Apache OpenOffice,Library of Congress Control Number
-Apache OpenOffice,LibreOffice
-Apache OpenOffice,MacOS
-Apache OpenOffice,Microsoft Windows
-Apache OpenOffice,Relationale Datenbank
-Apache OpenOffice,Skriptsprache
-Apache OpenOffice,Unicode
-Apache OpenOffice,Unix
-Apache OpenOffice,Version (Software)
-Apache OpenOffice,Web-Archivierung
-Apache OpenOffice,Wiki
-Apache OpenOffice,Wikipedia:Lesenswerte Artikel
-Einrückungsstil,Blockstruktur
-Einrückungsstil,C++
-Einrückungsstil,C (Programmiersprache)
-Einrückungsstil,Java (Programmiersprache)
-Einrückungsstil,Perl (Programmiersprache)
-Einrückungsstil,Tabulatorzeichen
-Einrückungsstil,Vim
-Einrückungsstil,Visual Studio
-Groovy,Assoziatives Datenfeld
-Groovy,Betriebssystem
-Groovy,Dynamische Typisierung
-Groovy,Eclipse (IDE)
-Groovy,Emacs
-Groovy,Imperative Programmierung
-Groovy,IntelliJ IDEA
-Groovy,Internet Archive
-Groovy,Java (Programmiersprache)
-Groovy,Lizenz
-Groovy,MacOS
-Groovy,Microsoft Windows
-Groovy,Plattformunabhängigkeit
-Groovy,Programmierparadigma
-Groovy,Regulärer Ausdruck
-Groovy,Ruby (Programmiersprache)
-Groovy,Skriptsprache
-Groovy,Starke Typisierung
-Groovy,Typisierung (Informatik)
-Groovy,Version (Software)
-Groovy,Vim
-Groovy,Web-Archivierung
-Datentyp,Algol 68
-Datentyp,Arithmetik
-Datentyp,C++
-Datentyp,Compiler
-Datentyp,Dynamische Programmiersprache
-Datentyp,Gemeinsame Normdatei
-Datentyp,Menge (Datenstruktur)
-Datentyp,Menge (Mathematik)
-Datentyp,Objektorientierte Programmierung
-Datentyp,Skriptsprache
-Datentyp,Tupel (Informatik)
-Datentyp,Typisierung (Informatik)
-Datentyp,Typsicherheit
-Datentyp,Unicode
-Datentyp,Zeichenkette
-Garbage Collection,.Net-Framework
-Garbage Collection,APL (Programmiersprache)
-Garbage Collection,C (Programmiersprache)
-Garbage Collection,Englische Sprache
-Garbage Collection,Gemeinsame Normdatei
-Garbage Collection,Groovy
-Garbage Collection,Haskell (Programmiersprache)
-Garbage Collection,Internet Archive
-Garbage Collection,Java (Programmiersprache)
-Garbage Collection,Objektorientierte Programmierung
-Garbage Collection,Perl (Programmiersprache)
-Garbage Collection,Referenzzählung
-Garbage Collection,Ruby (Programmiersprache)
-Garbage Collection,Smalltalk (Programmiersprache)
-Garbage Collection,Stapelspeicher
-Garbage Collection,Web-Archivierung
+Web2py,Betriebssystem
+Web2py,Common Gateway Interface
+Web2py,Gemeinsame Normdatei
+Web2py,Hypertext Transfer Protocol
+Web2py,Internet Archive
+Web2py,Plattformunabhängigkeit
+Web2py,Version (Software)
+Web2py,Web-Archivierung
+Web2py,Web Server Gateway Interface
+Web2py,Wiki
+NumPy,Betriebssystem
+NumPy,C++
+NumPy,C (Programmiersprache)
+NumPy,Compiler
+NumPy,Cython
+NumPy,Datentyp
+NumPy,Deep Learning
+NumPy,Feld (Datentyp)
+NumPy,Framework
+NumPy,Guido van Rossum
+NumPy,Jython
+NumPy,Matplotlib
+NumPy,Plattformunabhängigkeit
+NumPy,PyPy
+NumPy,SciPy
+NumPy,TensorFlow
+NumPy,Typisierung (Informatik)
+NumPy,Version (Software)
+NumPy,Wrapper (Software)
+SPSS,Betriebssystem
+SPSS,MacOS
+SPSS,Microsoft Windows
+SPSS,Version (Software)
+Boost (C++-Bibliothek),Betriebssystem
+Boost (C++-Bibliothek),C++
+Boost (C++-Bibliothek),Compiler
+Boost (C++-Bibliothek),Englische Sprache
+Boost (C++-Bibliothek),Funktionale Programmierung
+Boost (C++-Bibliothek),Internet Archive
+Boost (C++-Bibliothek),Lizenz
+Boost (C++-Bibliothek),MacOS
+Boost (C++-Bibliothek),Parser
+Boost (C++-Bibliothek),Plattformunabhängigkeit
+Boost (C++-Bibliothek),Softwareseitiges Multithreading
+Boost (C++-Bibliothek),Unix
+Boost (C++-Bibliothek),Version (Software)
+Boost (C++-Bibliothek),Web-Archivierung
+Boost (C++-Bibliothek),Zeichenkette
+Smalltalk (Programmiersprache),Assoziatives Datenfeld
+Smalltalk (Programmiersprache),Betriebssystem
+Smalltalk (Programmiersprache),C++
+Smalltalk (Programmiersprache),Datentyp
+Smalltalk (Programmiersprache),Dylan (Programmiersprache)
+Smalltalk (Programmiersprache),Dynamische Programmiersprache
+Smalltalk (Programmiersprache),Dynamische Typisierung
+Smalltalk (Programmiersprache),Eclipse (IDE)
+Smalltalk (Programmiersprache),Garbage Collection
+Smalltalk (Programmiersprache),Groovy
+Smalltalk (Programmiersprache),Implementierung
+Smalltalk (Programmiersprache),Integrierte Entwicklungsumgebung
+Smalltalk (Programmiersprache),Internet Archive
+Smalltalk (Programmiersprache),Java (Programmiersprache)
+Smalltalk (Programmiersprache),Lisp
+Smalltalk (Programmiersprache),Lizenz
+Smalltalk (Programmiersprache),MacOS
+Smalltalk (Programmiersprache),Microsoft Windows
+Smalltalk (Programmiersprache),Objektorientierte Programmierung
+Smalltalk (Programmiersprache),PHP
+Smalltalk (Programmiersprache),Perl (Programmiersprache)
+Smalltalk (Programmiersprache),Ruby (Programmiersprache)
+Smalltalk (Programmiersprache),Typisierung (Informatik)
+Smalltalk (Programmiersprache),Unix
+Smalltalk (Programmiersprache),Version (Software)
+Smalltalk (Programmiersprache),Web-Archivierung
+Smalltalk (Programmiersprache),Zeichenkette
+IntelliJ IDEA,Betriebssystem
+IntelliJ IDEA,C++
+IntelliJ IDEA,Groovy
+IntelliJ IDEA,Integrierte Entwicklungsumgebung
+IntelliJ IDEA,Java (Programmiersprache)
+IntelliJ IDEA,MacOS
+IntelliJ IDEA,Microsoft Windows
+IntelliJ IDEA,PHP
+IntelliJ IDEA,Plug-in
+IntelliJ IDEA,PyCharm
+IntelliJ IDEA,Ruby (Programmiersprache)
+IntelliJ IDEA,Version (Software)
+Liste der IPA-Zeichen,Englische Sprache
+Liste der IPA-Zeichen,Internet Archive
+Liste der IPA-Zeichen,Unicode
+Liste der IPA-Zeichen,Web-Archivierung
+Books on Demand,Gemeinsame Normdatei
+Books on Demand,Internet Archive
+Books on Demand,Library of Congress Control Number
+Books on Demand,Web-Archivierung
+Imperative Programmierung,C++
+Imperative Programmierung,C (Programmiersprache)
+Imperative Programmierung,Haskell (Programmiersprache)
+Imperative Programmierung,Java (Programmiersprache)
+Imperative Programmierung,Objektorientierte Programmierung
+Imperative Programmierung,Programmierparadigma
+Imperative Programmierung,Prozedurale Programmierung
+Imperative Programmierung,Quellcode
 Ruby (Programmiersprache),Aspektorientierte Programmierung
 Ruby (Programmiersprache),Ausnahmebehandlung
 Ruby (Programmiersprache),Betriebssystem
@@ -551,311 +899,6 @@ Ruby (Programmiersprache),Typisierung (Informatik)
 Ruby (Programmiersprache),Unicode
 Ruby (Programmiersprache),Version (Software)
 Ruby (Programmiersprache),Web-Archivierung
-Iteration,Blockstruktur
-Implementierung,Betriebssystem
-Implementierung,Englische Sprache
-Implementierung,Internet Archive
-Implementierung,Web-Archivierung
-.Net-Framework,APL (Programmiersprache)
-.Net-Framework,Betriebssystem
-.Net-Framework,C++
-.Net-Framework,C (Programmiersprache)
-.Net-Framework,Datentyp
-.Net-Framework,Framework
-.Net-Framework,Garbage Collection
-.Net-Framework,Implementierung
-.Net-Framework,Integrierte Entwicklungsumgebung
-.Net-Framework,Java-Laufzeitumgebung
-.Net-Framework,Java (Programmiersprache)
-.Net-Framework,Just-in-time-Kompilierung
-.Net-Framework,Klasse (Objektorientierung)
-.Net-Framework,Kommandozeile
-.Net-Framework,MacOS
-.Net-Framework,Microsoft Windows
-.Net-Framework,Mono (Software)
-.Net-Framework,Plattformunabhängigkeit
-.Net-Framework,Plug-in
-.Net-Framework,Reflexion (Programmierung)
-.Net-Framework,Skriptsprache
-.Net-Framework,Typsystem
-.Net-Framework,Unicode
-.Net-Framework,Version (Software)
-.Net-Framework,Wrapper (Software)
-.Net-Framework,Zeichenkette
-GUI-Builder,Eclipse (IDE)
-GUI-Builder,Fast Light Toolkit
-GUI-Builder,Glade (Programmierwerkzeug)
-GUI-Builder,Grafische Benutzeroberfläche
-GUI-Builder,Tk (Toolkit)
-GUI-Builder,Visual Studio
-WxPython,Betriebssystem
-WxPython,C++
-WxPython,GUI-Toolkit
-WxPython,Plattformunabhängigkeit
-WxPython,Tk (Toolkit)
-WxPython,Tkinter
-WxPython,Version (Software)
-WxPython,Wrapper (Software)
-QGIS,Betriebssystem
-QGIS,C++
-QGIS,Grafische Benutzeroberfläche
-QGIS,Internet Archive
-QGIS,MacOS
-QGIS,Microsoft Windows
-QGIS,PyQt
-QGIS,Unix
-QGIS,Version (Software)
-QGIS,Web-Archivierung
-Java (Programmiersprache),Ausnahmebehandlung
-Java (Programmiersprache),Betriebssystem
-Java (Programmiersprache),C++
-Java (Programmiersprache),C (Programmiersprache)
-Java (Programmiersprache),Compiler
-Java (Programmiersprache),Datentyp
-Java (Programmiersprache),Dynamische Typisierung
-Java (Programmiersprache),Eclipse (IDE)
-Java (Programmiersprache),Emacs
-Java (Programmiersprache),Funktionale Programmierung
-Java (Programmiersprache),Gemeinsame Normdatei
-Java (Programmiersprache),Grafische Benutzeroberfläche
-Java (Programmiersprache),Groovy
-Java (Programmiersprache),Integrierte Entwicklungsumgebung
-Java (Programmiersprache),IntelliJ IDEA
-Java (Programmiersprache),Internet Archive
-Java (Programmiersprache),Interpreter
-Java (Programmiersprache),Java-Laufzeitumgebung
-Java (Programmiersprache),Just-in-time-Kompilierung
-Java (Programmiersprache),Klasse (Objektorientierung)
-Java (Programmiersprache),Lizenz
-Java (Programmiersprache),MacOS
-Java (Programmiersprache),Mehrfachvererbung
-Java (Programmiersprache),Microsoft Windows
-Java (Programmiersprache),Modula-3
-Java (Programmiersprache),NetBeans IDE
-Java (Programmiersprache),Objektorientierte Programmierung
-Java (Programmiersprache),Pattern Matching
-Java (Programmiersprache),Perl (Programmiersprache)
-Java (Programmiersprache),Plattformunabhängigkeit
-Java (Programmiersprache),Programmierparadigma
-Java (Programmiersprache),Prozedurale Programmierung
-Java (Programmiersprache),Quellcode
-Java (Programmiersprache),Reflexion (Programmierung)
-Java (Programmiersprache),Skriptsprache
-Java (Programmiersprache),Smalltalk (Programmiersprache)
-Java (Programmiersprache),Starke Typisierung
-Java (Programmiersprache),Thread (Informatik)
-Java (Programmiersprache),Tony Hoare
-Java (Programmiersprache),Typisierung (Informatik)
-Java (Programmiersprache),Version (Software)
-Java (Programmiersprache),Vim
-Java (Programmiersprache),Web-Archivierung
-Java (Programmiersprache),Wrapper (Software)
-Java (Programmiersprache),Portal:Gesprochene Wikipedia
-Perl (Programmiersprache),Allzweck-Programmiersprache
-Perl (Programmiersprache),Assoziatives Datenfeld
-Perl (Programmiersprache),Ausnahmebehandlung
-Perl (Programmiersprache),Betriebssystem
-Perl (Programmiersprache),Blockstruktur
-Perl (Programmiersprache),C++
-Perl (Programmiersprache),C (Programmiersprache)
-Perl (Programmiersprache),Closure (Funktion)
-Perl (Programmiersprache),Common Gateway Interface
-Perl (Programmiersprache),Compiler
-Perl (Programmiersprache),Dynamische Typisierung
-Perl (Programmiersprache),Feld (Datentyp)
-Perl (Programmiersprache),Framework
-Perl (Programmiersprache),Gemeinsame Normdatei
-Perl (Programmiersprache),Interpreter
-Perl (Programmiersprache),Iteration
-Perl (Programmiersprache),Java (Programmiersprache)
-Perl (Programmiersprache),Leerraum
-Perl (Programmiersprache),Lisp
-Perl (Programmiersprache),Liste der IPA-Zeichen
-Perl (Programmiersprache),Lizenz
-Perl (Programmiersprache),Objektorientierte Programmierung
-Perl (Programmiersprache),PHP
-Perl (Programmiersprache),Parser
-Perl (Programmiersprache),Plattformunabhängigkeit
-Perl (Programmiersprache),Programmierparadigma
-Perl (Programmiersprache),Prozedurale Programmierung
-Perl (Programmiersprache),Regulärer Ausdruck
-Perl (Programmiersprache),Ruby (Programmiersprache)
-Perl (Programmiersprache),Skriptsprache
-Perl (Programmiersprache),Smalltalk (Programmiersprache)
-Perl (Programmiersprache),Syntaxfehler
-Perl (Programmiersprache),Thread (Informatik)
-Perl (Programmiersprache),Typisierung (Informatik)
-Perl (Programmiersprache),Typsystem
-Perl (Programmiersprache),Unicode
-Perl (Programmiersprache),Unix
-Perl (Programmiersprache),Vererbung (Programmierung)
-Perl (Programmiersprache),Version (Software)
-Perl (Programmiersprache),Zeichenkette
-Perl (Programmiersprache),Wikipedia:Lesenswerte Artikel
-Library of Congress Control Number,Gemeinsame Normdatei
-Dynamische Typisierung,C++
-Dynamische Typisierung,Compiler
-Dynamische Typisierung,Datentyp
-Dynamische Typisierung,Duck-Typing
-Dynamische Typisierung,Internet Archive
-Dynamische Typisierung,Ruby (Programmiersprache)
-Dynamische Typisierung,Skriptsprache
-Dynamische Typisierung,Typisierung (Informatik)
-Dynamische Typisierung,Web-Archivierung
-Multipurpose Internet Mail Extensions,Hypertext Transfer Protocol
-Unicode,.Net-Framework
-Unicode,Englische Sprache
-Unicode,Gemeinsame Normdatei
-Unicode,Internet Archive
-Unicode,Java (Programmiersprache)
-Unicode,LibreOffice
-Unicode,Liste der IPA-Zeichen
-Unicode,MacOS
-Unicode,Microsoft Windows
-Unicode,Tabulatorzeichen
-Unicode,Unix
-Unicode,Vim
-Unicode,Web-Archivierung
-Prozedurale Programmierung,C (Programmiersprache)
-Prozedurale Programmierung,Höhere Programmiersprache
-Prozedurale Programmierung,Imperative Programmierung
-Prozedurale Programmierung,Objektorientierte Programmierung
-Prozedurale Programmierung,Programmierparadigma
-Prozedurale Programmierung,Strukturierte Programmierung
-World in Conflict,Betriebssystem
-World in Conflict,Englische Sprache
-World in Conflict,Künstliche Intelligenz
-World in Conflict,Version (Software)
-World in Conflict,Wikipedia:Lesenswerte Artikel
-Amsterdam,Gemeinsame Normdatei
-Amsterdam,Internet Archive
-Amsterdam,Library of Congress Control Number
-Amsterdam,Web-Archivierung
-Tony Hoare,Gemeinsame Normdatei
-Tony Hoare,Internet Archive
-Tony Hoare,Library of Congress Control Number
-Tony Hoare,Quicksort
-Tony Hoare,Web-Archivierung
-Dylan (Programmiersprache),Betriebssystem
-Dylan (Programmiersprache),Implementierung
-Dylan (Programmiersprache),Komplexe Zahl
-Dylan (Programmiersprache),Lisp
-Dylan (Programmiersprache),Objektorientierte Programmierung
-Dylan (Programmiersprache),Programmierparadigma
-Dylan (Programmiersprache),Ruby (Programmiersprache)
-Dylan (Programmiersprache),Smalltalk (Programmiersprache)
-Dylan (Programmiersprache),Typisierung (Informatik)
-Dylan (Programmiersprache),Version (Software)
-PyGTK,Betriebssystem
-PyGTK,GUI-Toolkit
-PyGTK,MacOS
-PyGTK,Microsoft Windows
-PyGTK,Reflexion (Programmierung)
-PyGTK,Unix
-PyGTK,Version (Software)
-PyGTK,WxPython
-Java-Laufzeitumgebung,Betriebssystem
-Java-Laufzeitumgebung,C++
-Java-Laufzeitumgebung,C (Programmiersprache)
-Java-Laufzeitumgebung,Compiler
-Java-Laufzeitumgebung,Englische Sprache
-Java-Laufzeitumgebung,Framework
-Java-Laufzeitumgebung,Grafische Benutzeroberfläche
-Java-Laufzeitumgebung,Java (Programmiersprache)
-Java-Laufzeitumgebung,MacOS
-Java-Laufzeitumgebung,Microsoft Windows
-Java-Laufzeitumgebung,Plug-in
-Java-Laufzeitumgebung,Unicode
-Integrierte Entwicklungsumgebung,Books on Demand
-Integrierte Entwicklungsumgebung,Compiler
-Integrierte Entwicklungsumgebung,Englische Sprache
-Integrierte Entwicklungsumgebung,Grafische Benutzeroberfläche
-Integrierte Entwicklungsumgebung,Höhere Programmiersprache
-Integrierte Entwicklungsumgebung,Interpreter
-Integrierte Entwicklungsumgebung,Microsoft Windows
-Liste der IPA-Zeichen,Englische Sprache
-Liste der IPA-Zeichen,Internet Archive
-Liste der IPA-Zeichen,Unicode
-Liste der IPA-Zeichen,Web-Archivierung
-GUI-Toolkit,Englische Sprache
-GUI-Toolkit,Fast Light Toolkit
-GUI-Toolkit,Grafische Benutzeroberfläche
-GUI-Toolkit,Integrierte Entwicklungsumgebung
-GUI-Toolkit,Java (Programmiersprache)
-GUI-Toolkit,MacOS
-GUI-Toolkit,Tk (Toolkit)
-Schlüsselwort (Programmierung),Ausnahmebehandlung
-Schlüsselwort (Programmierung),C++
-Schlüsselwort (Programmierung),C (Programmiersprache)
-Schlüsselwort (Programmierung),Compiler
-Schlüsselwort (Programmierung),Datentyp
-Schlüsselwort (Programmierung),Höhere Programmiersprache
-Schlüsselwort (Programmierung),Java (Programmiersprache)
-Schlüsselwort (Programmierung),Klasse (Objektorientierung)
-Schlüsselwort (Programmierung),Objektorientierte Programmierung
-Schlüsselwort (Programmierung),Parser
-Turtle-Grafik,C (Programmiersprache)
-Turtle-Grafik,Gemeinsame Normdatei
-Turtle-Grafik,Grafische Benutzeroberfläche
-Turtle-Grafik,Stapelspeicher
-Cython,Aspektorientierte Programmierung
-Cython,Betriebssystem
-Cython,C++
-Cython,C (Programmiersprache)
-Cython,Compiler
-Cython,Duck-Typing
-Cython,Dynamische Typisierung
-Cython,Funktionale Programmierung
-Cython,Höhere Programmiersprache
-Cython,Internet Archive
-Cython,Interpreter
-Cython,Just-in-time-Kompilierung
-Cython,Lizenz
-Cython,MacOS
-Cython,Microsoft Windows
-Cython,NumPy
-Cython,Objektorientierte Programmierung
-Cython,Programmierparadigma
-Cython,PyPy
-Cython,Starke Typisierung
-Cython,Typisierung (Informatik)
-Cython,Version (Software)
-Cython,Web-Archivierung
-Cython,Wrapper (Software)
-Plattformunabhängigkeit,Betriebssystem
-Plattformunabhängigkeit,C (Programmiersprache)
-Plattformunabhängigkeit,Compiler
-Plattformunabhängigkeit,Englische Sprache
-Plattformunabhängigkeit,Höhere Programmiersprache
-Plattformunabhängigkeit,Interpreter
-Plattformunabhängigkeit,Java (Programmiersprache)
-Plattformunabhängigkeit,Lizenz
-Plattformunabhängigkeit,MacOS
-Plattformunabhängigkeit,PHP
-Plattformunabhängigkeit,Perl (Programmiersprache)
-Plattformunabhängigkeit,Quellcode
-Plattformunabhängigkeit,Unix
-Komplexe Zahl,Gemeinsame Normdatei
-Komplexe Zahl,Internet Archive
-Komplexe Zahl,Library of Congress Control Number
-Komplexe Zahl,Menge (Mathematik)
-Komplexe Zahl,Unicode
-Komplexe Zahl,Web-Archivierung
-Tk (Toolkit),Betriebssystem
-Tk (Toolkit),C (Programmiersprache)
-Tk (Toolkit),GUI-Toolkit
-Tk (Toolkit),Grafische Benutzeroberfläche
-Tk (Toolkit),Haskell (Programmiersprache)
-Tk (Toolkit),MacOS
-Tk (Toolkit),Microsoft Windows
-Tk (Toolkit),Perl (Programmiersprache)
-Tk (Toolkit),Plattformunabhängigkeit
-Tk (Toolkit),Ruby (Programmiersprache)
-Tk (Toolkit),Tcl
-Tk (Toolkit),Tkinter
-Tk (Toolkit),Unicode
-Tk (Toolkit),Unix
-Tk (Toolkit),Version (Software)
 PyPy,Betriebssystem
 PyPy,C (Programmiersprache)
 PyPy,Garbage Collection
@@ -869,114 +912,6 @@ PyPy,Microsoft Windows
 PyPy,NumPy
 PyPy,Standardbibliothek
 PyPy,Version (Software)
-Matplotlib,Betriebssystem
-Matplotlib,Grafische Benutzeroberfläche
-Matplotlib,Plattformunabhängigkeit
-Matplotlib,Tk (Toolkit)
-Matplotlib,Version (Software)
-Fast Light Toolkit,AmigaOS
-Fast Light Toolkit,Betriebssystem
-Fast Light Toolkit,C++
-Fast Light Toolkit,GUI-Toolkit
-Fast Light Toolkit,MacOS
-Fast Light Toolkit,Microsoft Windows
-Fast Light Toolkit,Version (Software)
-Funktionale Programmierung,C (Programmiersprache)
-Funktionale Programmierung,Dynamische Typisierung
-Funktionale Programmierung,Fakultät (Mathematik)
-Funktionale Programmierung,Haskell (Programmiersprache)
-Funktionale Programmierung,Imperative Programmierung
-Funktionale Programmierung,Internet Archive
-Funktionale Programmierung,Java (Programmiersprache)
-Funktionale Programmierung,Lisp
-Funktionale Programmierung,Programmierparadigma
-Funktionale Programmierung,Standard ML
-Funktionale Programmierung,Typsystem
-Funktionale Programmierung,Web-Archivierung
-Haskell Brooks Curry,Currying
-Haskell Brooks Curry,Funktionale Programmierung
-Haskell Brooks Curry,Gemeinsame Normdatei
-Haskell Brooks Curry,Haskell (Programmiersprache)
-Haskell Brooks Curry,Library of Congress Control Number
-SQLAlchemy,Betriebssystem
-SQLAlchemy,Django (Framework)
-SQLAlchemy,Framework
-SQLAlchemy,Plattformunabhängigkeit
-SQLAlchemy,Relationale Datenbank
-SQLAlchemy,Version (Software)
-Objektorientierte Programmierung,Aspektorientierte Programmierung
-Objektorientierte Programmierung,C++
-Objektorientierte Programmierung,C (Programmiersprache)
-Objektorientierte Programmierung,Compiler
-Objektorientierte Programmierung,Datentyp
-Objektorientierte Programmierung,Gemeinsame Normdatei
-Objektorientierte Programmierung,Internet Archive
-Objektorientierte Programmierung,Java (Programmiersprache)
-Objektorientierte Programmierung,Klasse (Objektorientierung)
-Objektorientierte Programmierung,Programmierparadigma
-Objektorientierte Programmierung,Prozedurale Programmierung
-Objektorientierte Programmierung,Quicksort
-Objektorientierte Programmierung,Reflexion (Programmierung)
-Objektorientierte Programmierung,Relationale Datenbank
-Objektorientierte Programmierung,Smalltalk (Programmiersprache)
-Objektorientierte Programmierung,Vererbung (Programmierung)
-Objektorientierte Programmierung,Web-Archivierung
-Kommandozeile,Betriebssystem
-Kommandozeile,Englische Sprache
-Kommandozeile,Grafische Benutzeroberfläche
-Kommandozeile,Interpreter
-Kommandozeile,Kommandozeileninterpreter
-Kommandozeile,PHP
-Kommandozeile,Perl (Programmiersprache)
-Kommandozeile,Shell (Betriebssystem)
-Kommandozeile,Skriptsprache
-Kommandozeile,Unix
-Kommandozeile,Zeichenkette
-Eclipse (IDE),Betriebssystem
-Eclipse (IDE),C++
-Eclipse (IDE),C (Programmiersprache)
-Eclipse (IDE),Englische Sprache
-Eclipse (IDE),GUI-Builder
-Eclipse (IDE),Gemeinsame Normdatei
-Eclipse (IDE),Grafische Benutzeroberfläche
-Eclipse (IDE),Integrierte Entwicklungsumgebung
-Eclipse (IDE),IntelliJ IDEA
-Eclipse (IDE),Java (Programmiersprache)
-Eclipse (IDE),MacOS
-Eclipse (IDE),Microsoft Windows
-Eclipse (IDE),PHP
-Eclipse (IDE),Perl (Programmiersprache)
-Eclipse (IDE),Plattformunabhängigkeit
-Eclipse (IDE),Plug-in
-Eclipse (IDE),Ruby (Programmiersprache)
-Eclipse (IDE),Version (Software)
-Wiki,Gemeinsame Normdatei
-Wiki,Internet Archive
-Wiki,MacOS
-Wiki,Microsoft Windows
-Wiki,Objektorientierte Programmierung
-Wiki,PHP
-Wiki,Web-Archivierung
-Regulärer Ausdruck,.Net-Framework
-Regulärer Ausdruck,C++
-Regulärer Ausdruck,C (Programmiersprache)
-Regulärer Ausdruck,Compiler
-Regulärer Ausdruck,Emacs
-Regulärer Ausdruck,Englische Sprache
-Regulärer Ausdruck,Gemeinsame Normdatei
-Regulärer Ausdruck,Implementierung
-Regulärer Ausdruck,Java (Programmiersprache)
-Regulärer Ausdruck,Leerraum
-Regulärer Ausdruck,Menge (Mathematik)
-Regulärer Ausdruck,PHP
-Regulärer Ausdruck,Parser
-Regulärer Ausdruck,Pattern Matching
-Regulärer Ausdruck,Perl (Programmiersprache)
-Regulärer Ausdruck,Ruby (Programmiersprache)
-Regulärer Ausdruck,Tabulatorzeichen
-Regulärer Ausdruck,Tcl
-Regulärer Ausdruck,Vim
-Regulärer Ausdruck,Zeichenkette
 Typsicherheit,C++
 Typsicherheit,C (Programmiersprache)
 Typsicherheit,Compiler
@@ -990,216 +925,228 @@ Typsicherheit,Smalltalk (Programmiersprache)
 Typsicherheit,Typisierung (Informatik)
 Typsicherheit,Typsystem
 Typsicherheit,Web-Archivierung
-Vererbung (Programmierung),.Net-Framework
-Vererbung (Programmierung),Ausnahmebehandlung
-Vererbung (Programmierung),C++
-Vererbung (Programmierung),Compiler
-Vererbung (Programmierung),Dynamische Typisierung
-Vererbung (Programmierung),Englische Sprache
-Vererbung (Programmierung),Gemeinsame Normdatei
-Vererbung (Programmierung),Internet Archive
-Vererbung (Programmierung),Java (Programmiersprache)
-Vererbung (Programmierung),Klasse (Objektorientierung)
-Vererbung (Programmierung),Laufzeitfehler
-Vererbung (Programmierung),Lisp
-Vererbung (Programmierung),Mehrfachvererbung
-Vererbung (Programmierung),Modula-3
-Vererbung (Programmierung),Objektorientierte Programmierung
-Vererbung (Programmierung),Relationale Datenbank
-Vererbung (Programmierung),Ruby (Programmiersprache)
-Vererbung (Programmierung),Schlüsselwort (Programmierung)
-Vererbung (Programmierung),Smalltalk (Programmiersprache)
-Vererbung (Programmierung),Typsicherheit
-Vererbung (Programmierung),Web-Archivierung
-Vererbung (Programmierung),Wikipedia:Lesenswerte Artikel
-Duck-Typing,C++
-Duck-Typing,Dynamische Typisierung
-Duck-Typing,Groovy
-Duck-Typing,Java (Programmiersprache)
-Duck-Typing,Klasse (Objektorientierung)
-Duck-Typing,Objektorientierte Programmierung
-Duck-Typing,PHP
-Duck-Typing,Ruby (Programmiersprache)
-Duck-Typing,Skriptsprache
-Web2py,Betriebssystem
-Web2py,Common Gateway Interface
-Web2py,Gemeinsame Normdatei
-Web2py,Hypertext Transfer Protocol
-Web2py,Internet Archive
-Web2py,Plattformunabhängigkeit
-Web2py,Version (Software)
-Web2py,Web-Archivierung
-Web2py,Web Server Gateway Interface
-Web2py,Wiki
-Identität (Logik),Englische Sprache
-Identität (Logik),Mengenlehre
-Zope (Webanwendungsserver),C (Programmiersprache)
-Zope (Webanwendungsserver),Compiler
-Zope (Webanwendungsserver),Don’t repeat yourself
-Zope (Webanwendungsserver),Framework
-Zope (Webanwendungsserver),Gemeinsame Normdatei
-Zope (Webanwendungsserver),Internet Archive
-Zope (Webanwendungsserver),Interpreter
-Zope (Webanwendungsserver),Relationale Datenbank
-Zope (Webanwendungsserver),Softwareseitiges Multithreading
-Zope (Webanwendungsserver),Vererbung (Programmierung)
-Zope (Webanwendungsserver),Web-Archivierung
-Zope (Webanwendungsserver),Web Server Gateway Interface
-Plug-in,Englische Sprache
-Plug-in,Gemeinsame Normdatei
-Plug-in,Grafische Benutzeroberfläche
-Plug-in,Liste der IPA-Zeichen
-Plug-in,MacOS
-Django (Framework),Betriebssystem
-Django (Framework),Don’t repeat yourself
-Django (Framework),Flask
-Django (Framework),Internet Archive
-Django (Framework),Plattformunabhängigkeit
-Django (Framework),Regulärer Ausdruck
-Django (Framework),SQLAlchemy
-Django (Framework),Vererbung (Programmierung)
-Django (Framework),Version (Software)
-Django (Framework),Web-Archivierung
-Django (Framework),Web2py
-Django (Framework),Web Server Gateway Interface
-Closure (Funktion),C++
-Closure (Funktion),C (Programmiersprache)
-Closure (Funktion),Compiler
-Closure (Funktion),Currying
-Closure (Funktion),Funktionale Programmierung
-Closure (Funktion),Groovy
-Closure (Funktion),Haskell (Programmiersprache)
-Closure (Funktion),Java (Programmiersprache)
-Closure (Funktion),Lisp
-Closure (Funktion),PHP
-Closure (Funktion),Perl (Programmiersprache)
-Closure (Funktion),Reflexion (Programmierung)
-Closure (Funktion),Ruby (Programmiersprache)
-Closure (Funktion),Smalltalk (Programmiersprache)
-Closure (Funktion),Zeichenkette
-Englische Sprache,Gemeinsame Normdatei
-Englische Sprache,Liste der IPA-Zeichen
-Monty Python’s Flying Circus,Englische Sprache
-Monty Python’s Flying Circus,Gemeinsame Normdatei
-Monty Python’s Flying Circus,Library of Congress Control Number
-Monty Python’s Flying Circus,Monty Python
+Künstliche Intelligenz,Deep Learning
+Künstliche Intelligenz,Englische Sprache
+Künstliche Intelligenz,Gemeinsame Normdatei
+Künstliche Intelligenz,Internet Archive
+Künstliche Intelligenz,Library of Congress Control Number
+Künstliche Intelligenz,Maschinelles Lernen
+Künstliche Intelligenz,Web-Archivierung
+GIMP,AmigaOS
+GIMP,Betriebssystem
+GIMP,C (Programmiersprache)
+GIMP,Common Gateway Interface
+GIMP,Compiler
+GIMP,Englische Sprache
+GIMP,Gemeinsame Normdatei
+GIMP,Internet Archive
+GIMP,Interpreter
+GIMP,Library of Congress Control Number
+GIMP,MacOS
+GIMP,Maschinelles Lernen
+GIMP,Microsoft Windows
+GIMP,Perl (Programmiersprache)
+GIMP,Plug-in
+GIMP,Ruby (Programmiersprache)
+GIMP,Tcl
+GIMP,Version (Software)
+GIMP,Web-Archivierung
+Implementierung,Betriebssystem
+Implementierung,Englische Sprache
+Implementierung,Internet Archive
+Implementierung,Web-Archivierung
+CLU (Programmiersprache),Ausnahmebehandlung
+CLU (Programmiersprache),Betriebssystem
+CLU (Programmiersprache),C++
+CLU (Programmiersprache),Feld (Datentyp)
+CLU (Programmiersprache),Java (Programmiersprache)
+CLU (Programmiersprache),Komplexe Zahl
+CLU (Programmiersprache),Lisp
+CLU (Programmiersprache),Objektorientierte Programmierung
+CLU (Programmiersprache),Ruby (Programmiersprache)
+CLU (Programmiersprache),Vererbung (Programmierung)
+Cobra (Programmiersprache),.Net-Framework
+Cobra (Programmiersprache),Betriebssystem
+Cobra (Programmiersprache),Dynamische Typisierung
+Cobra (Programmiersprache),Imperative Programmierung
+Cobra (Programmiersprache),Lizenz
+Cobra (Programmiersprache),Mono (Software)
+Cobra (Programmiersprache),Objektorientierte Programmierung
+Cobra (Programmiersprache),Programmierparadigma
+Cobra (Programmiersprache),Starke Typisierung
+Cobra (Programmiersprache),Typisierung (Informatik)
+Cobra (Programmiersprache),Version (Software)
 Pip (Python),Betriebssystem
 Pip (Python),Paketverwaltung
 Pip (Python),Plattformunabhängigkeit
 Pip (Python),Standardbibliothek
 Pip (Python),Version (Software)
-Books on Demand,Gemeinsame Normdatei
-Books on Demand,Internet Archive
-Books on Demand,Library of Congress Control Number
-Books on Demand,Web-Archivierung
-Maschinelles Lernen,Deep Learning
-Maschinelles Lernen,Gemeinsame Normdatei
-Maschinelles Lernen,Internet Archive
-Maschinelles Lernen,Künstliche Intelligenz
-Maschinelles Lernen,Library of Congress Control Number
-Maschinelles Lernen,Web-Archivierung
-Relationale Datenbank,C++
-Relationale Datenbank,Englische Sprache
-Relationale Datenbank,Java (Programmiersprache)
-Relationale Datenbank,Objektorientierte Programmierung
-Relationale Datenbank,PHP
-Relationale Datenbank,Tcl
-Relationale Datenbank,Tupel (Informatik)
-Relationale Datenbank,Vererbung (Programmierung)
+Interpreter,APL (Programmiersprache)
+Interpreter,C (Programmiersprache)
+Interpreter,Compiler
+Interpreter,Gemeinsame Normdatei
+Interpreter,Implementierung
+Interpreter,Java (Programmiersprache)
+Interpreter,Just-in-time-Kompilierung
+Interpreter,Kommandozeileninterpreter
+Interpreter,PHP
+Interpreter,Perl (Programmiersprache)
+Interpreter,Ruby (Programmiersprache)
+Interpreter,Schlüsselwort (Programmierung)
+Interpreter,Skriptsprache
+Interpreter,Smalltalk (Programmiersprache)
+Interpreter,Tcl
+ABC (Programmiersprache),Algol 68
+ABC (Programmiersprache),Amsterdam
+ABC (Programmiersprache),C (Programmiersprache)
+ABC (Programmiersprache),Centrum Wiskunde & Informatica
+ABC (Programmiersprache),Guido van Rossum
+ABC (Programmiersprache),Höhere Programmiersprache
+ABC (Programmiersprache),Imperative Programmierung
+ABC (Programmiersprache),Implementierung
+ABC (Programmiersprache),Integrierte Entwicklungsumgebung
+ABC (Programmiersprache),Interpreter
+ABC (Programmiersprache),Programmierparadigma
+ABC (Programmiersprache),Prozedurale Programmierung
+ABC (Programmiersprache),Starke Typisierung
+ABC (Programmiersprache),Strukturierte Programmierung
+ABC (Programmiersprache),Typisierung (Informatik)
+ABC (Programmiersprache),Unix
+ABC (Programmiersprache),Version (Software)
+Tony Hoare,Gemeinsame Normdatei
+Tony Hoare,Internet Archive
+Tony Hoare,Library of Congress Control Number
+Tony Hoare,Quicksort
+Tony Hoare,Web-Archivierung
+Softwareseitiges Multithreading,Betriebssystem
+Softwareseitiges Multithreading,Framework
+Softwareseitiges Multithreading,Thread (Informatik)
+Mehrfachvererbung,C++
+Mehrfachvererbung,Java (Programmiersprache)
+Mehrfachvererbung,Klasse (Objektorientierung)
+Mehrfachvererbung,Objektorientierte Programmierung
+Mehrfachvererbung,PHP
+Mehrfachvererbung,Perl (Programmiersprache)
+Mehrfachvererbung,Smalltalk (Programmiersprache)
+Mehrfachvererbung,Vererbung (Programmierung)
 Tabulatorzeichen,C (Programmiersprache)
 Tabulatorzeichen,Einrückungsstil
 Tabulatorzeichen,Quellcode
 Tabulatorzeichen,Unicode
 Tabulatorzeichen,Zeichenkette
-Interrupt,Ausnahmebehandlung
-Interrupt,Betriebssystem
-Interrupt,Englische Sprache
-Interrupt,Gemeinsame Normdatei
-Interrupt,Microsoft Windows
-Interrupt,Mikrocontroller
-Interrupt,Stapelspeicher
-Python Software Foundation,Guido van Rossum
-Kivy,Betriebssystem
-Kivy,GUI-Toolkit
-Kivy,Grafische Benutzeroberfläche
-Kivy,MacOS
-Kivy,Microsoft Windows
-Kivy,Unix
-Kivy,Version (Software)
-Scikit-learn,Betriebssystem
-Scikit-learn,C++
-Scikit-learn,C (Programmiersprache)
-Scikit-learn,Cython
-Scikit-learn,Maschinelles Lernen
-Scikit-learn,Matplotlib
-Scikit-learn,NumPy
-Scikit-learn,Plattformunabhängigkeit
-Scikit-learn,SciPy
-Scikit-learn,Version (Software)
-Allzweck-Programmiersprache,C++
-Allzweck-Programmiersprache,C (Programmiersprache)
-Allzweck-Programmiersprache,Englische Sprache
-Allzweck-Programmiersprache,Java (Programmiersprache)
-Allzweck-Programmiersprache,Klasse (Objektorientierung)
-Gemeinsame Normdatei,Internet Archive
-Gemeinsame Normdatei,Web-Archivierung
-Smalltalk (Programmiersprache),Assoziatives Datenfeld
-Smalltalk (Programmiersprache),Betriebssystem
-Smalltalk (Programmiersprache),C++
-Smalltalk (Programmiersprache),Datentyp
-Smalltalk (Programmiersprache),Dylan (Programmiersprache)
-Smalltalk (Programmiersprache),Dynamische Programmiersprache
-Smalltalk (Programmiersprache),Dynamische Typisierung
-Smalltalk (Programmiersprache),Eclipse (IDE)
-Smalltalk (Programmiersprache),Garbage Collection
-Smalltalk (Programmiersprache),Groovy
-Smalltalk (Programmiersprache),Implementierung
-Smalltalk (Programmiersprache),Integrierte Entwicklungsumgebung
-Smalltalk (Programmiersprache),Internet Archive
-Smalltalk (Programmiersprache),Java (Programmiersprache)
-Smalltalk (Programmiersprache),Lisp
-Smalltalk (Programmiersprache),Lizenz
-Smalltalk (Programmiersprache),MacOS
-Smalltalk (Programmiersprache),Microsoft Windows
-Smalltalk (Programmiersprache),Objektorientierte Programmierung
-Smalltalk (Programmiersprache),PHP
-Smalltalk (Programmiersprache),Perl (Programmiersprache)
-Smalltalk (Programmiersprache),Ruby (Programmiersprache)
-Smalltalk (Programmiersprache),Typisierung (Informatik)
-Smalltalk (Programmiersprache),Unix
-Smalltalk (Programmiersprache),Version (Software)
-Smalltalk (Programmiersprache),Web-Archivierung
-Smalltalk (Programmiersprache),Zeichenkette
-Shell (Betriebssystem),Betriebssystem
-Shell (Betriebssystem),Englische Sprache
-Shell (Betriebssystem),Grafische Benutzeroberfläche
-Shell (Betriebssystem),Interpreter
-Shell (Betriebssystem),Kommandozeile
-Shell (Betriebssystem),Kommandozeileninterpreter
-Shell (Betriebssystem),MacOS
-Shell (Betriebssystem),Microsoft Windows
-Shell (Betriebssystem),Skriptsprache
-Shell (Betriebssystem),Unix
-Version (Software),Gemeinsame Normdatei
-Version (Software),Portal:Gesprochene Wikipedia
-APL (Programmiersprache),Feld (Datentyp)
-APL (Programmiersprache),Funktionale Programmierung
-APL (Programmiersprache),Implementierung
-APL (Programmiersprache),Integrierte Entwicklungsumgebung
-APL (Programmiersprache),Internet Archive
-APL (Programmiersprache),Interpreter
-APL (Programmiersprache),Programmierparadigma
-APL (Programmiersprache),Strukturierte Programmierung
-APL (Programmiersprache),Typisierung (Informatik)
-APL (Programmiersprache),Web-Archivierung
-Don’t repeat yourself,Englische Sprache
-Don’t repeat yourself,Skriptsprache
-Internet Archive,Amsterdam
-Internet Archive,Englische Sprache
-Internet Archive,Gemeinsame Normdatei
-Internet Archive,Library of Congress Control Number
-Internet Archive,Web-Archivierung
-Internet Archive,YouTube
+Parrot,C (Programmiersprache)
+Parrot,Guido van Rossum
+Parrot,Implementierung
+Parrot,Internet Archive
+Parrot,Interpreter
+Parrot,Perl (Programmiersprache)
+Parrot,Ruby (Programmiersprache)
+Parrot,Stapelspeicher
+Parrot,Tcl
+Parrot,Web-Archivierung
+Parrot,Zeichenkette
+Einrückungsstil,Blockstruktur
+Einrückungsstil,C++
+Einrückungsstil,C (Programmiersprache)
+Einrückungsstil,Java (Programmiersprache)
+Einrückungsstil,Perl (Programmiersprache)
+Einrückungsstil,Tabulatorzeichen
+Einrückungsstil,Vim
+Einrückungsstil,Visual Studio
+Garbage Collection,.Net-Framework
+Garbage Collection,APL (Programmiersprache)
+Garbage Collection,C (Programmiersprache)
+Garbage Collection,Englische Sprache
+Garbage Collection,Gemeinsame Normdatei
+Garbage Collection,Groovy
+Garbage Collection,Haskell (Programmiersprache)
+Garbage Collection,Internet Archive
+Garbage Collection,Java (Programmiersprache)
+Garbage Collection,Objektorientierte Programmierung
+Garbage Collection,Perl (Programmiersprache)
+Garbage Collection,Referenzzählung
+Garbage Collection,Ruby (Programmiersprache)
+Garbage Collection,Smalltalk (Programmiersprache)
+Garbage Collection,Stapelspeicher
+Garbage Collection,Web-Archivierung
+Syntaxfehler,Compiler
+Syntaxfehler,Englische Sprache
+Syntaxfehler,Integrierte Entwicklungsumgebung
+Syntaxfehler,Interpreter
+Syntaxfehler,Java (Programmiersprache)
+Syntaxfehler,Laufzeitfehler
+Syntaxfehler,Parser
+IronPython,.Net-Framework
+IronPython,Betriebssystem
+IronPython,Interpreter
+IronPython,Just-in-time-Kompilierung
+IronPython,Jython
+IronPython,Lizenz
+IronPython,Mono (Software)
+IronPython,Plattformunabhängigkeit
+IronPython,Plug-in
+IronPython,PyPy
+IronPython,Version (Software)
+Mengenlehre,Gemeinsame Normdatei
+Mengenlehre,Menge (Mathematik)
+Fast Light Toolkit,AmigaOS
+Fast Light Toolkit,Betriebssystem
+Fast Light Toolkit,C++
+Fast Light Toolkit,GUI-Toolkit
+Fast Light Toolkit,MacOS
+Fast Light Toolkit,Microsoft Windows
+Fast Light Toolkit,Version (Software)
+Haskell (Programmiersprache),APL (Programmiersprache)
+Haskell (Programmiersprache),Betriebssystem
+Haskell (Programmiersprache),C++
+Haskell (Programmiersprache),C (Programmiersprache)
+Haskell (Programmiersprache),Compiler
+Haskell (Programmiersprache),Currying
+Haskell (Programmiersprache),Datentyp
+Haskell (Programmiersprache),Einrückungsstil
+Haskell (Programmiersprache),Englische Sprache
+Haskell (Programmiersprache),Fakultät (Mathematik)
+Haskell (Programmiersprache),Funktionale Programmierung
+Haskell (Programmiersprache),Gemeinsame Normdatei
+Haskell (Programmiersprache),Haskell Brooks Curry
+Haskell (Programmiersprache),Implementierung
+Haskell (Programmiersprache),Internet Archive
+Haskell (Programmiersprache),Java (Programmiersprache)
+Haskell (Programmiersprache),Menge (Mathematik)
+Haskell (Programmiersprache),Microsoft Windows
+Haskell (Programmiersprache),Miranda (Programmiersprache)
+Haskell (Programmiersprache),PHP
+Haskell (Programmiersprache),Perl (Programmiersprache)
+Haskell (Programmiersprache),Plattformunabhängigkeit
+Haskell (Programmiersprache),Programmierparadigma
+Haskell (Programmiersprache),Quicksort
+Haskell (Programmiersprache),Starke Typisierung
+Haskell (Programmiersprache),Typisierung (Informatik)
+Haskell (Programmiersprache),Version (Software)
+Haskell (Programmiersprache),Web-Archivierung
+Zeichenkette,C++
+Zeichenkette,C (Programmiersprache)
+Zeichenkette,Datentyp
+Zeichenkette,Feld (Datentyp)
+Zeichenkette,Garbage Collection
+Zeichenkette,Java (Programmiersprache)
+Zeichenkette,Leerraum
+Zeichenkette,Microsoft Windows
+Zeichenkette,PHP
+Zeichenkette,Parser
+Zeichenkette,Perl (Programmiersprache)
+Zeichenkette,Regulärer Ausdruck
+Zeichenkette,Unicode
+Symbian-Plattform,Betriebssystem
+Symbian-Plattform,C++
+Symbian-Plattform,Internet Archive
+Symbian-Plattform,Java (Programmiersprache)
+Symbian-Plattform,Liste der IPA-Zeichen
+Symbian-Plattform,Lizenz
+Symbian-Plattform,Mobiltelefon
+Symbian-Plattform,Relationale Datenbank
+Symbian-Plattform,Version (Software)
+Symbian-Plattform,Web-Archivierung
 Raspberry Pi,Betriebssystem
 Raspberry Pi,C (Programmiersprache)
 Raspberry Pi,Englische Sprache
@@ -1214,317 +1161,40 @@ Raspberry Pi,MicroPython
 Raspberry Pi,Mikrocontroller
 Raspberry Pi,Web-Archivierung
 Raspberry Pi,YouTube
-University of Waterloo,Gemeinsame Normdatei
-University of Waterloo,Library of Congress Control Number
-University of Waterloo,PHP
-KiCad,Betriebssystem
-KiCad,Blender (Software)
-KiCad,C++
-KiCad,Framework
-KiCad,MacOS
-KiCad,Microsoft Windows
-KiCad,Version (Software)
-Centrum Wiskunde & Informatica,Amsterdam
-Centrum Wiskunde & Informatica,Gemeinsame Normdatei
-Centrum Wiskunde & Informatica,Guido van Rossum
-Centrum Wiskunde & Informatica,Library of Congress Control Number
-Starke Typisierung,C++
-Starke Typisierung,C (Programmiersprache)
-Starke Typisierung,Englische Sprache
-Starke Typisierung,Haskell (Programmiersprache)
-Starke Typisierung,Internet Archive
-Starke Typisierung,Java (Programmiersprache)
-Starke Typisierung,PHP
-Starke Typisierung,Perl (Programmiersprache)
-Starke Typisierung,Ruby (Programmiersprache)
-Starke Typisierung,Tcl
-Starke Typisierung,Typisierung (Informatik)
-Starke Typisierung,Vererbung (Programmierung)
-Starke Typisierung,Web-Archivierung
-Klasse (Objektorientierung),Datentyp
-Klasse (Objektorientierung),Implementierung
-Klasse (Objektorientierung),Java (Programmiersprache)
-Klasse (Objektorientierung),Objektorientierte Programmierung
-Klasse (Objektorientierung),Quellcode
-Klasse (Objektorientierung),Reflexion (Programmierung)
-Klasse (Objektorientierung),Ruby (Programmiersprache)
-Klasse (Objektorientierung),Vererbung (Programmierung)
-Tkinter,Betriebssystem
-Tkinter,C++
-Tkinter,C (Programmiersprache)
-Tkinter,GUI-Toolkit
-Tkinter,Grafische Benutzeroberfläche
-Tkinter,Java (Programmiersprache)
-Tkinter,Kivy
-Tkinter,MacOS
-Tkinter,Microsoft Windows
-Tkinter,Plattformunabhängigkeit
-Tkinter,PyFLTK
-Tkinter,PyGTK
-Tkinter,PyQt
-Tkinter,Tk (Toolkit)
-Tkinter,Version (Software)
-Tkinter,WxPython
-Kommandozeileninterpreter,.Net-Framework
-Kommandozeileninterpreter,AmigaOS
-Kommandozeileninterpreter,Betriebssystem
-Kommandozeileninterpreter,Emacs
-Kommandozeileninterpreter,Englische Sprache
-Kommandozeileninterpreter,Grafische Benutzeroberfläche
-Kommandozeileninterpreter,IPython
-Kommandozeileninterpreter,Interpreter
-Kommandozeileninterpreter,Kommandozeile
-Kommandozeileninterpreter,Lisp
-Kommandozeileninterpreter,Microsoft Windows
-Kommandozeileninterpreter,Objektorientierte Programmierung
-Kommandozeileninterpreter,Perl (Programmiersprache)
-Kommandozeileninterpreter,Ruby (Programmiersprache)
-Kommandozeileninterpreter,Shell (Betriebssystem)
-Kommandozeileninterpreter,Skriptsprache
-Project Jupyter,Haskell (Programmiersprache)
-Project Jupyter,IPython
-Project Jupyter,Kommandozeileninterpreter
-Project Jupyter,Liste der IPA-Zeichen
-Project Jupyter,Ruby (Programmiersprache)
-Project Jupyter,Shell (Betriebssystem)
-Monty Python,Gemeinsame Normdatei
-Monty Python,Guido van Rossum
-Monty Python,Library of Congress Control Number
-Monty Python,Liste der IPA-Zeichen
-Monty Python,Monty Python’s Flying Circus
-Zeichenkette,C++
-Zeichenkette,C (Programmiersprache)
-Zeichenkette,Datentyp
-Zeichenkette,Feld (Datentyp)
-Zeichenkette,Garbage Collection
-Zeichenkette,Java (Programmiersprache)
-Zeichenkette,Leerraum
-Zeichenkette,Microsoft Windows
-Zeichenkette,PHP
-Zeichenkette,Parser
-Zeichenkette,Perl (Programmiersprache)
-Zeichenkette,Regulärer Ausdruck
-Zeichenkette,Unicode
-Web-Archivierung,Internet Archive
-Wikipedia:Lesenswerte Artikel,Apache OpenOffice
-Wikipedia:Lesenswerte Artikel,LibreOffice
-Wikipedia:Lesenswerte Artikel,Perl (Programmiersprache)
-Wikipedia:Lesenswerte Artikel,Vererbung (Programmierung)
-Wikipedia:Lesenswerte Artikel,World in Conflict
-PyCharm,Betriebssystem
-PyCharm,Django (Framework)
-PyCharm,Integrierte Entwicklungsumgebung
-PyCharm,Java (Programmiersprache)
-PyCharm,MacOS
-PyCharm,Microsoft Windows
-PyCharm,Version (Software)
-Syntaxfehler,Compiler
-Syntaxfehler,Englische Sprache
-Syntaxfehler,Integrierte Entwicklungsumgebung
-Syntaxfehler,Interpreter
-Syntaxfehler,Java (Programmiersprache)
-Syntaxfehler,Laufzeitfehler
-Syntaxfehler,Parser
-IPython,Betriebssystem
-IPython,C (Programmiersprache)
-IPython,Framework
-IPython,Integrierte Entwicklungsumgebung
-IPython,Kommandozeileninterpreter
-IPython,Matplotlib
-IPython,Plattformunabhängigkeit
-IPython,Project Jupyter
-IPython,Reflexion (Programmierung)
-IPython,Version (Software)
-Deep Learning,Betriebssystem
-Deep Learning,C++
-Deep Learning,C (Programmiersprache)
-Deep Learning,Englische Sprache
-Deep Learning,Internet Archive
-Deep Learning,Java (Programmiersprache)
-Deep Learning,Keras
-Deep Learning,Künstliche Intelligenz
-Deep Learning,Maschinelles Lernen
-Deep Learning,PyTorch
-Deep Learning,TensorFlow
-Deep Learning,Web-Archivierung
-Deep Learning,YouTube
-Grafische Benutzeroberfläche,AmigaOS
-Grafische Benutzeroberfläche,Betriebssystem
-Grafische Benutzeroberfläche,Englische Sprache
-Grafische Benutzeroberfläche,GUI-Toolkit
-Grafische Benutzeroberfläche,Kommandozeile
-Grafische Benutzeroberfläche,MacOS
-Grafische Benutzeroberfläche,Microsoft Windows
-Grafische Benutzeroberfläche,Unix
-Grafische Benutzeroberfläche,Portal:Gesprochene Wikipedia
-Emacs,AmigaOS
-Emacs,Betriebssystem
-Emacs,C (Programmiersprache)
-Emacs,Gemeinsame Normdatei
-Emacs,Integrierte Entwicklungsumgebung
-Emacs,Interpreter
-Emacs,Java (Programmiersprache)
-Emacs,Kommandozeileninterpreter
-Emacs,Library of Congress Control Number
-Emacs,Lisp
-Emacs,Liste der IPA-Zeichen
-Emacs,MacOS
-Emacs,Microsoft Windows
-Emacs,Objektorientierte Programmierung
-Emacs,Paketverwaltung
-Emacs,Parser
-Emacs,Perl (Programmiersprache)
-Emacs,Plattformunabhängigkeit
-Emacs,Syntaxfehler
-Emacs,Unix
-Emacs,Version (Software)
-IntelliJ IDEA,Betriebssystem
-IntelliJ IDEA,C++
-IntelliJ IDEA,Groovy
-IntelliJ IDEA,Integrierte Entwicklungsumgebung
-IntelliJ IDEA,Java (Programmiersprache)
-IntelliJ IDEA,MacOS
-IntelliJ IDEA,Microsoft Windows
-IntelliJ IDEA,PHP
-IntelliJ IDEA,Plug-in
-IntelliJ IDEA,PyCharm
-IntelliJ IDEA,Ruby (Programmiersprache)
-IntelliJ IDEA,Version (Software)
-Maya (Software),Betriebssystem
-Maya (Software),C++
-Maya (Software),C (Programmiersprache)
-Maya (Software),Internet Archive
-Maya (Software),MacOS
-Maya (Software),Microsoft Windows
-Maya (Software),PHP
-Maya (Software),Plug-in
-Maya (Software),Skriptsprache
-Maya (Software),Version (Software)
-Maya (Software),Web-Archivierung
-Mobiltelefon,Englische Sprache
-Mobiltelefon,Gemeinsame Normdatei
-Mobiltelefon,Internet Archive
-Mobiltelefon,Library of Congress Control Number
-Mobiltelefon,Mikrocontroller
-Mobiltelefon,Symbian-Plattform
-Mobiltelefon,Web-Archivierung
-Mehrfachvererbung,C++
-Mehrfachvererbung,Java (Programmiersprache)
-Mehrfachvererbung,Klasse (Objektorientierung)
-Mehrfachvererbung,Objektorientierte Programmierung
-Mehrfachvererbung,PHP
-Mehrfachvererbung,Perl (Programmiersprache)
-Mehrfachvererbung,Smalltalk (Programmiersprache)
-Mehrfachvererbung,Vererbung (Programmierung)
-Framework,.Net-Framework
-Framework,Django (Framework)
-Framework,Englische Sprache
-Framework,Gemeinsame Normdatei
-Framework,Implementierung
-Framework,Klasse (Objektorientierung)
-Framework,NetBeans IDE
-Framework,Objektorientierte Programmierung
-Framework,Vererbung (Programmierung)
-Höhere Programmiersprache,Betriebssystem
-Höhere Programmiersprache,C++
-Höhere Programmiersprache,C (Programmiersprache)
-Höhere Programmiersprache,Compiler
-Höhere Programmiersprache,Datentyp
-Höhere Programmiersprache,Gemeinsame Normdatei
-Höhere Programmiersprache,Interpreter
-Höhere Programmiersprache,Java (Programmiersprache)
-Höhere Programmiersprache,Just-in-time-Kompilierung
-Höhere Programmiersprache,Lisp
-Höhere Programmiersprache,PHP
-Höhere Programmiersprache,Ruby (Programmiersprache)
-Assoziation (Psychologie),Gemeinsame Normdatei
-Microsoft Windows,.Net-Framework
-Microsoft Windows,Betriebssystem
-Microsoft Windows,C++
-Microsoft Windows,C (Programmiersprache)
-Microsoft Windows,Englische Sprache
-Microsoft Windows,Gemeinsame Normdatei
-Microsoft Windows,Grafische Benutzeroberfläche
-Microsoft Windows,Internet Archive
-Microsoft Windows,Liste der IPA-Zeichen
-Microsoft Windows,Lizenz
-Microsoft Windows,MacOS
-Microsoft Windows,Version (Software)
-Microsoft Windows,Web-Archivierung
-Lizenz,Englische Sprache
-Lizenz,Gemeinsame Normdatei
-Lizenz,Internet Archive
-Lizenz,Quellcode
-Lizenz,Web-Archivierung
-Lizenz,YouTube
-Standardbibliothek,C++
-Standardbibliothek,C (Programmiersprache)
-Standardbibliothek,Compiler
-Standardbibliothek,Integrierte Entwicklungsumgebung
-Standardbibliothek,Java (Programmiersprache)
-Standardbibliothek,Schlüsselwort (Programmierung)
-Standardbibliothek,Unix
-Algol 68,Blockstruktur
-Algol 68,C++
-Algol 68,Compiler
-Algol 68,Gemeinsame Normdatei
-Algol 68,Internet Archive
-Algol 68,Web-Archivierung
-Leerraum,Englische Sprache
-Leerraum,Internet Archive
-Leerraum,Liste der IPA-Zeichen
-Leerraum,Regulärer Ausdruck
-Leerraum,Tabulatorzeichen
-Leerraum,Unicode
-Leerraum,Web-Archivierung
-Aspektorientierte Programmierung,Ausnahmebehandlung
-Aspektorientierte Programmierung,Blockstruktur
-Aspektorientierte Programmierung,Integrierte Entwicklungsumgebung
-Aspektorientierte Programmierung,Java (Programmiersprache)
-Aspektorientierte Programmierung,Objektorientierte Programmierung
-Aspektorientierte Programmierung,Programmierparadigma
-Aspektorientierte Programmierung,Reflexion (Programmierung)
-Aspektorientierte Programmierung,Vererbung (Programmierung)
-Aspektorientierte Programmierung,Zeichenkette
-Mono (Software),.Net-Framework
-Mono (Software),Betriebssystem
-Mono (Software),C++
-Mono (Software),C (Programmiersprache)
-Mono (Software),Compiler
-Mono (Software),Framework
-Mono (Software),Implementierung
-Mono (Software),MacOS
-Mono (Software),Microsoft Windows
-Mono (Software),Parser
-Mono (Software),Plattformunabhängigkeit
-Mono (Software),Unix
-Mono (Software),Version (Software)
-NetBeans IDE,Apache OpenOffice
-NetBeans IDE,Betriebssystem
-NetBeans IDE,C++
-NetBeans IDE,C (Programmiersprache)
-NetBeans IDE,Eclipse (IDE)
-NetBeans IDE,Emacs
-NetBeans IDE,Framework
-NetBeans IDE,GUI-Builder
-NetBeans IDE,Gemeinsame Normdatei
-NetBeans IDE,Groovy
-NetBeans IDE,Integrierte Entwicklungsumgebung
-NetBeans IDE,Internet Archive
-NetBeans IDE,Java (Programmiersprache)
-NetBeans IDE,Library of Congress Control Number
-NetBeans IDE,PHP
-NetBeans IDE,Perl (Programmiersprache)
-NetBeans IDE,Plattformunabhängigkeit
-NetBeans IDE,Plug-in
-NetBeans IDE,Ruby (Programmiersprache)
-NetBeans IDE,Tcl
-NetBeans IDE,Thread (Informatik)
-NetBeans IDE,Version (Software)
-NetBeans IDE,Web-Archivierung
-Pythons,Gemeinsame Normdatei
-Pythons,Internet Archive
-Pythons,Web-Archivierung
+Shell (Betriebssystem),Betriebssystem
+Shell (Betriebssystem),Englische Sprache
+Shell (Betriebssystem),Grafische Benutzeroberfläche
+Shell (Betriebssystem),Interpreter
+Shell (Betriebssystem),Kommandozeile
+Shell (Betriebssystem),Kommandozeileninterpreter
+Shell (Betriebssystem),MacOS
+Shell (Betriebssystem),Microsoft Windows
+Shell (Betriebssystem),Skriptsprache
+Shell (Betriebssystem),Unix
+Ausnahmebehandlung,C++
+Ausnahmebehandlung,Englische Sprache
+Ausnahmebehandlung,Java (Programmiersprache)
+Ausnahmebehandlung,PHP
+Ausnahmebehandlung,Perl (Programmiersprache)
+Keras,Betriebssystem
+Keras,Deep Learning
+Keras,Plattformunabhängigkeit
+Keras,TensorFlow
+Keras,Version (Software)
+Keras,YouTube
+Tupel (Informatik),Datentyp
+Tupel (Informatik),Haskell (Programmiersprache)
+Tupel (Informatik),Relationale Datenbank
+Anaconda (Python-Distribution),Betriebssystem
+Anaconda (Python-Distribution),Conda (Paketverwaltung)
+Anaconda (Python-Distribution),IPython
+Anaconda (Python-Distribution),Integrierte Entwicklungsumgebung
+Anaconda (Python-Distribution),MacOS
+Anaconda (Python-Distribution),Microsoft Windows
+Anaconda (Python-Distribution),Paketverwaltung
+Anaconda (Python-Distribution),Project Jupyter
+Anaconda (Python-Distribution),Spyder (Software)
+Anaconda (Python-Distribution),Version (Software)
 Conda (Paketverwaltung),Anaconda (Python-Distribution)
 Conda (Paketverwaltung),Betriebssystem
 Conda (Paketverwaltung),Java (Programmiersprache)
@@ -1533,104 +1203,114 @@ Conda (Paketverwaltung),Paketverwaltung
 Conda (Paketverwaltung),Pip (Python)
 Conda (Paketverwaltung),Plattformunabhängigkeit
 Conda (Paketverwaltung),Version (Software)
-Continuation-Passing Style,Fakultät (Mathematik)
-Continuation-Passing Style,Stapelspeicher
-Skriptsprache,Betriebssystem
-Skriptsprache,Blender (Software)
-Skriptsprache,C (Programmiersprache)
-Skriptsprache,Compiler
-Skriptsprache,Currying
-Skriptsprache,Dynamische Typisierung
-Skriptsprache,Emacs
-Skriptsprache,Funktionale Programmierung
-Skriptsprache,GIMP
-Skriptsprache,Groovy
-Skriptsprache,Guido van Rossum
-Skriptsprache,Imperative Programmierung
-Skriptsprache,Implementierung
-Skriptsprache,Interpreter
-Skriptsprache,IronPython
-Skriptsprache,Java (Programmiersprache)
-Skriptsprache,Jython
-Skriptsprache,Klasse (Objektorientierung)
-Skriptsprache,Kommandozeileninterpreter
-Skriptsprache,LibreOffice
-Skriptsprache,Lisp
-Skriptsprache,MacOS
-Skriptsprache,Objektorientierte Programmierung
-Skriptsprache,PHP
-Skriptsprache,Pattern Matching
-Skriptsprache,Perl (Programmiersprache)
-Skriptsprache,Plug-in
-Skriptsprache,Programmierparadigma
-Skriptsprache,PyPy
-Skriptsprache,Python Software Foundation
-Skriptsprache,Ruby (Programmiersprache)
-Skriptsprache,Starke Typisierung
-Skriptsprache,Tcl
-Skriptsprache,Tk (Toolkit)
-Skriptsprache,Typisierung (Informatik)
-Skriptsprache,Unix
-Skriptsprache,Vererbung (Programmierung)
-Skriptsprache,Vim
-Skriptsprache,Wiki
-Currying,C++
-Currying,C (Programmiersprache)
-Currying,Closure (Funktion)
-Currying,Haskell (Programmiersprache)
-Currying,Haskell Brooks Curry
-Currying,Internet Archive
-Currying,Java (Programmiersprache)
-Currying,Ruby (Programmiersprache)
-Currying,Tcl
-Currying,Web-Archivierung
-Wrapper (Software),Java (Programmiersprache)
-Wrapper (Software),Objektorientierte Programmierung
-Compiler,Betriebssystem
-Compiler,C++
-Compiler,C (Programmiersprache)
-Compiler,Datentyp
-Compiler,Englische Sprache
-Compiler,Feld (Datentyp)
-Compiler,Gemeinsame Normdatei
-Compiler,Höhere Programmiersprache
-Compiler,Internet Archive
-Compiler,Interpreter
-Compiler,Java (Programmiersprache)
-Compiler,Just-in-time-Kompilierung
-Compiler,Leerraum
-Compiler,Parser
-Compiler,Programmierparadigma
-Compiler,Schlüsselwort (Programmierung)
-Compiler,Syntaxfehler
-Compiler,Thread (Informatik)
-Compiler,Web-Archivierung
-Compiler,Zeichenkette
-Unix,Betriebssystem
-Unix,C (Programmiersprache)
-Unix,Compiler
-Unix,Englische Sprache
-Unix,Gemeinsame Normdatei
-Unix,Grafische Benutzeroberfläche
-Unix,Kommandozeile
-Unix,Liste der IPA-Zeichen
-Unix,Lizenz
-Unix,MacOS
-Unix,Microsoft Windows
-Unix,Skriptsprache
-Blender (Software),AmigaOS
-Blender (Software),Betriebssystem
-Blender (Software),C++
-Blender (Software),C (Programmiersprache)
-Blender (Software),Gemeinsame Normdatei
-Blender (Software),Grafische Benutzeroberfläche
-Blender (Software),Internet Archive
-Blender (Software),Library of Congress Control Number
-Blender (Software),MacOS
-Blender (Software),Skriptsprache
-Blender (Software),Version (Software)
-Blender (Software),Web-Archivierung
-Blender (Software),YouTube
+Visual Studio,.Net-Framework
+Visual Studio,Betriebssystem
+Visual Studio,C++
+Visual Studio,C (Programmiersprache)
+Visual Studio,Höhere Programmiersprache
+Visual Studio,Integrierte Entwicklungsumgebung
+Visual Studio,Java (Programmiersprache)
+Visual Studio,MacOS
+Visual Studio,Microsoft Windows
+Visual Studio,Version (Software)
+Leerraum,Englische Sprache
+Leerraum,Internet Archive
+Leerraum,Liste der IPA-Zeichen
+Leerraum,Regulärer Ausdruck
+Leerraum,Tabulatorzeichen
+Leerraum,Unicode
+Leerraum,Web-Archivierung
+SQLAlchemy,Betriebssystem
+SQLAlchemy,Django (Framework)
+SQLAlchemy,Framework
+SQLAlchemy,Plattformunabhängigkeit
+SQLAlchemy,Relationale Datenbank
+SQLAlchemy,Version (Software)
+Spyder (Software),Anaconda (Python-Distribution)
+Spyder (Software),Betriebssystem
+Spyder (Software),Cython
+Spyder (Software),IPython
+Spyder (Software),Integrierte Entwicklungsumgebung
+Spyder (Software),MacOS
+Spyder (Software),Matplotlib
+Spyder (Software),Microsoft Windows
+Spyder (Software),NumPy
+Spyder (Software),Project Jupyter
+Spyder (Software),SciPy
+Spyder (Software),Version (Software)
+Monty Python,Gemeinsame Normdatei
+Monty Python,Guido van Rossum
+Monty Python,Library of Congress Control Number
+Monty Python,Liste der IPA-Zeichen
+Monty Python,Monty Python’s Flying Circus
+IDLE,Betriebssystem
+IDLE,Guido van Rossum
+IDLE,Integrierte Entwicklungsumgebung
+IDLE,Interpreter
+IDLE,MacOS
+IDLE,Microsoft Windows
+IDLE,Plattformunabhängigkeit
+IDLE,Python Software Foundation
+IDLE,Tkinter
+IDLE,Unix
+IDLE,Version (Software)
+IDLE,Wrapper (Software)
+APL (Programmiersprache),Feld (Datentyp)
+APL (Programmiersprache),Funktionale Programmierung
+APL (Programmiersprache),Implementierung
+APL (Programmiersprache),Integrierte Entwicklungsumgebung
+APL (Programmiersprache),Internet Archive
+APL (Programmiersprache),Interpreter
+APL (Programmiersprache),Programmierparadigma
+APL (Programmiersprache),Strukturierte Programmierung
+APL (Programmiersprache),Typisierung (Informatik)
+APL (Programmiersprache),Web-Archivierung
+Mikrocontroller,C++
+Mikrocontroller,C (Programmiersprache)
+Mikrocontroller,Gemeinsame Normdatei
+Mikrocontroller,MicroPython
+Mikrocontroller,Mobiltelefon
+Python Software Foundation,Guido van Rossum
+Jython,Betriebssystem
+Jython,C (Programmiersprache)
+Jython,Java (Programmiersprache)
+Jython,Lizenz
+Jython,Plattformunabhängigkeit
+Jython,Python Software Foundation
+Jython,Softwareseitiges Multithreading
+Jython,Version (Software)
+PyGTK,Betriebssystem
+PyGTK,GUI-Toolkit
+PyGTK,MacOS
+PyGTK,Microsoft Windows
+PyGTK,Reflexion (Programmierung)
+PyGTK,Unix
+PyGTK,Version (Software)
+PyGTK,WxPython
+AmigaOS,Betriebssystem
+AmigaOS,Internet Archive
+AmigaOS,Interrupt
+AmigaOS,Kommandozeileninterpreter
+AmigaOS,Lizenz
+AmigaOS,Unix
+AmigaOS,Unixoid
+AmigaOS,Version (Software)
+AmigaOS,Vim
+AmigaOS,Web-Archivierung
+Standardbibliothek,C++
+Standardbibliothek,C (Programmiersprache)
+Standardbibliothek,Compiler
+Standardbibliothek,Integrierte Entwicklungsumgebung
+Standardbibliothek,Java (Programmiersprache)
+Standardbibliothek,Schlüsselwort (Programmierung)
+Standardbibliothek,Unix
+GUI-Builder,Eclipse (IDE)
+GUI-Builder,Fast Light Toolkit
+GUI-Builder,Glade (Programmierwerkzeug)
+GUI-Builder,Grafische Benutzeroberfläche
+GUI-Builder,Implementierung
+GUI-Builder,Tk (Toolkit)
+GUI-Builder,Visual Studio
 Lisp,Assoziatives Datenfeld
 Lisp,Compiler
 Lisp,Datentyp
@@ -1656,6 +1336,85 @@ Lisp,Skriptsprache
 Lisp,Smalltalk (Programmiersprache)
 Lisp,Typisierung (Informatik)
 Lisp,Unix
+Starke Typisierung,C++
+Starke Typisierung,C (Programmiersprache)
+Starke Typisierung,Englische Sprache
+Starke Typisierung,Haskell (Programmiersprache)
+Starke Typisierung,Internet Archive
+Starke Typisierung,Java (Programmiersprache)
+Starke Typisierung,PHP
+Starke Typisierung,Perl (Programmiersprache)
+Starke Typisierung,Ruby (Programmiersprache)
+Starke Typisierung,Tcl
+Starke Typisierung,Typisierung (Informatik)
+Starke Typisierung,Vererbung (Programmierung)
+Starke Typisierung,Web-Archivierung
+World in Conflict,Betriebssystem
+World in Conflict,Englische Sprache
+World in Conflict,Künstliche Intelligenz
+World in Conflict,Version (Software)
+Scikit-learn,Betriebssystem
+Scikit-learn,C++
+Scikit-learn,C (Programmiersprache)
+Scikit-learn,Cython
+Scikit-learn,Maschinelles Lernen
+Scikit-learn,Matplotlib
+Scikit-learn,NumPy
+Scikit-learn,Plattformunabhängigkeit
+Scikit-learn,SciPy
+Scikit-learn,Version (Software)
+TensorFlow,Betriebssystem
+TensorFlow,C++
+TensorFlow,C (Programmiersprache)
+TensorFlow,Deep Learning
+TensorFlow,Feld (Datentyp)
+TensorFlow,Framework
+TensorFlow,Haskell (Programmiersprache)
+TensorFlow,Java (Programmiersprache)
+TensorFlow,Keras
+TensorFlow,MacOS
+TensorFlow,Maschinelles Lernen
+TensorFlow,Microsoft Windows
+TensorFlow,Version (Software)
+TensorFlow,YouTube
+Arithmetik,Gemeinsame Normdatei
+Arithmetik,Komplexe Zahl
+Arithmetik,Mengenlehre
+Lizenz,Englische Sprache
+Lizenz,Gemeinsame Normdatei
+Lizenz,Internet Archive
+Lizenz,Quellcode
+Lizenz,Web-Archivierung
+Lizenz,YouTube
+Assoziation (Psychologie),Gemeinsame Normdatei
+Regulärer Ausdruck,.Net-Framework
+Regulärer Ausdruck,C++
+Regulärer Ausdruck,C (Programmiersprache)
+Regulärer Ausdruck,Compiler
+Regulärer Ausdruck,Emacs
+Regulärer Ausdruck,Englische Sprache
+Regulärer Ausdruck,Gemeinsame Normdatei
+Regulärer Ausdruck,Implementierung
+Regulärer Ausdruck,Java (Programmiersprache)
+Regulärer Ausdruck,Leerraum
+Regulärer Ausdruck,Menge (Mathematik)
+Regulärer Ausdruck,PHP
+Regulärer Ausdruck,Parser
+Regulärer Ausdruck,Pattern Matching
+Regulärer Ausdruck,Perl (Programmiersprache)
+Regulärer Ausdruck,Ruby (Programmiersprache)
+Regulärer Ausdruck,Tabulatorzeichen
+Regulärer Ausdruck,Tcl
+Regulärer Ausdruck,Vim
+Regulärer Ausdruck,Zeichenkette
+Paketverwaltung,Compiler
+Paketverwaltung,Englische Sprache
+Paketverwaltung,Internet Archive
+Paketverwaltung,MacOS
+Paketverwaltung,Skriptsprache
+Paketverwaltung,Unix
+Paketverwaltung,Visual Studio
+Paketverwaltung,Web-Archivierung
 C++,Algol 68
 C++,AmigaOS
 C++,Ausnahmebehandlung
@@ -1700,137 +1459,65 @@ C++,Version (Software)
 C++,Visual Studio
 C++,Web-Archivierung
 C++,Zeichenkette
-Cinema 4D,Betriebssystem
-Cinema 4D,C++
-Cinema 4D,Compiler
-Cinema 4D,Gemeinsame Normdatei
-Cinema 4D,Grafische Benutzeroberfläche
-Cinema 4D,MacOS
-Cinema 4D,Maya (Software)
-Cinema 4D,Microsoft Windows
-Cinema 4D,Multiprozessor
-Cinema 4D,Plug-in
-Cinema 4D,Quellcode
-Cinema 4D,Version (Software)
-Programmierparadigma,Aspektorientierte Programmierung
-Programmierparadigma,Compiler
-Programmierparadigma,Datentyp
-Programmierparadigma,Funktionale Programmierung
-Programmierparadigma,Gemeinsame Normdatei
-Programmierparadigma,Grafische Benutzeroberfläche
-Programmierparadigma,Haskell (Programmiersprache)
-Programmierparadigma,Höhere Programmiersprache
-Programmierparadigma,Imperative Programmierung
-Programmierparadigma,Interpreter
-Programmierparadigma,Java (Programmiersprache)
-Programmierparadigma,Klasse (Objektorientierung)
-Programmierparadigma,Lisp
-Programmierparadigma,Miranda (Programmiersprache)
-Programmierparadigma,Objektorientierte Programmierung
-Programmierparadigma,Perl (Programmiersprache)
-Programmierparadigma,Plattformunabhängigkeit
-Programmierparadigma,Prozedurale Programmierung
-Programmierparadigma,Quellcode
-Programmierparadigma,Quicksort
-Programmierparadigma,Stapelspeicher
-Programmierparadigma,Strukturierte Programmierung
+Apache OpenOffice,Betriebssystem
+Apache OpenOffice,C++
+Apache OpenOffice,C (Programmiersprache)
+Apache OpenOffice,Grafische Benutzeroberfläche
+Apache OpenOffice,Integrierte Entwicklungsumgebung
+Apache OpenOffice,Internet Archive
+Apache OpenOffice,Java (Programmiersprache)
+Apache OpenOffice,Library of Congress Control Number
+Apache OpenOffice,LibreOffice
+Apache OpenOffice,MacOS
+Apache OpenOffice,Microsoft Windows
+Apache OpenOffice,Relationale Datenbank
+Apache OpenOffice,Skriptsprache
+Apache OpenOffice,Unicode
+Apache OpenOffice,Unix
+Apache OpenOffice,Version (Software)
+Apache OpenOffice,Web-Archivierung
+Apache OpenOffice,Wiki
+Maya (Software),Betriebssystem
+Maya (Software),C++
+Maya (Software),C (Programmiersprache)
+Maya (Software),Internet Archive
+Maya (Software),MacOS
+Maya (Software),Microsoft Windows
+Maya (Software),PHP
+Maya (Software),Plug-in
+Maya (Software),Skriptsprache
+Maya (Software),Version (Software)
+Maya (Software),Web-Archivierung
 Common Gateway Interface,Hypertext Transfer Protocol
 Common Gateway Interface,Interpreter
 Common Gateway Interface,PHP
 Common Gateway Interface,Perl (Programmiersprache)
 Common Gateway Interface,Skriptsprache
 Common Gateway Interface,Web Server Gateway Interface
-TensorFlow,Betriebssystem
-TensorFlow,C++
-TensorFlow,C (Programmiersprache)
-TensorFlow,Deep Learning
-TensorFlow,Feld (Datentyp)
-TensorFlow,Framework
-TensorFlow,Haskell (Programmiersprache)
-TensorFlow,Java (Programmiersprache)
-TensorFlow,Keras
-TensorFlow,MacOS
-TensorFlow,Maschinelles Lernen
-TensorFlow,Microsoft Windows
-TensorFlow,Version (Software)
-TensorFlow,YouTube
-EVE Online,Internet Archive
-EVE Online,Microsoft Windows
-EVE Online,Web-Archivierung
-Quicksort,Englische Sprache
-Quicksort,Feld (Datentyp)
-Quicksort,Stapelspeicher
-Parrot,C (Programmiersprache)
-Parrot,Guido van Rossum
-Parrot,Internet Archive
-Parrot,Interpreter
-Parrot,Perl (Programmiersprache)
-Parrot,Ruby (Programmiersprache)
-Parrot,Stapelspeicher
-Parrot,Tcl
-Parrot,Web-Archivierung
-Parrot,Zeichenkette
-Peter J. Landin,Funktionale Programmierung
-Peter J. Landin,Haskell (Programmiersprache)
-Peter J. Landin,Internet Archive
-Peter J. Landin,Leerraum
-Peter J. Landin,Miranda (Programmiersprache)
-Peter J. Landin,Quicksort
-Peter J. Landin,Tony Hoare
-Peter J. Landin,Web-Archivierung
-Tupel (Informatik),Datentyp
-Tupel (Informatik),Haskell (Programmiersprache)
-Tupel (Informatik),Relationale Datenbank
-NumPy,Betriebssystem
-NumPy,C++
-NumPy,C (Programmiersprache)
-NumPy,Compiler
-NumPy,Cython
-NumPy,Datentyp
-NumPy,Deep Learning
-NumPy,Feld (Datentyp)
-NumPy,Framework
-NumPy,Guido van Rossum
-NumPy,Jython
-NumPy,Matplotlib
-NumPy,Plattformunabhängigkeit
-NumPy,PyPy
-NumPy,SciPy
-NumPy,TensorFlow
-NumPy,Typisierung (Informatik)
-NumPy,Version (Software)
-NumPy,Wrapper (Software)
-Arithmetik,Gemeinsame Normdatei
-Arithmetik,Komplexe Zahl
-Arithmetik,Mengenlehre
-PyTorch,Betriebssystem
-PyTorch,C++
-PyTorch,C (Programmiersprache)
-PyTorch,Compiler
-PyTorch,Cython
-PyTorch,Deep Learning
-PyTorch,Java (Programmiersprache)
-PyTorch,Künstliche Intelligenz
-PyTorch,MacOS
-PyTorch,Maschinelles Lernen
-PyTorch,NumPy
-PyTorch,SciPy
-PyTorch,Scikit-learn
-PyTorch,Version (Software)
-Glade (Programmierwerkzeug),Betriebssystem
-Glade (Programmierwerkzeug),C (Programmiersprache)
-Glade (Programmierwerkzeug),Grafische Benutzeroberfläche
-Glade (Programmierwerkzeug),Microsoft Windows
-Glade (Programmierwerkzeug),Unix
-Glade (Programmierwerkzeug),Version (Software)
-Web Server Gateway Interface,Common Gateway Interface
-Web Server Gateway Interface,Django (Framework)
-Web Server Gateway Interface,Flask
-Web Server Gateway Interface,Iteration
-Web Server Gateway Interface,PHP
-Web Server Gateway Interface,Plattformunabhängigkeit
-Web Server Gateway Interface,Web2py
-Web Server Gateway Interface,Zope (Webanwendungsserver)
+Hypertext Transfer Protocol,Common Gateway Interface
+Hypertext Transfer Protocol,Englische Sprache
+Hypertext Transfer Protocol,Gemeinsame Normdatei
+Hypertext Transfer Protocol,Internet Archive
+Hypertext Transfer Protocol,Library of Congress Control Number
+Hypertext Transfer Protocol,PHP
+Hypertext Transfer Protocol,Unix
+Hypertext Transfer Protocol,Web-Archivierung
+Typisierung (Informatik),C++
+Typisierung (Informatik),C (Programmiersprache)
+Typisierung (Informatik),Datentyp
+Typisierung (Informatik),Dynamische Typisierung
+Typisierung (Informatik),Englische Sprache
+Typisierung (Informatik),Internet Archive
+Typisierung (Informatik),Java (Programmiersprache)
+Typisierung (Informatik),Laufzeitfehler
+Typisierung (Informatik),Objective CAML
+Typisierung (Informatik),Objektorientierte Programmierung
+Typisierung (Informatik),PHP
+Typisierung (Informatik),Perl (Programmiersprache)
+Typisierung (Informatik),Reflexion (Programmierung)
+Typisierung (Informatik),Starke Typisierung
+Typisierung (Informatik),Typsicherheit
+Typisierung (Informatik),Web-Archivierung
 PHP,Ausnahmebehandlung
 PHP,Betriebssystem
 PHP,Blockstruktur
@@ -1857,136 +1544,53 @@ PHP,Skriptsprache
 PHP,Tcl
 PHP,Unicode
 PHP,Version (Software)
-SciPy,Betriebssystem
-SciPy,C (Programmiersprache)
-SciPy,Datentyp
-SciPy,Feld (Datentyp)
-SciPy,IPython
-SciPy,Matplotlib
-SciPy,NumPy
-SciPy,Plattformunabhängigkeit
-SciPy,Version (Software)
-Keras,Betriebssystem
-Keras,Deep Learning
-Keras,Plattformunabhängigkeit
-Keras,TensorFlow
-Keras,Version (Software)
-Keras,YouTube
-Boost (C++-Bibliothek),Betriebssystem
-Boost (C++-Bibliothek),C++
-Boost (C++-Bibliothek),Compiler
-Boost (C++-Bibliothek),Englische Sprache
-Boost (C++-Bibliothek),Funktionale Programmierung
-Boost (C++-Bibliothek),Internet Archive
-Boost (C++-Bibliothek),Lizenz
-Boost (C++-Bibliothek),MacOS
-Boost (C++-Bibliothek),Parser
-Boost (C++-Bibliothek),Plattformunabhängigkeit
-Boost (C++-Bibliothek),Softwareseitiges Multithreading
-Boost (C++-Bibliothek),Unix
-Boost (C++-Bibliothek),Version (Software)
-Boost (C++-Bibliothek),Web-Archivierung
-Boost (C++-Bibliothek),Zeichenkette
-Guido van Rossum,ABC (Programmiersprache)
-Guido van Rossum,C (Programmiersprache)
-Guido van Rossum,Centrum Wiskunde & Informatica
-Guido van Rossum,Englische Sprache
-Guido van Rossum,Gemeinsame Normdatei
-Guido van Rossum,Library of Congress Control Number
-Guido van Rossum,Monty Python’s Flying Circus
-Guido van Rossum,Skriptsprache
-Guido van Rossum,Unix
-Stapelspeicher,Betriebssystem
-Stapelspeicher,C++
-Stapelspeicher,C (Programmiersprache)
-Stapelspeicher,Compiler
-Stapelspeicher,Feld (Datentyp)
-Stapelspeicher,Gemeinsame Normdatei
-Stapelspeicher,Implementierung
-Stapelspeicher,Interpreter
-Stapelspeicher,Java (Programmiersprache)
-Stapelspeicher,Klasse (Objektorientierung)
-Stapelspeicher,Parser
-Stapelspeicher,Thread (Informatik)
-Pattern Matching,Funktionale Programmierung
-Pattern Matching,Haskell (Programmiersprache)
-Pattern Matching,Objective CAML
-Pattern Matching,Perl (Programmiersprache)
-Pattern Matching,Regulärer Ausdruck
-Pattern Matching,Zeichenkette
-C (Programmiersprache),Algol 68
-C (Programmiersprache),Betriebssystem
-C (Programmiersprache),C++
-C (Programmiersprache),Compiler
-C (Programmiersprache),Datentyp
-C (Programmiersprache),Englische Sprache
-C (Programmiersprache),Gemeinsame Normdatei
-C (Programmiersprache),Höhere Programmiersprache
-C (Programmiersprache),Imperative Programmierung
-C (Programmiersprache),Implementierung
-C (Programmiersprache),Internet Archive
-C (Programmiersprache),Java (Programmiersprache)
-C (Programmiersprache),Komplexe Zahl
-C (Programmiersprache),Library of Congress Control Number
-C (Programmiersprache),Microsoft Windows
-C (Programmiersprache),Mikrocontroller
-C (Programmiersprache),PHP
-C (Programmiersprache),Perl (Programmiersprache)
-C (Programmiersprache),Plattformunabhängigkeit
-C (Programmiersprache),Programmierparadigma
-C (Programmiersprache),Prozedurale Programmierung
-C (Programmiersprache),PyPy
-C (Programmiersprache),Schlüsselwort (Programmierung)
-C (Programmiersprache),Strukturierte Programmierung
-C (Programmiersprache),Typisierung (Informatik)
-C (Programmiersprache),Typsicherheit
-C (Programmiersprache),Unix
-C (Programmiersprache),Web-Archivierung
-C (Programmiersprache),Zeichenkette
-Interpreter,APL (Programmiersprache)
-Interpreter,C (Programmiersprache)
-Interpreter,Compiler
-Interpreter,Gemeinsame Normdatei
-Interpreter,Implementierung
-Interpreter,Java (Programmiersprache)
-Interpreter,Just-in-time-Kompilierung
-Interpreter,Kommandozeileninterpreter
-Interpreter,PHP
-Interpreter,Perl (Programmiersprache)
-Interpreter,Ruby (Programmiersprache)
-Interpreter,Schlüsselwort (Programmierung)
-Interpreter,Skriptsprache
-Interpreter,Smalltalk (Programmiersprache)
-Interpreter,Tcl
-MacOS,Betriebssystem
-MacOS,C++
-MacOS,C (Programmiersprache)
-MacOS,Compiler
-MacOS,Englische Sprache
-MacOS,Gemeinsame Normdatei
-MacOS,Grafische Benutzeroberfläche
-MacOS,Höhere Programmiersprache
-MacOS,Internet Archive
-MacOS,Java-Laufzeitumgebung
-MacOS,Java (Programmiersprache)
-MacOS,Library of Congress Control Number
-MacOS,Lizenz
-MacOS,Microsoft Windows
-MacOS,PHP
-MacOS,Perl (Programmiersprache)
-MacOS,Ruby (Programmiersprache)
-MacOS,Tcl
-MacOS,Unix
-MacOS,Version (Software)
-MacOS,Web-Archivierung
-Referenzzählung,C++
-Referenzzählung,C (Programmiersprache)
-Referenzzählung,Englische Sprache
-Referenzzählung,Garbage Collection
-Referenzzählung,Objektorientierte Programmierung
-Referenzzählung,PHP
-Referenzzählung,Perl (Programmiersprache)
-Referenzzählung,Zeichenkette
+Fakultät (Mathematik),Gemeinsame Normdatei
+Fakultät (Mathematik),Iteration
+Fakultät (Mathematik),Komplexe Zahl
+KiCad,Betriebssystem
+KiCad,Blender (Software)
+KiCad,C++
+KiCad,Framework
+KiCad,MacOS
+KiCad,Microsoft Windows
+KiCad,Version (Software)
+Objektorientierte Programmierung,Aspektorientierte Programmierung
+Objektorientierte Programmierung,C++
+Objektorientierte Programmierung,C (Programmiersprache)
+Objektorientierte Programmierung,Compiler
+Objektorientierte Programmierung,Datentyp
+Objektorientierte Programmierung,Gemeinsame Normdatei
+Objektorientierte Programmierung,Internet Archive
+Objektorientierte Programmierung,Java (Programmiersprache)
+Objektorientierte Programmierung,Klasse (Objektorientierung)
+Objektorientierte Programmierung,Programmierparadigma
+Objektorientierte Programmierung,Prozedurale Programmierung
+Objektorientierte Programmierung,Quicksort
+Objektorientierte Programmierung,Reflexion (Programmierung)
+Objektorientierte Programmierung,Relationale Datenbank
+Objektorientierte Programmierung,Smalltalk (Programmiersprache)
+Objektorientierte Programmierung,Vererbung (Programmierung)
+Objektorientierte Programmierung,Web-Archivierung
+Don’t repeat yourself,Englische Sprache
+Don’t repeat yourself,Skriptsprache
+Aspektorientierte Programmierung,Ausnahmebehandlung
+Aspektorientierte Programmierung,Blockstruktur
+Aspektorientierte Programmierung,Integrierte Entwicklungsumgebung
+Aspektorientierte Programmierung,Java (Programmiersprache)
+Aspektorientierte Programmierung,Objektorientierte Programmierung
+Aspektorientierte Programmierung,Programmierparadigma
+Aspektorientierte Programmierung,Reflexion (Programmierung)
+Aspektorientierte Programmierung,Vererbung (Programmierung)
+Aspektorientierte Programmierung,Zeichenkette
+Plug-in,Englische Sprache
+Plug-in,Gemeinsame Normdatei
+Plug-in,Grafische Benutzeroberfläche
+Plug-in,Liste der IPA-Zeichen
+Plug-in,MacOS
+Monty Python’s Flying Circus,Englische Sprache
+Monty Python’s Flying Circus,Gemeinsame Normdatei
+Monty Python’s Flying Circus,Library of Congress Control Number
+Monty Python’s Flying Circus,Monty Python
 Standard ML,Ausnahmebehandlung
 Standard ML,C (Programmiersprache)
 Standard ML,Compiler
@@ -1999,63 +1603,6 @@ Standard ML,Künstliche Intelligenz
 Standard ML,Programmierparadigma
 Standard ML,Typisierung (Informatik)
 Standard ML,Version (Software)
-MicroPython,Betriebssystem
-MicroPython,C (Programmiersprache)
-MicroPython,Compiler
-MicroPython,Gemeinsame Normdatei
-MicroPython,Implementierung
-MicroPython,Lizenz
-MicroPython,Microsoft Windows
-MicroPython,Mikrocontroller
-MicroPython,Programmierparadigma
-MicroPython,Unix
-MicroPython,Version (Software)
-Parser,Compiler
-Parser,Englische Sprache
-Parser,Interpreter
-Parser,Kommandozeileninterpreter
-Parser,Liste der IPA-Zeichen
-Parser,Zeichenkette
-Menge (Datenstruktur),C++
-Menge (Datenstruktur),Datentyp
-Menge (Datenstruktur),Feld (Datentyp)
-Menge (Datenstruktur),Guido van Rossum
-Menge (Datenstruktur),Java (Programmiersprache)
-Menge (Datenstruktur),Klasse (Objektorientierung)
-Menge (Datenstruktur),Menge (Mathematik)
-Menge (Datenstruktur),Stapelspeicher
-Typisierung (Informatik),C++
-Typisierung (Informatik),C (Programmiersprache)
-Typisierung (Informatik),Datentyp
-Typisierung (Informatik),Dynamische Typisierung
-Typisierung (Informatik),Englische Sprache
-Typisierung (Informatik),Internet Archive
-Typisierung (Informatik),Java (Programmiersprache)
-Typisierung (Informatik),Laufzeitfehler
-Typisierung (Informatik),Objective CAML
-Typisierung (Informatik),Objektorientierte Programmierung
-Typisierung (Informatik),PHP
-Typisierung (Informatik),Perl (Programmiersprache)
-Typisierung (Informatik),Reflexion (Programmierung)
-Typisierung (Informatik),Starke Typisierung
-Typisierung (Informatik),Typsicherheit
-Typisierung (Informatik),Web-Archivierung
-Modula-3,Ausnahmebehandlung
-Modula-3,C++
-Modula-3,Datentyp
-Modula-3,Garbage Collection
-Modula-3,Gemeinsame Normdatei
-Modula-3,Imperative Programmierung
-Modula-3,Internet Archive
-Modula-3,Objektorientierte Programmierung
-Modula-3,Thread (Informatik)
-Modula-3,Web-Archivierung
-Modula-3,Zeichenkette
-Mikrocontroller,C++
-Mikrocontroller,C (Programmiersprache)
-Mikrocontroller,Gemeinsame Normdatei
-Mikrocontroller,MicroPython
-Mikrocontroller,Mobiltelefon
 PyMOL,Betriebssystem
 PyMOL,GIMP
 PyMOL,Grafische Benutzeroberfläche
@@ -2066,3 +1613,453 @@ PyMOL,Tcl
 PyMOL,Tk (Toolkit)
 PyMOL,Unix
 PyMOL,Version (Software)
+Glade (Programmierwerkzeug),Betriebssystem
+Glade (Programmierwerkzeug),C (Programmiersprache)
+Glade (Programmierwerkzeug),Grafische Benutzeroberfläche
+Glade (Programmierwerkzeug),Microsoft Windows
+Glade (Programmierwerkzeug),Unix
+Glade (Programmierwerkzeug),Version (Software)
+Cython,Aspektorientierte Programmierung
+Cython,Betriebssystem
+Cython,C++
+Cython,C (Programmiersprache)
+Cython,Compiler
+Cython,Duck-Typing
+Cython,Dynamische Typisierung
+Cython,Funktionale Programmierung
+Cython,Höhere Programmiersprache
+Cython,Internet Archive
+Cython,Interpreter
+Cython,Just-in-time-Kompilierung
+Cython,Lizenz
+Cython,MacOS
+Cython,Microsoft Windows
+Cython,NumPy
+Cython,Objektorientierte Programmierung
+Cython,Programmierparadigma
+Cython,PyPy
+Cython,Starke Typisierung
+Cython,Typisierung (Informatik)
+Cython,Version (Software)
+Cython,Web-Archivierung
+Cython,Wrapper (Software)
+Vererbung (Programmierung),.Net-Framework
+Vererbung (Programmierung),Ausnahmebehandlung
+Vererbung (Programmierung),C++
+Vererbung (Programmierung),Compiler
+Vererbung (Programmierung),Dynamische Typisierung
+Vererbung (Programmierung),Englische Sprache
+Vererbung (Programmierung),Gemeinsame Normdatei
+Vererbung (Programmierung),Internet Archive
+Vererbung (Programmierung),Java (Programmiersprache)
+Vererbung (Programmierung),Klasse (Objektorientierung)
+Vererbung (Programmierung),Laufzeitfehler
+Vererbung (Programmierung),Lisp
+Vererbung (Programmierung),Mehrfachvererbung
+Vererbung (Programmierung),Modula-3
+Vererbung (Programmierung),Objektorientierte Programmierung
+Vererbung (Programmierung),Relationale Datenbank
+Vererbung (Programmierung),Ruby (Programmiersprache)
+Vererbung (Programmierung),Schlüsselwort (Programmierung)
+Vererbung (Programmierung),Smalltalk (Programmiersprache)
+Vererbung (Programmierung),Typsicherheit
+Vererbung (Programmierung),Web-Archivierung
+Flask,Betriebssystem
+Flask,Django (Framework)
+Flask,Plattformunabhängigkeit
+Flask,SQLAlchemy
+Flask,Version (Software)
+Flask,Web2py
+Flask,Web Server Gateway Interface
+Nuke (Software),Betriebssystem
+Nuke (Software),C++
+Nuke (Software),MacOS
+Nuke (Software),Microsoft Windows
+Nuke (Software),Multiprozessor
+Nuke (Software),Tcl
+Nuke (Software),Version (Software)
+Dynamische Typisierung,C++
+Dynamische Typisierung,Compiler
+Dynamische Typisierung,Datentyp
+Dynamische Typisierung,Duck-Typing
+Dynamische Typisierung,Internet Archive
+Dynamische Typisierung,Ruby (Programmiersprache)
+Dynamische Typisierung,Skriptsprache
+Dynamische Typisierung,Typisierung (Informatik)
+Dynamische Typisierung,Web-Archivierung
+Schlüsselwort (Programmierung),Ausnahmebehandlung
+Schlüsselwort (Programmierung),C++
+Schlüsselwort (Programmierung),C (Programmiersprache)
+Schlüsselwort (Programmierung),Compiler
+Schlüsselwort (Programmierung),Datentyp
+Schlüsselwort (Programmierung),Höhere Programmiersprache
+Schlüsselwort (Programmierung),Java (Programmiersprache)
+Schlüsselwort (Programmierung),Klasse (Objektorientierung)
+Schlüsselwort (Programmierung),Objektorientierte Programmierung
+Schlüsselwort (Programmierung),Parser
+WxPython,Betriebssystem
+WxPython,C++
+WxPython,GUI-Toolkit
+WxPython,Plattformunabhängigkeit
+WxPython,Tk (Toolkit)
+WxPython,Tkinter
+WxPython,Version (Software)
+WxPython,Wrapper (Software)
+PyCharm,Betriebssystem
+PyCharm,Django (Framework)
+PyCharm,Integrierte Entwicklungsumgebung
+PyCharm,Java (Programmiersprache)
+PyCharm,MacOS
+PyCharm,Microsoft Windows
+PyCharm,Version (Software)
+Klasse (Objektorientierung),Datentyp
+Klasse (Objektorientierung),Implementierung
+Klasse (Objektorientierung),Java (Programmiersprache)
+Klasse (Objektorientierung),Objektorientierte Programmierung
+Klasse (Objektorientierung),Quellcode
+Klasse (Objektorientierung),Reflexion (Programmierung)
+Klasse (Objektorientierung),Ruby (Programmiersprache)
+Klasse (Objektorientierung),Vererbung (Programmierung)
+Prozedurale Programmierung,C (Programmiersprache)
+Prozedurale Programmierung,Höhere Programmiersprache
+Prozedurale Programmierung,Imperative Programmierung
+Prozedurale Programmierung,Objektorientierte Programmierung
+Prozedurale Programmierung,Programmierparadigma
+Prozedurale Programmierung,Strukturierte Programmierung
+Blockstruktur,Einrückungsstil
+Mono (Software),.Net-Framework
+Mono (Software),Betriebssystem
+Mono (Software),C++
+Mono (Software),C (Programmiersprache)
+Mono (Software),Compiler
+Mono (Software),Framework
+Mono (Software),Implementierung
+Mono (Software),MacOS
+Mono (Software),Microsoft Windows
+Mono (Software),Parser
+Mono (Software),Plattformunabhängigkeit
+Mono (Software),Unix
+Mono (Software),Version (Software)
+NetBeans IDE,Apache OpenOffice
+NetBeans IDE,Betriebssystem
+NetBeans IDE,C++
+NetBeans IDE,C (Programmiersprache)
+NetBeans IDE,Eclipse (IDE)
+NetBeans IDE,Emacs
+NetBeans IDE,Framework
+NetBeans IDE,GUI-Builder
+NetBeans IDE,Gemeinsame Normdatei
+NetBeans IDE,Groovy
+NetBeans IDE,Integrierte Entwicklungsumgebung
+NetBeans IDE,Internet Archive
+NetBeans IDE,Java (Programmiersprache)
+NetBeans IDE,Library of Congress Control Number
+NetBeans IDE,PHP
+NetBeans IDE,Perl (Programmiersprache)
+NetBeans IDE,Plattformunabhängigkeit
+NetBeans IDE,Plug-in
+NetBeans IDE,Ruby (Programmiersprache)
+NetBeans IDE,Tcl
+NetBeans IDE,Thread (Informatik)
+NetBeans IDE,Version (Software)
+NetBeans IDE,Web-Archivierung
+Menge (Datenstruktur),C++
+Menge (Datenstruktur),Datentyp
+Menge (Datenstruktur),Feld (Datentyp)
+Menge (Datenstruktur),Guido van Rossum
+Menge (Datenstruktur),Java (Programmiersprache)
+Menge (Datenstruktur),Klasse (Objektorientierung)
+Menge (Datenstruktur),Menge (Mathematik)
+Menge (Datenstruktur),Stapelspeicher
+Wiki,Gemeinsame Normdatei
+Wiki,Internet Archive
+Wiki,MacOS
+Wiki,Microsoft Windows
+Wiki,Objektorientierte Programmierung
+Wiki,PHP
+Wiki,Web-Archivierung
+Java (Programmiersprache),Ausnahmebehandlung
+Java (Programmiersprache),Betriebssystem
+Java (Programmiersprache),C++
+Java (Programmiersprache),C (Programmiersprache)
+Java (Programmiersprache),Compiler
+Java (Programmiersprache),Datentyp
+Java (Programmiersprache),Dynamische Typisierung
+Java (Programmiersprache),Eclipse (IDE)
+Java (Programmiersprache),Emacs
+Java (Programmiersprache),Funktionale Programmierung
+Java (Programmiersprache),Gemeinsame Normdatei
+Java (Programmiersprache),Grafische Benutzeroberfläche
+Java (Programmiersprache),Groovy
+Java (Programmiersprache),Integrierte Entwicklungsumgebung
+Java (Programmiersprache),IntelliJ IDEA
+Java (Programmiersprache),Internet Archive
+Java (Programmiersprache),Interpreter
+Java (Programmiersprache),Java-Laufzeitumgebung
+Java (Programmiersprache),Just-in-time-Kompilierung
+Java (Programmiersprache),Klasse (Objektorientierung)
+Java (Programmiersprache),Lizenz
+Java (Programmiersprache),MacOS
+Java (Programmiersprache),Mehrfachvererbung
+Java (Programmiersprache),Microsoft Windows
+Java (Programmiersprache),Modula-3
+Java (Programmiersprache),NetBeans IDE
+Java (Programmiersprache),Objektorientierte Programmierung
+Java (Programmiersprache),Pattern Matching
+Java (Programmiersprache),Perl (Programmiersprache)
+Java (Programmiersprache),Plattformunabhängigkeit
+Java (Programmiersprache),Programmierparadigma
+Java (Programmiersprache),Prozedurale Programmierung
+Java (Programmiersprache),Quellcode
+Java (Programmiersprache),Reflexion (Programmierung)
+Java (Programmiersprache),Skriptsprache
+Java (Programmiersprache),Smalltalk (Programmiersprache)
+Java (Programmiersprache),Starke Typisierung
+Java (Programmiersprache),Thread (Informatik)
+Java (Programmiersprache),Tony Hoare
+Java (Programmiersprache),Typisierung (Informatik)
+Java (Programmiersprache),Version (Software)
+Java (Programmiersprache),Vim
+Java (Programmiersprache),Web-Archivierung
+Java (Programmiersprache),Wrapper (Software)
+GUI-Toolkit,Englische Sprache
+GUI-Toolkit,Fast Light Toolkit
+GUI-Toolkit,Grafische Benutzeroberfläche
+GUI-Toolkit,Integrierte Entwicklungsumgebung
+GUI-Toolkit,Java (Programmiersprache)
+GUI-Toolkit,MacOS
+GUI-Toolkit,Tk (Toolkit)
+PyObjC,Grafische Benutzeroberfläche
+Betriebssystem,Amoeba (Betriebssystem)
+Betriebssystem,C (Programmiersprache)
+Betriebssystem,Compiler
+Betriebssystem,Englische Sprache
+Betriebssystem,Gemeinsame Normdatei
+Betriebssystem,Grafische Benutzeroberfläche
+Betriebssystem,Internet Archive
+Betriebssystem,Interpreter
+Betriebssystem,Interrupt
+Betriebssystem,MacOS
+Betriebssystem,Microsoft Windows
+Betriebssystem,Mobiltelefon
+Betriebssystem,Plattformunabhängigkeit
+Betriebssystem,Smalltalk (Programmiersprache)
+Betriebssystem,Unix
+Betriebssystem,Web-Archivierung
+Web-Archivierung,Internet Archive
+Web Server Gateway Interface,Common Gateway Interface
+Web Server Gateway Interface,Django (Framework)
+Web Server Gateway Interface,Flask
+Web Server Gateway Interface,Iteration
+Web Server Gateway Interface,PHP
+Web Server Gateway Interface,Plattformunabhängigkeit
+Web Server Gateway Interface,Web2py
+Web Server Gateway Interface,Zope (Webanwendungsserver)
+Referenzzählung,C++
+Referenzzählung,C (Programmiersprache)
+Referenzzählung,Englische Sprache
+Referenzzählung,Garbage Collection
+Referenzzählung,Objektorientierte Programmierung
+Referenzzählung,PHP
+Referenzzählung,Perl (Programmiersprache)
+Referenzzählung,Zeichenkette
+Maschinelles Lernen,Deep Learning
+Maschinelles Lernen,Englische Sprache
+Maschinelles Lernen,Gemeinsame Normdatei
+Maschinelles Lernen,Internet Archive
+Maschinelles Lernen,Künstliche Intelligenz
+Maschinelles Lernen,Library of Congress Control Number
+Maschinelles Lernen,Web-Archivierung
+Laufzeitfehler,Ausnahmebehandlung
+Laufzeitfehler,Betriebssystem
+Laufzeitfehler,C (Programmiersprache)
+Laufzeitfehler,Compiler
+Laufzeitfehler,Englische Sprache
+Laufzeitfehler,Garbage Collection
+Laufzeitfehler,Syntaxfehler
+Laufzeitfehler,Typisierung (Informatik)
+Integrierte Entwicklungsumgebung,Books on Demand
+Integrierte Entwicklungsumgebung,Compiler
+Integrierte Entwicklungsumgebung,Englische Sprache
+Integrierte Entwicklungsumgebung,Grafische Benutzeroberfläche
+Integrierte Entwicklungsumgebung,Höhere Programmiersprache
+Integrierte Entwicklungsumgebung,Interpreter
+Integrierte Entwicklungsumgebung,Microsoft Windows
+Version (Software),Gemeinsame Normdatei
+Grafische Benutzeroberfläche,AmigaOS
+Grafische Benutzeroberfläche,Betriebssystem
+Grafische Benutzeroberfläche,Englische Sprache
+Grafische Benutzeroberfläche,GUI-Toolkit
+Grafische Benutzeroberfläche,Kommandozeile
+Grafische Benutzeroberfläche,MacOS
+Grafische Benutzeroberfläche,Microsoft Windows
+Grafische Benutzeroberfläche,Unix
+Funktionale Programmierung,C (Programmiersprache)
+Funktionale Programmierung,Dynamische Typisierung
+Funktionale Programmierung,Fakultät (Mathematik)
+Funktionale Programmierung,Haskell (Programmiersprache)
+Funktionale Programmierung,Imperative Programmierung
+Funktionale Programmierung,Internet Archive
+Funktionale Programmierung,Java (Programmiersprache)
+Funktionale Programmierung,Lisp
+Funktionale Programmierung,Programmierparadigma
+Funktionale Programmierung,Standard ML
+Funktionale Programmierung,Typsystem
+Funktionale Programmierung,Web-Archivierung
+Java-Laufzeitumgebung,Betriebssystem
+Java-Laufzeitumgebung,C++
+Java-Laufzeitumgebung,C (Programmiersprache)
+Java-Laufzeitumgebung,Compiler
+Java-Laufzeitumgebung,Englische Sprache
+Java-Laufzeitumgebung,Framework
+Java-Laufzeitumgebung,Grafische Benutzeroberfläche
+Java-Laufzeitumgebung,Java (Programmiersprache)
+Java-Laufzeitumgebung,MacOS
+Java-Laufzeitumgebung,Microsoft Windows
+Java-Laufzeitumgebung,Plug-in
+Java-Laufzeitumgebung,Unicode
+Thread (Informatik),.Net-Framework
+Thread (Informatik),AmigaOS
+Thread (Informatik),Betriebssystem
+Thread (Informatik),Englische Sprache
+Thread (Informatik),Grafische Benutzeroberfläche
+Thread (Informatik),Java (Programmiersprache)
+Thread (Informatik),Liste der IPA-Zeichen
+Thread (Informatik),Stapelspeicher
+Thread (Informatik),Unix
+Cinema 4D,Betriebssystem
+Cinema 4D,C++
+Cinema 4D,Compiler
+Cinema 4D,Gemeinsame Normdatei
+Cinema 4D,Grafische Benutzeroberfläche
+Cinema 4D,MacOS
+Cinema 4D,Maya (Software)
+Cinema 4D,Microsoft Windows
+Cinema 4D,Multiprozessor
+Cinema 4D,Plug-in
+Cinema 4D,Quellcode
+Cinema 4D,Version (Software)
+Currying,C++
+Currying,C (Programmiersprache)
+Currying,Closure (Funktion)
+Currying,Haskell (Programmiersprache)
+Currying,Haskell Brooks Curry
+Currying,Internet Archive
+Currying,Java (Programmiersprache)
+Currying,Ruby (Programmiersprache)
+Currying,Tcl
+Currying,Web-Archivierung
+Dart (Programmiersprache),Ausnahmebehandlung
+Dart (Programmiersprache),Betriebssystem
+Dart (Programmiersprache),Dynamische Typisierung
+Dart (Programmiersprache),Integrierte Entwicklungsumgebung
+Dart (Programmiersprache),Internet Archive
+Dart (Programmiersprache),Just-in-time-Kompilierung
+Dart (Programmiersprache),Lizenz
+Dart (Programmiersprache),Objektorientierte Programmierung
+Dart (Programmiersprache),Paketverwaltung
+Dart (Programmiersprache),Plattformunabhängigkeit
+Dart (Programmiersprache),Programmierparadigma
+Dart (Programmiersprache),Quellcode
+Dart (Programmiersprache),Smalltalk (Programmiersprache)
+Dart (Programmiersprache),Typisierung (Informatik)
+Dart (Programmiersprache),Version (Software)
+Dart (Programmiersprache),Web-Archivierung
+IPython,Betriebssystem
+IPython,C (Programmiersprache)
+IPython,Framework
+IPython,Integrierte Entwicklungsumgebung
+IPython,Kommandozeileninterpreter
+IPython,Matplotlib
+IPython,Plattformunabhängigkeit
+IPython,Project Jupyter
+IPython,Reflexion (Programmierung)
+IPython,Version (Software)
+Miranda (Programmiersprache),Betriebssystem
+Miranda (Programmiersprache),C (Programmiersprache)
+Miranda (Programmiersprache),Funktionale Programmierung
+Miranda (Programmiersprache),Haskell (Programmiersprache)
+Miranda (Programmiersprache),Interpreter
+Miranda (Programmiersprache),Lizenz
+Miranda (Programmiersprache),Programmierparadigma
+Miranda (Programmiersprache),Starke Typisierung
+Miranda (Programmiersprache),Typisierung (Informatik)
+Miranda (Programmiersprache),Unix
+Miranda (Programmiersprache),Version (Software)
+Deep Learning,Betriebssystem
+Deep Learning,C++
+Deep Learning,C (Programmiersprache)
+Deep Learning,Englische Sprache
+Deep Learning,Internet Archive
+Deep Learning,Java (Programmiersprache)
+Deep Learning,Keras
+Deep Learning,Künstliche Intelligenz
+Deep Learning,Maschinelles Lernen
+Deep Learning,PyTorch
+Deep Learning,TensorFlow
+Deep Learning,Web-Archivierung
+Deep Learning,YouTube
+LibreOffice,Apache OpenOffice
+LibreOffice,Betriebssystem
+LibreOffice,C++
+LibreOffice,Gemeinsame Normdatei
+LibreOffice,Grafische Benutzeroberfläche
+LibreOffice,Internet Archive
+LibreOffice,Java-Laufzeitumgebung
+LibreOffice,Java (Programmiersprache)
+LibreOffice,Library of Congress Control Number
+LibreOffice,Liste der IPA-Zeichen
+LibreOffice,Lizenz
+LibreOffice,MacOS
+LibreOffice,Microsoft Windows
+LibreOffice,Paketverwaltung
+LibreOffice,Plattformunabhängigkeit
+LibreOffice,Plug-in
+LibreOffice,Quellcode
+LibreOffice,Unix
+LibreOffice,Version (Software)
+LibreOffice,Web-Archivierung
+Plattformunabhängigkeit,Betriebssystem
+Plattformunabhängigkeit,C (Programmiersprache)
+Plattformunabhängigkeit,Compiler
+Plattformunabhängigkeit,Englische Sprache
+Plattformunabhängigkeit,Höhere Programmiersprache
+Plattformunabhängigkeit,Interpreter
+Plattformunabhängigkeit,Java (Programmiersprache)
+Plattformunabhängigkeit,Lizenz
+Plattformunabhängigkeit,MacOS
+Plattformunabhängigkeit,PHP
+Plattformunabhängigkeit,Perl (Programmiersprache)
+Plattformunabhängigkeit,Quellcode
+Plattformunabhängigkeit,Unix
+Programmierparadigma,Aspektorientierte Programmierung
+Programmierparadigma,Compiler
+Programmierparadigma,Datentyp
+Programmierparadigma,Funktionale Programmierung
+Programmierparadigma,Gemeinsame Normdatei
+Programmierparadigma,Grafische Benutzeroberfläche
+Programmierparadigma,Haskell (Programmiersprache)
+Programmierparadigma,Höhere Programmiersprache
+Programmierparadigma,Imperative Programmierung
+Programmierparadigma,Interpreter
+Programmierparadigma,Java (Programmiersprache)
+Programmierparadigma,Klasse (Objektorientierung)
+Programmierparadigma,Lisp
+Programmierparadigma,Miranda (Programmiersprache)
+Programmierparadigma,Objektorientierte Programmierung
+Programmierparadigma,Perl (Programmiersprache)
+Programmierparadigma,Plattformunabhängigkeit
+Programmierparadigma,Prozedurale Programmierung
+Programmierparadigma,Quellcode
+Programmierparadigma,Quicksort
+Programmierparadigma,Stapelspeicher
+Programmierparadigma,Strukturierte Programmierung
+Gemeinsame Normdatei,Internet Archive
+Gemeinsame Normdatei,Web-Archivierung
+Interrupt,Ausnahmebehandlung
+Interrupt,Betriebssystem
+Interrupt,Englische Sprache
+Interrupt,Gemeinsame Normdatei
+Interrupt,Microsoft Windows
+Interrupt,Mikrocontroller
+Interrupt,Stapelspeicher

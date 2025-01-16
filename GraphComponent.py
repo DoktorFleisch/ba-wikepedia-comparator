@@ -1,17 +1,25 @@
 import networkx as nx
 
+excluded_namespaces = ['Benutzer:', 'Wikipedia:', 'Hilfe:', 'Portal:',
+                          'Kategorie:', 'MediaWiki:', 'Vorlage:', 'Spezial:', 'Datei:',
+                       'Modul:', 'Wikipedia Diskussion:', 'Kategorie Diskussion:',
+                       'Hilfe Diskussion:', 'Portal Diskussion:', 'Benutzer Diskussion:',
+                       'MediaWiki Diskussion:', 'Vorlage Diskussion:', 'Modul Diskussion:',
+                       'Datei Diskussion:', 'Spezial:', 'Diskussion:']
 
 def get_links(page):
     links = []
     for link in page.links.values():
-        links.append(link.title)
+        if not any(link.title.startswith(ns) for ns in excluded_namespaces):
+            links.append(link.title)
     return links
 
 
 def get_backlinks(page):
     backlinks = []
     for link in page.backlinks.values():
-        backlinks.append(link.title)
+        if not any(link.title.startswith(ns) for ns in excluded_namespaces):
+            backlinks.append(link.title)
     return backlinks
 
 
@@ -28,6 +36,7 @@ def make_graph_optimized(page, wiki):
 
         new_page = get_page(link, wiki)
         new_page_links = get_links(new_page)
+
         for link in new_page_links:
             graph.add_edge(new_page.title, link)
     return graph

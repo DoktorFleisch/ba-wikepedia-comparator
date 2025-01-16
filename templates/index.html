@@ -139,6 +139,7 @@
                 const comparisonResults = document.getElementById('comparisonResults');
                 comparisonResults.innerHTML = '';
 
+                // Note: recommendation is key, and results is a list of values
                 for (const [recommendation, results] of Object.entries(data.comparison_results)) {
                     const tabButton = document.createElement('button');
                     tabButton.className = 'btn btn-link';

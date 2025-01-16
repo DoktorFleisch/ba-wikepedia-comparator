@@ -1,0 +1,60 @@
+Article: Muay Thai
+V1
+[('Zweiter Weltkrieg', 1552), ('Olympische Sportarten', 1465), ('Thailand', 1062), ('Deutsche Sprache', 879), ('Europaspiele 2023/Teilnehmer (Deutschland)', 751)]
+V2
+[('Zweiter Weltkrieg', 1552), ('Thailand', 1062), ('Deutsche Sprache', 879), ('Liste der IPA-Zeichen', 306), ('Bhumibol Adulyadej', 234)]
+Subgraph
+[('Thailand', 11), ('Thailändische Sprache', 6), ('Liste der IPA-Zeichen', 6), ('Deutsche Sprache', 6), ('Gemeinsame Normdatei', 5)]
+V3
+[('Olympische Sportarten', 1465), ('Thailand', 1062), ('Europaspiele 2023/Teilnehmer (Deutschland)', 751), ('Sport in Israel', 680), ('Liste von Sportarten', 609)]
+Subgraph
+[('Kickboxen', 118), ('Boxen', 107), ('Thailand', 76), ('Mixed Martial Arts', 64), ('K-1', 62)]
+V4
+[('Thailand', 1062)]
+Subgraph
+[('Thailand', 2)]
+PageRank
+['Muay Thai', 'Boxen', 'Kickboxen', 'Internet Archive', 'Web-Archivierung']
+Filtered PageRank
+['Boxen', 'Muay Thai', 'Thailand', 'Internet Archive', 'Web-Archivierung']
+Link Faktor: 47, 365, 7.76595744680851
+Article: Hunde
+V1
+[('Neuseeland', 1286), ('Australien', 1186), ('Hunde', 1105), ('Linearbandkeramische Kultur', 890), ('Geschichte Ägyptens', 860)]
+V2
+[('Neuseeland', 1286), ('Australien', 1186), ('Madagaskar', 681), ('Nordamerika', 441), ('Nomenklatur (Biologie)', 320)]
+Subgraph
+[('Gemeinsame Normdatei', 18), ('Systematik (Biologie)', 15), ('Internationale Standardnummer für fortlaufende Sammelwerke', 12), ('Familie (Biologie)', 11), ('Internet Archive', 9)]
+V3
+[('Linearbandkeramische Kultur', 890), ('Geschichte Ägyptens', 860), ('Wolf', 769), ('Haushund', 757), ('Urgeschichte Baden-Württembergs', 752)]
+Subgraph
+[('Familie (Biologie)', 153), ('Raubtiere', 151), ('Katzen', 146), ('Wolf', 144), ('Säugetiere', 128)]
+V4
+[('Familie (Biologie)', 203)]
+Subgraph
+[('Familie (Biologie)', 2)]
+PageRank
+['Hunde', 'Systematik (Biologie)', 'Nomenklatur (Biologie)', 'Familie (Biologie)', 'Gattung (Biologie)']
+Filtered PageRank
+['Systematik (Biologie)', 'Hunde', 'Nomenklatur (Biologie)', 'Gattung (Biologie)', 'Raubtiere']
+Link Faktor: 200, 696, 3.48
+Article: Pferde
+V1
+[('Pferde', 2621), ('Russland', 2528), ('Urania Universum', 1997), ('Geschichte des Saarlandes', 1990), ('Dresden', 1810)]
+V2
+[('Russland', 2528), ('Ukraine', 1395), ('Kanada', 1342), ('Iran', 1342), ('Volksrepublik China', 1298)]
+Subgraph
+[('Gemeinsame Normdatei', 56), ('Asien', 51), ('Russland', 49), ('Kanada', 47), ('Iran', 46)]
+V3
+[('Urania Universum', 1997), ('Geschichte des Saarlandes', 1990), ('Reeves Pulley Company', 1805), ('Liste der Schutzpatrone', 1611), ('Liste griechischer Wortstämme in deutschen Fremdwörtern', 1601)]
+Subgraph
+[('Säugetiere', 162), ('Unpaarhufer', 117), ('Hauspferd', 103), ('Wiederkäuer', 98), ('Elefanten', 95)]
+V4
+[('Texas', 870), ('Mongolei', 814), ('Jungsteinzeit', 439), ('Miozän', 181), ('Mittelfußknochen', 61)]
+Subgraph
+[('Texas', 4), ('Mongolei', 2), ('Miozän', 1), ('Jungsteinzeit', 1), ('Mittelfußknochen', 0)]
+PageRank
+['Pferde', 'Gemeinsame Normdatei', 'Web-Archivierung', 'Internet Archive', 'Latein']
+Filtered PageRank
+['Gemeinsame Normdatei', 'Latein', 'Pferde', 'Digital Object Identifier', 'Art (Biologie)']
+Link Faktor: 460, 1403, 3.05

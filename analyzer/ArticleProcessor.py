@@ -64,10 +64,12 @@ def extract_sections(article_title, language):
         loaded_data = {}
         for section in page.sections:
             if section.text != '' and section.title not in stop_section_names:
-                loaded_data[section.title] = filter_stop_words(section.text, "de")
+                #loaded_data[section.title] = filter_stop_words(section.text, "de")
+                loaded_data[section.title] = filter_stop_words(section.text, language)
                 for subsection in section.sections:
                     if subsection.text != '' and subsection.title not in stop_section_names:
-                        loaded_data[subsection.title] = filter_stop_words(subsection.text, "de")
+                        #loaded_data[subsection.title] = filter_stop_words(subsection.text, "de")
+                        loaded_data[subsection.title] = filter_stop_words(subsection.text, language)
         with open(desired_file_path, 'w') as json_file:
             json.dump(loaded_data, json_file, indent=4)
         # (section for section in re.split(r'\n\n==+ [^=]+ ==+\n', wikipedia.page(article_title).content))
