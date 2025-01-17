@@ -21,23 +21,19 @@ def get_en_title():
     return Wp.fetch_en_title()
 
 
-# @app.route('/compare_articles', methods=['POST'])
-# def compare_articles_route():
-#     article_name = request.form['articleName']
-#     recommendations = request.form['recommendations']
-#     selected_recommendations = json.loads(recommendations)
-#
-#     comparison_results = {}
-#     for recommendation in selected_recommendations:
-#         # this is a list of english section names
-#         result = Wp.compare_articles(article_name, recommendation)
-#         # this is a tuple with (reccomendaded section, score)
-#         section_results = Wp.compare_sections(article_name, recommendation)
-#         recommended_section, score = section_results[0][0], section_results[0][2]
-#
-#         comparison_results[recommendation] = result
-#
-#     return jsonify({'comparison_results': comparison_results})
+@app.route('/translate_section/<string:recommendation>/<string:result>/<string:articleName>', methods=['GET'])
+def translate_section(recommendation, result, articleName):
+    section_title = result.split(",")[0]
+    section_title_de = result.split(",")[1]
+
+    # Abschnittstext abrufen
+    section_text = Wp.get_section_content_de(articleName, section_title_de)
+
+    # Abschnittstext übersetzen
+    translation = Wp.translate_section(recommendation, section_title)
+
+    # Template rendern und Variablen übergeben
+    return render_template('translate_section.html', section_text=section_text, translation=translation)
 
 @app.route('/compare_articles', methods=['POST'])
 def compare_articles_route():
@@ -57,7 +53,7 @@ def compare_articles_route():
         for i, result in enumerate(results):
             if i < len(section_results):  # Ensure no index out of range
                 recommended_section, _, score = section_results[i]
-                formatted_results.append(f"{result} {recommended_section} {score}")
+                formatted_results.append(f"{result}, {recommended_section}, {score}")
             else:
                 formatted_results.append(f"{result} No matching section found")
 

@@ -5,6 +5,7 @@ from analyzer.Comparator import PCAComparator, SimpleDistanceComparator
 from analyzer.WikiAnalyzer import WikiAnalyzer
 from analyzer.EmbeddingService import SentenceTransformerEmbeddingService
 from analyzer.ArticleProcessor import ArticleProcessor
+from transformers import pipeline
 
 user_agent = 'ba-thesis-comperator (daniel.warkus@hhu.de)'
 wiki_api_de = wikipediaapi.Wikipedia(user_agent=user_agent, language='de')
@@ -15,11 +16,36 @@ translator_en_de = FaceBookTranslatorProvider("en", "de")
 sentence_transformer_service = SentenceTransformerEmbeddingService('sentence-transformers/all-mpnet-base-v2')
 
 
+def translate_section(article_name, section_name):
+    translator_opus = pipeline("translation", model="Helsinki-NLP/opus-mt-en-de")
+
+    page = wiki_api_en.page(article_name)
+    section = page.section_by_title(section_name)
+    if section:
+        translation_list = translator_opus(section.text)
+        return translation_list[0]['translation_text']
+    else:
+        return None
+
+
 def get_wiki(language):
     if language == 'de':
         return wiki_api_de
     elif language == 'en':
         return wiki_api_en
+    else:
+        return None
+
+
+def get_section_content_de(article_name, section_name):
+    article_name = article_name.strip()
+    section_name = section_name.strip()
+    print(article_name, type(article_name))
+    print(section_name, type(section_name))
+    page = wiki_api_de.page(article_name)
+    section = page.section_by_title(section_name)
+    if section:
+        return section.text
     else:
         return None
 
